@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/** Funções **/
+/** Dimensões **/
+/** Fontes **/
+@font-face {
+  font-family: 'Fugue';
+  src: url("../fonts/fugue/fugue_regular-webfont.eot");
+  src: url("../fonts/fugue/fugue_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fugue/fugue_regular-webfont.woff2") format("woff2"), url("../fonts/fugue/fugue_regular-webfont.woff") format("woff"), url("../fonts/fugue/fugue_regular-webfont.ttf") format("truetype"), url("../fonts/fugue/fugue_regular-webfont.svg#fugueregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/helveticaneue/HelveticaNeue.eot");
+  src: url("../fonts/helveticaneue/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneue/HelveticaNeue.woff2") format("woff2"), url("../fonts/helveticaneue/HelveticaNeue.woff") format("woff"), url("../fonts/helveticaneue/HelveticaNeue.ttf") format("truetype"), url("../fonts/helveticaneue/HelveticaNeue.svg#HelveticaNeue") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/helveticaneue/HelveticaNeue-Bold.eot");
+  src: url("../fonts/helveticaneue/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneue/HelveticaNeue-Bold.woff2") format("woff2"), url("../fonts/helveticaneue/HelveticaNeue-Bold.woff") format("woff"), url("../fonts/helveticaneue/HelveticaNeue-Bold.ttf") format("truetype"), url("../fonts/helveticaneue/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+/** Geral **/
+body {
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+.bold, .subTituloPag {
+  font-weight: 700; }
+
+.underline {
+  text-decoration: underline; }
+
+a.selected,
+a.selected:hover {
+  text-decoration: underline !important; }
+
+.wrapper_geral {
+  background-size: cover !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.wrapper_geral.inicio1 {
+  background: url(../img/bg/vbbg_1.png) no-repeat center center fixed; }
+
+.wrapper_geral.inicio2 {
+  background: url(../img/bg/vbbg_2.png) no-repeat center center fixed; }
+
+.wrapper_geral.inicio3 {
+  background: url(../img/bg/vbbg_3.png) no-repeat center center fixed; }
+
+.wrapper_geral.inicio4 {
+  background: url(../img/bg/vbbg_4.png) no-repeat center center fixed; }
+
+.wrapper_geral.inicio5 {
+  background: url(../img/bg/vbbg_5.png) no-repeat center center fixed; }
+
+.wrapper_geral.interno {
+  background: url(../img/bg/interno_1.png) no-repeat center center fixed; }
+
+.borderbox {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+
+/** Header **/
+#header {
+  position: fixed;
+  box-shadow: 0px 5px 5px -2px #7b7171;
+  width: 100%;
+  height: 114px;
+  top: 0;
+  background: white;
+  padding: 24px; }
+
+#header #brand {
+  font-family: 'Fugue';
+  text-transform: uppercase;
+  font-size: 1.4em;
+  width: 60%;
+  max-width: 640px;
+  float: left; }
+
+sup {
+  font-size: 0.5em; }
+
+#header #brand a:hover {
+  text-decoration: none; }
+
+#header #datalang {
+  float: right;
+  margin-top: 16px;
+  width: 40%;
+  max-width: 485px;
+  font-size: 0.8em;
+  line-height: 1.3em; }
+
+#header #lang {
+  float: left; }
+
+#header #datas {
+  float: right; }
+
+#header #lang {
+  width: 20%; }
+
+#header #datas {
+  width: 80%;
+  text-align: right; }
+
+/** Home **/
+.container.home,
+.container.interno {
+  display: table;
+  height: auto;
+  min-height: 150px;
+  width: 100%;
+  max-width: 1280px; }
+
+.container.home {
+  margin: 162px auto 0 auto; }
+
+.container.interno {
+  margin: 200px auto 0 auto; }
+
+#imgArtista,
+.container.interno .tituloTexto {
+  width: 64%;
+  float: left; }
+
+#imgArtista img {
+  width: calc(100% - 24px);
+  float: right;
+  max-height: 470px;
+  height: 470px;
+  object-fit: cover; }
+
+#mainMenu {
+  width: 30%;
+  float: right;
+  text-transform: uppercase; }
+
+#mainMenu:after,
+#listaArtistas:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+#mainMenu a:hover {
+  text-decoration: none; }
+
+#mainMenu ul {
+  line-height: 1.35em;
+  padding: 0 0 0 18%; }
+
+#mainMenu ul li {
+  font-size: 0.9em; }
+
+#mainMenu .submenu {
+  display: none;
+  margin: 3px 0 5px 0; }
+
+#mainMenu .submenu ul {
+  padding: 0 0 0 32px !important;
+  text-transform: lowercase; }
+
+#mainMenu .submenu ul li {
+  font-size: 0.85em; }
+
+#listaArtistas {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 200px;
+  display: inline-block;
+  padding: 0 24px;
+  margin: 30px 0 70px 0; }
+
+#listaArtistas ul {
+  padding: 0; }
+
+#listaArtistas .col1,
+#listaArtistas .col2 {
+  width: 40%;
+  max-width: 512px;
+  float: left; }
+
+#rodape {
+  width: 100%;
+  height: 440px;
+  min-height: 200px;
+  margin: 0 0 0 0;
+  background-color: #ed1c24;
+  color: white;
+  font-size: 0.75em;
+  padding: 60px 24px 0 24px; }
+
+#rodape a {
+  color: white; }
+
+#rodape > div {
+  width: 30%;
+  height: 100%;
+  float: left; }
+
+#rodape .newsletter {
+  width: 40%; }
+
+#rodape .servico p:first-child {
+  margin-top: 0; }
+
+#rodape .realizacao .header,
+#rodape .realizacao .logos,
+#rodape .realizacao .redes {
+  width: 100%;
+  display: inline-block; }
+
+#rodape .realizacao .logos {
+  margin: 12px 0 24px 0; }
+
+#rodape .realizacao .logos .vb,
+#rodape .realizacao .logos .sesc {
+  position: relative;
+  height: 120px; }
+
+#rodape .realizacao .logos .vb img {
+  width: 102px;
+  height: auto; }
+
+#rodape .realizacao .logos .sesc img {
+  width: 90px;
+  height: auto; }
+
+#rodape .realizacao .logos .vb img,
+#rodape .realizacao .logos .sesc img {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+#rodape .realizacao .logos .vb,
+#rodape .realizacao .logos .sesc,
+#rodape .realizacao .redes .vb,
+#rodape .realizacao .redes .sesc {
+  float: left; }
+
+#rodape .realizacao .logos .vb,
+#rodape .realizacao .redes .vb {
+  width: 160px; }
+
+#rodape .realizacao .logos .sesc,
+#rodape .realizacao .redes .sesc {
+  width: calc(100% - 160px); }
+
+/** Pop-up artistas **/
+#popArtista {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  left: 0; }
+
+#popArtista nav {
+  background-color: gray;
+  box-shadow: none;
+  background: url(../img/popup_artistas/header.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#popArtista nav .close {
+  width: 60px;
+  height: 60px;
+  float: right; }
+
+#popArtista nav .close img {
+  width: 100%;
+  height: auto;
+  cursor: pointer; }
+
+main {
+  width: 100%;
+  max-width: 1280px;
+  padding: 24px;
+  margin: 210px auto 0 auto; }
+
+#popArtista .nomeArtista {
+  width: 100%;
+  margin-bottom: 108px; }
+
+#popArtista .nomeArtista p {
+  margin: 0;
+  font-size: 2.3em;
+  line-height: 1em;
+  text-transform: uppercase; }
+
+#popArtista .nomeArtista span {
+  font-size: 0.8em; }
+
+#popArtista .wrapperTituloSinopse {
+  width: 66.66%;
+  float: right;
+  margin-bottom: 80px; }
+
+#popArtista .innerTituloSinopse {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%; }
+
+#popArtista .bioArtista {
+  width: 25%;
+  float: left; }
+
+#popArtista .imagemArtista,
+#popArtista .imagemArtista img {
+  width: 100%; }
+
+#popArtista .imagemArtista {
+  margin-bottom: 20px; }
+
+#popArtista .tituloObra,
+#popArtista .fichaGrandeObra,
+#popArtista .imagemObra,
+#popArtista .sinopseUnica,
+#popArtista .sinopseObra {
+  width: 100%;
+  float: right; }
+
+#popArtista .tituloObra {
+  font-size: 2.3em;
+  /*line-height: 35px;*/ }
+
+#popArtista .tituloObra > span {
+  font-size: 0.33em; }
+
+#popArtista .fichaPeqObra {
+  display: inline;
+  font-size: 0.75em;
+  margin-top: 5px; }
+
+#popArtista .fichaGrandeObra {
+  display: none;
+  box-sizing: border-box;
+  padding: 17px 0 0 105px;
+  width: 100%;
+  font-size: 0.9em; }
+
+#popArtista .arrow {
+  display: inline-block;
+  width: 19px;
+  height: 11px;
+  margin-left: 30px;
+  cursor: pointer;
+  background-size: 19px 11px !important; }
+
+#popArtista .arrow.closed {
+  background: url("../img/arrow_closed.png"); }
+
+#popArtista .arrow.open {
+  background: url("../img/arrow_open.png"); }
+
+#popArtista .imagemObra {
+  margin: 30px 0 30px 0; }
+
+#popArtista .imagemObra img {
+  width: 100%;
+  height: auto; }
+
+#popArtista .plataforma {
+  display: inline-block;
+  float: left;
+  line-height: 1em;
+  margin: 80px 0 0 0;
+  width: 40%; }
+
+#popArtista .plataforma:hover {
+  text-decoration: none; }
+
+#popArtista .plataforma p {
+  color: #ed1c24;
+  font-size: 1.2em;
+  margin: 0 0 8px 0; }
+
+#popArtista .plataforma span {
+  font-size: 0.75em; }
+
+/* Internas */
+.container.interno .texto {
+  padding-left: 11%;
+  box-sizing: border-box;
+  margin-bottom: 70px; }
+
+.tituloPag {
+  margin: 0;
+  font-size: 2.3em;
+  padding-left: 24px;
+  margin-bottom: 33px; }
+
+.imgSobre {
+  width: 100%;
+  margin-bottom: 70px; }
+
+.imgSobre img {
+  width: 100%; }
+
+.subTituloPag {
+  text-transform: uppercase; }
+
+.assinatura {
+  /*font-size: 0.8em;*/
+  margin-bottom: 60px; }
+
+.assinatura span {
+  font-weight: 700; }
+
+.trecho {
+  width: 100%;
+  font-size: 0.85em;
+  display: inline-block; }
+
+.trecho section {
+  width: 90%;
+  float: right; }
+
+.nota {
+  font-size: 0.8em;
+  margin-top: 70px; }
+
+/*# sourceMappingURL=app.css.map */
