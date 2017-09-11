@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 11-Set-2017 às 19:42
--- Versão do servidor: 10.1.25-MariaDB
+-- Generation Time: Sep 10, 2017 at 01:05 AM
+-- Server version: 10.1.25-MariaDB
 -- PHP Version: 5.6.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `artists`
+-- Table structure for table `artists`
 --
 
 CREATE TABLE `artists` (
@@ -47,7 +47,7 @@ CREATE TABLE `artists` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Extraindo dados da tabela `artists`
+-- Dumping data for table `artists`
 --
 
 INSERT INTO `artists` (`id`, `slug`, `name`, `bio_pt`, `bio_en`, `origin_pt`, `origin_en`, `birth`, `plataforma_all`, `synopsis_pt`, `synopsis_en`, `created_at`, `updated_at`, `info_pt`, `info_en`) VALUES
@@ -106,7 +106,7 @@ INSERT INTO `artists` (`id`, `slug`, `name`, `bio_pt`, `bio_en`, `origin_pt`, `o
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `migrations`
+-- Table structure for table `migrations`
 --
 
 CREATE TABLE `migrations` (
@@ -116,7 +116,7 @@ CREATE TABLE `migrations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Extraindo dados da tabela `migrations`
+-- Dumping data for table `migrations`
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
@@ -133,7 +133,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `password_resets`
+-- Table structure for table `password_resets`
 --
 
 CREATE TABLE `password_resets` (
@@ -145,7 +145,7 @@ CREATE TABLE `password_resets` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `users`
+-- Table structure for table `users`
 --
 
 CREATE TABLE `users` (
@@ -161,7 +161,7 @@ CREATE TABLE `users` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `works`
+-- Table structure for table `works`
 --
 
 CREATE TABLE `works` (
@@ -187,7 +187,7 @@ CREATE TABLE `works` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Extraindo dados da tabela `works`
+-- Dumping data for table `works`
 --
 
 INSERT INTO `works` (`id`, `artist_name`, `artist_id`, `title_pt`, `title_en`, `caption_small_pt`, `caption_small_en`, `caption_large_pt`, `caption_large_en`, `type_pt`, `type_en`, `year`, `plataforma`, `created_at`, `updated_at`, `synopsis_pt`, `synopsis_en`, `obs_pt`, `obs_en`) VALUES
@@ -208,7 +208,7 @@ INSERT INTO `works` (`id`, `artist_name`, `artist_id`, `title_pt`, `title_en`, `
 (2202352, 'Jiwon Choi', 2200410, 'Parallel', NULL, '29’55”, 1920 x 1080, 16:9, PAL, cor, estéreo', '29’55”, 1920 x 1080, 16:9, PAL, color, stereo', '29’55”, 1920 x 1080, 16:9, PAL, cor, estéreo<br><br>Avô | Grandfather: Byun Su Gil. Avó | Grandmother: Young Ja Jeong. Mãe | Mother: Seoung Eun Byun. Tia 1 | Aunt 1: Seo Hyun Byun. Tia 2 | Aunt 2: Seoung Won Byun. Primos | Cousins: Jun Young Choi. Jiwon, Red Dress, Staff, Pedo, Young Man, Gilvert, Image, Pesudomeo: Jiwon Choi. Boys on top: Kimchi, Jiwon Choi. Direção de fotografia | Director of photography: Jemma Koo, Eunice Kim, Wednesday Kim, Jisu Choi, Kelsey Lynn. Fotografia | Photographer: Jihyun Seo. Edição | Video editor: Jiwon Choi. Assistente de produção | Production assistant: Kijin Jang, Jisun Lee. Design | Graphic design: Juwan Lim. Figurino Homem Jovem e Gilbert | Young Man & Gilbert wardrobe: Jihyeon Seo. Figurino Image | Image wardrobe: Naomi Butterfield, Eunice Kim ', '29’55”, 1920 x 1080, 16:9, PAL, color, stereo<br><br>Avô | Grandfather: Byun Su Gil. Avó | Grandmother: Young Ja Jeong. Mãe | Mother: Seoung Eun Byun. Tia 1 | Aunt 1: Seo Hyun Byun. Tia 2 | Aunt 2: Seoung Won Byun. Primos | Cousins: Jun Young Choi. Jiwon, Red Dress, Staff, Pedo, Young Man, Gilvert, Image, Pesudomeo: Jiwon Choi. Boys on top: Kimchi, Jiwon Choi. Direção de fotografia | Director of photography: Jemma Koo, Eunice Kim, Wednesday Kim, Jisu Choi, Kelsey Lynn. Fotografia | Photographer: Jihyun Seo. Edição | Video editor: Jiwon Choi. Assistente de produção | Production assistant: Kijin Jang, Jisun Lee. Design | Graphic design: Juwan Lim. Figurino Homem Jovem e Gilbert | Young Man & Gilbert wardrobe: Jihyeon Seo. Figurino Image | Image wardrobe: Naomi Butterfield, Eunice Kim \r', 'Vídeo', 'Video', '2017', NULL, NULL, NULL, 'Uma montagem frenética entremeia elementos da vida sul-coreana – K-Pop, exércitos em marcha, programas de auditório, a primeira presidenta, o líder supremo, Samsung, Gangnam style – e silêncios. O avô da artista conta sua fuga do Norte para o Sul, quando os exércitos cruzaram o paralelo que divide o território desde o fim da Segunda Guerra. Um retrato de conflitos entre realidades e ideologias.', 'This frantic assembly combines elements of South Korean life—K-Pop, marching armies, talk shows, the first female president, the supreme leader, Samsung, Gangnam style—and silences. The artist’s grandfather narrates his escape from North to South, when the armies crossed the parallel that has divided the territory since the end of World War II. A portrait of conflicts between realities and ideologies.', NULL, NULL),
 (2202369, 'La Decanatura', 2200427, 'Centro Espacial Satelital de Colombia', NULL, '12’, 1920 x 1080, 16:9, cor, NTSC, estéreo', '12’, 1920 x 1080, 16:9, color, NTSC, stereo', '12’, 1920 x 1080, 16:9, cor, NTSC, estéreo<br><br>Direção | Directors: Elkin Calderón, Diego Piñeros (La Decanatura). Produção | Production: La Decanatura, Museo Efímero del Olvido. Câmera | Camera: Elkin Calderón, Luis Fernando Cadena, Yiovanny López, Javier Tobar. Som | Sound: Eduardo Cote. Música | Music: Suite Arullo, by Victoriano Valencia; Banda Sinfónica Infantil de Chocontá. Diretor da orquestra | Orchestra director: Francisco Chapetón\r', '12’, 1920 x 1080, 16:9, color, NTSC, stereo<br><br>Direção | Directors: Elkin Calderón, Diego Piñeros (La Decanatura). Produção | Production: La Decanatura, Museo Efímero del Olvido. Câmera | Camera: Elkin Calderón, Luis Fernando Cadena, Yiovanny López, Javier Tobar. Som | Sound: Eduardo Cote. Música | Music: Suite Arullo, by Victoriano Valencia; Banda Sinfónica Infantil de Chocontá. Diretor da orquestra | Orchestra director: Francisco Chapetón', 'Vídeo', 'Video', '2015', NULL, NULL, NULL, 'Símbolo da modernização e dos avanços científicos e tecnológicos colombianos, as antenas e laboratórios do centro de comunicações espaciais do país caíram no esquecimento e quase foram engolidos pela paisagem. O vídeo registra uma homenagem musical prestada à base pela jovem banda sinfônica do município, cujos integrantes nem sequer poderiam ter lembrança da glória passada que celebram.', 'A symbol of Colombian modernization, and scientific and technological progress, the antennas and laboratories of the country’s space communications center have been neglected and almost swallowed by the landscape. The video documents a musical tribute to the base by the young local symphonic band, whose members could hardly recall the past glory they celebrate.', NULL, NULL),
 (2202380, 'Felipe Esparza Pérez', 2196028, 'Pawqartampu', NULL, '8’07”, 1920 x 1080, 16:9, PAL, p&b, estéreo', '8’07”, 1920 x 1080, 16:9, PAL, b&w, stereo', NULL, NULL, 'Vídeo', 'Video', '2015', NULL, NULL, NULL, 'O vídeo explora e conecta elementos do Culto da Virgem do Carmo, principal celebração de Paucartambo, no Peru. Plantas, animais domésticos, casas coloniais e máscaras rituais recriam o ambiente múltiplo em que se dá essa experiência do sagrado, durante a qual o canto humano se une ao canto dos pássaros. A obra integra a série Espacio Sagrado, que investiga diferentes manifestações da espiritualidade peruana.', 'The video explores and links elements of the Virgin Carmen Cult, the main celebration of Paucartambo in Peru. Plants, domestic animals, colonial houses, and ritual masks recreate the diversified setting of this experience of the sacred, in which human and avian voices are joined in song. The work is part of the Espacio Sagrado series, which investigates different expressions of Peruvian spirituality.', 'da série Espacio Sagrado', 'from the series Espacio Sagrado'),
-(2202393, 'Tatewaki Nio', 1577678, 'Neo-andina #52, #59,<br>#64, #102, #151, #208', NULL, 'Impressão a jato de tinta sobre papel Hahnemühle Photo Rag Ultrasmooth. 80 x 64 cm cada', 'Inkjet print on Hahnemühle Photo Rag Ultrasmooth paper. 80 x 64 cm each', 'Impressão a jato de tinta sobre papel Hahnemühle Photo Rag Ultrasmooth. 80 x 64 cm cada<br><br>Produzido com o suporte do | Produced with the support of the Museé du Quai Branly – Jacques Chirac', 'Inkjet print on Hahnemühle Photo Rag Ultrasmooth paper. 80 x 64 cm each<br><br>Produzido com o suporte do | Produced with the support of the Museé du Quai Branly – Jacques Chirac\r', 'Fotografia', 'Photography', '2016', NULL, NULL, NULL, 'A série fotográfica tem como objeto um novo fenômeno na arquitetura boliviana: os cholets, construções suntuosas e coloridas que se espalham por El Alto, na periferia de La Paz. Moda entre a população Aymara, que ascendeu economicamente na última década, as casas celebram a identidade chola, tornando-se símbolo das mudanças políticas e culturais pelas quais o país andino vem passando e, portanto, de uma nova identidade étnica.', 'A photographic series whose subject is a new phenomenon in Bolivian architecture: the cholets, sumptuous and colorful buildings spread throughout El Alto, on the outskirts of La Paz. Fashionable among the Aymara population that rose economically in the last decade, the houses celebrate the chola identity and have become a symbol of the political and cultural changes the Andean country is undergoing and, therefore, of a new ethnic identity.', 'da série Neo-andina', 'from the series Neo-andina'),
+(2202393, 'Tatewaki Nio', 1577678, 'Neo-andina #52, #59, #64, #102, #151, #208', NULL, 'Impressão a jato de tinta sobre papel Hahnemühle Photo Rag Ultrasmooth. 80 x 64 cm cada', 'Inkjet print on Hahnemühle Photo Rag Ultrasmooth paper. 80 x 64 cm each', 'Impressão a jato de tinta sobre papel Hahnemühle Photo Rag Ultrasmooth. 80 x 64 cm cada<br><br>Produzido com o suporte do | Produced with the support of the Museé du Quai Branly – Jacques Chirac', 'Inkjet print on Hahnemühle Photo Rag Ultrasmooth paper. 80 x 64 cm each<br><br>Produzido com o suporte do | Produced with the support of the Museé du Quai Branly – Jacques Chirac\r', 'Fotografia', 'Photography', '2016', NULL, NULL, NULL, 'A série fotográfica tem como objeto um novo fenômeno na arquitetura boliviana: os cholets, construções suntuosas e coloridas que se espalham por El Alto, na periferia de La Paz. Moda entre a população Aymara, que ascendeu economicamente na última década, as casas celebram a identidade chola, tornando-se símbolo das mudanças políticas e culturais pelas quais o país andino vem passando e, portanto, de uma nova identidade étnica.', 'A photographic series whose subject is a new phenomenon in Bolivian architecture: the cholets, sumptuous and colorful buildings spread throughout El Alto, on the outskirts of La Paz. Fashionable among the Aymara population that rose economically in the last decade, the houses celebrate the chola identity and have become a symbol of the political and cultural changes the Andean country is undergoing and, therefore, of a new ethnic identity.', 'da série Neo-andina', 'from the series Neo-andina'),
 (2202437, 'Elizabeth Vásquez Arbulú', 2200466, 'Historia del Cosmos', NULL, '3’22”, 1920 x 1080, 16:9, cor, NTSC, estéreo', '3’22”, 1920 x 1080, 16:9, color, NTSC, stereo', '3’22”, 1920 x 1080, 16:9, cor, NTSC, estéreo<br><br>33 slides fotográficos, mesa de luz (madeira e vidro), livros, caixa de papel para slides. Dimensões variáveis<br><br>Direção criativa | Creative director: Elizabeth Vásquez Arbulú. Edição | Editor: Aldo Cacéda Salas. Voz | Voice: Raquel Alegría Reymer', '3’22”, 1920 x 1080, 16:9, color, NTSC, stereo.<br><br>33 photographic slides, light table (wood and glass), books, paper box for slides. Variable dimensions<br><br>Direção criativa | Creative director: Elizabeth Vásquez Arbulú. Edição | Editor: Aldo Cacéda Salas. Voz | Voice: Raquel Alegría Reymer', 'Videoinstalação', 'Video installation', '2013', NULL, NULL, NULL, 'Baseada em álbuns de catecismo dos anos 1970 e 1980, a videoinstalação reconta em poucos minutos a história do universo, do big bang aos dias atuais. A narração em off relata os acontecimentos em tom didático, passando pela capacidade humana, adquirida no século 20, de se autodestruir completamente, deixando ao público a tarefa de confrontar a aparente gratuidade de tudo o que existe.', 'Based on catechism picture books from the 1970s and ’80s, the video installation covers in a few minutes the entire history of the universe, from the big bang to the present. The voice-over narrates the events in didactic tone, referring to mankind’s capacity for total self-destruction acquired in the 20th century and leaving to viewers the task of confronting the apparent pointlessness of all existence.', NULL, NULL),
 (2202496, 'Sammy Baloji', 2200523, 'Pungulume', NULL, '29’, 1920 x 1080, 16:9, PAL, cor, estéreo ', '29’, 1920 x 1080, 16:9, PAL, color, stereo', '29’, 1920 x 1080, 16:9, PAL, cor, estéreo<br><br>Argumento | Concept: Sammy Baloji & Filip De Boeck. Câmera | Camera: Sammy Baloji. Gravação de som | Sound recording: Filip De Boeck. Edição | Editing: Sébastien Demeffe. Mixagem de som | Sound mixing: Frédéric Furnelle. Com | With: o chefe | land chief Mpala Swanange Pascal Musenge e sua corte de anciãos | and his court elders. Produção | Produced by Auguste Orts. Coprodução | Coproduced by Atelier Graphoui. Com apoio de | With the support of autoridades flamengas | the Flemish authorities, Vlaamse Gemeenschapscommissie, Fondation Fernand Willame, WIELS, Institute for Anthropological Research in Africa (IARA, KUL), Gabriele Salmi\r', '29’, 1920 x 1080, 16:9, PAL, color, stereo <br><br>Argumento | Concept: Sammy Baloji & Filip De Boeck. Câmera | Camera: Sammy Baloji. Gravação de som | Sound recording: Filip De Boeck. Edição | Editing: Sébastien Demeffe. Mixagem de som | Sound mixing: Frédéric Furnelle. Com | With: o chefe | land chief Mpala Swanange Pascal Musenge e sua corte de anciãos | and his court elders. Produção | Produced by Auguste Orts. Coprodução | Coproduced by Atelier Graphoui. Com apoio de | With the support of autoridades flamengas | the Flemish authorities, Vlaamse Gemeenschapscommissie, Fondation Fernand Willame, WIELS, Institute for Anthropological Research in Africa (IARA, KUL), Gabriele Salmi\r', 'Videoinstalação', 'Video installation', '2016', NULL, NULL, NULL, 'A obra registra a história da cidade de Fungurume, na África Central, contada por seu conselho de anciãos. Erguida em meio a um dos maiores depósitos de cobre e cobalto do mundo, suas montanhas hoje pertencem a um consórcio internacional de mineração, cuja ação desloca o povo Sanga de suas casas e tradições.', 'The work records the history of the town of Fungurume in Central Africa, as told by its council of elders. Built amid one of the largest copper and cobalt deposits in the world, its mountains belong today to an international mining consortium whose activities displace the Sanga people from their homes and traditions.', NULL, NULL),
 (2202521, 'Monira Al Qadiri', 2200538, 'OR-BIT 1', NULL, 'Plástico impresso em 3-D, tinta automotiva, mecanismo de levitação. 20 x 30 x 20 cm', '3-D printed plastic, automotive paint, levitation module. 20 x 30 x 20 cm', NULL, NULL, 'Objeto', 'Object', '2016', NULL, NULL, NULL, 'Uma escultura espiralada, impressa em 3-D, flutua sobre um fundo roxo. A obra deriva da investigação do impacto da descoberta e da exploração do petróleo, na primeira metade do século 20, sobre o cenário ambiental e geopolítico do Golfo Árabe. Antes de o combustível fóssil passar a definir o futuro da região, as pérolas eram seu principal produto. Por coincidência, as cores das pérolas e do petróleo ocupam polos opostos do mesmo espectro.', 'A spiral-shaped, 3-D printed sculpture floats on a purple background. The work stems from the investigation of the impact of the discovery and exploitation of oil, in the first half of the 20th century, on the environmental and geopolitical landscape of the Arabian Gulf. Before the fossil fuel arrived to define the region’s future, its main product was pearls. Coincidentally, pearls and oil occupy opposite poles of the same color spectrum.', NULL, NULL),
