@@ -10,4 +10,12 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function getDownload($file){
+
+    	$file_path = base_path('public/files/' . $file);
+
+    	return response()->download($file_path, $file);
+
+    }
 }

@@ -75,9 +75,9 @@ $route = Route::getFacadeRoot()->current()->uri();
 	<li>
 		{!! switchLang('notícias', 'news') !!}
 	</li>
-
+--}}
 	<li>
-		{!! switchLang('imprensa', 'press') !!}
-	</li> --}}
+		<a @if($route=='imprensa' || $route=='en/imprensa') class="selected" @endif href="{{url('/imprensa')}}" data-pjax>{!! switchLang('Imprensa', 'Press') !!}</a>
+	</li> 
 
 </ul>

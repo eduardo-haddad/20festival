@@ -30,11 +30,13 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 		$random = mt_rand(1,count($todas_obras)-1);
 
     	return view('home', compact('random', 'todas_obras'));
+
 	})->name('home');
 
-
+	/* Artistas */
 	Route::get('/artista/{nome}', 'ArtistsController@getWorks');
 
+	/* Sobre */
 	Route::get('/sobre', function(){
 		return view('sobre.apresentacao');
 	});
@@ -47,6 +49,13 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 	Route::get('/sobre/curadores', function(){
 		return view('sobre.curadores');
 	});
-   
+
+	/* Imprensa */
+	Route::get('/imprensa', function(){
+		return view('imprensa');
+	});
+
+	/* Downloads */
+	Route::get('/download/{file}', 'Controller@getDownload');
 
 });
