@@ -1,7 +1,7 @@
 <div class="logosWrapper">
 
 	<div class="realizacaoInstitucional">
-	
+
 	    <div class="realizacao">
 			<header>{!! switchLang('Realização', '') !!}</header>
 			<img src="{!! asset('img/logos/blocos/realizacao.png') !!}">
@@ -17,7 +17,7 @@
 
 	<div class="cultural">
 		<header>{!! switchLang('Apoio cultural', '') !!}</header>
-		<img src="{!! asset('img/logos/blocos/apoio_cultural.png') !!}">
+		<img src="{!! asset('img/logos/blocos/apoio_cultural_2.png') !!}">
 	
 	</div>
 

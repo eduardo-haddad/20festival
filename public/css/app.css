@@ -471,11 +471,11 @@ main {
 #logos header {
   width: 100%;
   font-family: 'Fugue';
-  font-size: 1em;
+  font-size: 0.8em;
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
-  margin: 0 0 40px 0; }
+  margin: 0 0 20px 0; }
 
 #logos img {
   clear: both;
@@ -485,16 +485,16 @@ main {
   text-align: center; }
 
 #logos .realizacao img {
-  max-width: 63%; }
+  max-width: 45%; }
 
 #logos .institucional img {
-  max-width: 39%; }
+  max-width: 26%; }
 
 #logos .cultural img {
   max-width: 70%; }
 
 #logos .residencia img {
-  max-width: 75%; }
+  max-width: 50%; }
 
 #logos .realizacao,
 #logos .institucional {
@@ -504,7 +504,7 @@ main {
 #logos .realizacaoInstitucional {
   display: inline-block;
   width: 100%;
-  padding: 40px 200px !important;
+  padding: 30px 200px 20px 200px !important;
   box-sizing: border-box; }
 
 /*# sourceMappingURL=app.css.map */
