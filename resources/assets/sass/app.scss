@@ -598,4 +598,72 @@ main {
 	margin-top: 70px;
 }
 
+/* Logos */
+
+#logos {
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+
+#logos .logosWrapper {
+	width: 100%;
+	max-width: $containerSize;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#logos .logosWrapper > div {
+	padding: 40px 0;
+}
+
+#logos header {
+	width: 100%;
+	font-family: 'Fugue';
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	margin: 0 0 40px 0;
+}
+
+#logos img {
+	clear: both;
+	/*max-width: 100%;*/
+}
+
+#logos > div {
+	text-align: center;
+}
+
+#logos .realizacao img {
+	max-width: 63%;
+}
+
+#logos .institucional img {
+	max-width: 39%;
+}
+
+#logos .cultural img {
+	max-width: 70%;
+}
+
+#logos .residencia img {
+	max-width: 75%;
+}
+
+#logos .realizacao,
+#logos .institucional {
+	float: left;
+	width: 50%;
+}
+
+#logos .realizacaoInstitucional {
+	display: inline-block;
+	width: 100%;
+	padding: 40px 200px !important;
+	box-sizing: border-box;
+}
+
+
 
