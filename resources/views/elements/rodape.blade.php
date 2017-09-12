@@ -34,21 +34,21 @@
 
 	<div class="redes">
 		<div class="vb">
-			{!! Html::link('', 'videobrasil.org.br') !!}<br>
-			{!! Html::link('', 'facebook') !!}<br>
-			{!! Html::link('', 'twitter') !!}<br>
-			{!! Html::link('', 'instagram') !!}<br>
-			{!! Html::link('', 'flickr') !!}<br>
-			{!! Html::link('', 'youtube') !!}
+			<a href="http://videobrasil.org.br" target="_blank">videobrasil.org.br</a><br>
+			<a href="#" {{-- target="_blank" --}}>facebook</a><br>
+			<a href="#" {{-- target="_blank" --}}>twitter</a><br>
+			<a href="#" {{-- target="_blank" --}}>instagram</a><br>
+			<a href="#" {{-- target="_blank" --}}>flickr</a><br>
+			<a href="#" {{-- target="_blank" --}}>youtube</a>
 		</div>
 
 		<div class="sesc">
-			{!! Html::link('', 'sescsp.org.br') !!}<br>
-			{!! Html::link('', 'facebook') !!}<br>
-			{!! Html::link('', 'twitter') !!}<br>
-			{!! Html::link('', 'instagram') !!}<br>
-			{!! Html::link('', 'flickr') !!}<br>
-			{!! Html::link('', 'youtube') !!}
+			<a href="http://sescsp.org.br" target="_blank">sescsp.org.br</a><br>
+			<a href="#" {{-- target="_blank" --}}>facebook</a><br>
+			<a href="#" {{-- target="_blank" --}}>spotify</a><br>
+			<a href="#" {{-- target="_blank" --}}>instagram</a><br>
+			<a href="#" {{-- target="_blank" --}}>flickr</a><br>
+			<a href="#" {{-- target="_blank" --}}>youtube</a><br>
 		</div>
 	</div>
 
