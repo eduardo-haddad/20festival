@@ -21,35 +21,35 @@ class ArtistsController extends Controller
 
 	    $obras = $works_id->toArray();
 
-		foreach($works_id as $work_id):
-			$ch  = curl_init('http://acervo.videobrasil.org.br/api/obras/obra/' . $work_id);
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-			$result = curl_exec($ch);
-			$works_api[] = json_decode($result, true);
-			curl_close($ch);
-		endforeach;
+		// foreach($works_id as $work_id):
+		// 	$ch  = curl_init('http://acervo.videobrasil.org.br/api/obras/obra/' . $work_id);
+		// 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		// 	$result = curl_exec($ch);
+		// 	$works_api[] = json_decode($result, true);
+		// 	curl_close($ch);
+		// endforeach;
 
-		if(empty($works_api))
-			return redirect()->route('home');
+		// if(empty($works_api))
+		// 	return redirect()->route('home');
 
 
 		//api vb artistas
-		$ch  = curl_init('http://acervo.videobrasil.org.br/api/artistas/artista/' . $artist_db['id']);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		$result = curl_exec($ch);
-		$artist_api = json_decode($result, true); //dd($artist_db);
-		curl_close($ch);
+		// $ch  = curl_init('http://acervo.videobrasil.org.br/api/artistas/artista/' . $artist_db['id']);
+		// curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		// $result = curl_exec($ch);
+		// $artist_api = json_decode($result, true); //dd($artist_db);
+		// curl_close($ch);
 
 
 
 		/** VARIÁVEIS **/
 
 		// Obras API
-		foreach($works_api as $work):
-		    $ano_prod_api[] = $work['data_producao'];
-		    $tipo_api_pt[] = $work['tipo_obra'];
-		    $tipo_api_en[] = $work['tipo_obra_en'];
-		endforeach;
+		// foreach($works_api as $work):
+		//     $ano_prod_api[] = $work['data_producao'];
+		//     $tipo_api_pt[] = $work['tipo_obra'];
+		//     $tipo_api_en[] = $work['tipo_obra_en'];
+		// endforeach;
 
 
 		// Obras DB
@@ -65,9 +65,9 @@ class ArtistsController extends Controller
 			$ficha_peq_en[] = $work->caption_small_en;
 			$ficha_grande_pt[] = $work->caption_large_pt;
 			$ficha_grande_en[] = $work->caption_large_en;
-			$tipo_bd_pt[] = $work->type_pt;
-			$tipo_bd_en[] = $work->type_en;
-			$ano_prod_bd[] = $work->year;
+			$tipo_pt[] = $work->type_pt;
+			$tipo_en[] = $work->type_en;
+			$ano_prod[] = $work->year;
 			$plataforma[] = $work->plataforma;
 			$obs_pt[] = $work->obs_pt;
 			$obs_en[] = $work->obs_en;
@@ -75,19 +75,19 @@ class ArtistsController extends Controller
 
 		// -- Artistas API--
 		// Bios 
-		foreach($artist_api['biografia'] as $item):
-		    if($item['idioma'] == 'pt'):
-		        $bio_pt_api = $item['biografia'];
-		    elseif($item['idioma'] == 'en'):
-		        $bio_en_api = $item['biografia'];
-		    endif;
-		endforeach;
+		// foreach($artist_api['biografia'] as $item):
+		//     if($item['idioma'] == 'pt'):
+		//         $bio_pt_api = $item['biografia'];
+		//     elseif($item['idioma'] == 'en'):
+		//         $bio_en_api = $item['biografia'];
+		//     endif;
+		// endforeach;
 
 		// -- Artistas DB--
 		$nome_artista = $artist_db['name'];
 		$artista_id = $artist_db['id'];
-		$bio_pt_bd = $artist_db['bio_pt'];
-		$bio_en_bd = $artist_db['bio_en'];
+		$bio_pt = $artist_db['bio_pt'];
+		$bio_en = $artist_db['bio_en'];
 		$origem_artista_pt = $artist_db['origin_pt'];
 		$origem_artista_en = $artist_db['origin_en'];
 		$ano_nasc = $artist_db['birth'];
@@ -99,12 +99,6 @@ class ArtistsController extends Controller
 
 		
 
-		/** Verificações (priorizar DB)**/
-		$ano_prod = empty(array_filter($ano_prod_bd)) ? $ano_prod_api : $ano_prod_bd;
-		$tipo_pt = empty(array_filter($tipo_bd_pt)) ? $tipo_api_pt : $tipo_bd_pt;
-		$tipo_en = empty(array_filter($tipo_bd_en)) ? $tipo_api_en : $tipo_bd_en;
-		$bio_pt = empty($bio_pt_bd) ? $bio_pt_api : $bio_pt_bd;
-		$bio_en = empty($bio_en_bd) ? $bio_en_api : $bio_en_bd;
 		$plataforma = empty(array_filter($plataforma)) ? $plataforma_all : $plataforma;
 
 		$artista_img = 'img/artistas/' . $artista_id;
