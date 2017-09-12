@@ -28,7 +28,7 @@
         </div>
 
         <div id="lang">
-        <a href="{!! $pt_path !!}" @if($lang == 'pt') class="selected" @endif>PT</a>&nbsp;&nbsp;&nbsp;<a href="{!! $en_path !!}" @if($lang == 'en') class="selected" @endif>EN</a>
+        <a href="{!! $pt_path !!}" @if($lang != 'en') class="selected" @endif>PT</a>&nbsp;&nbsp;&nbsp;<a href="{!! $en_path !!}" @if($lang == 'en') class="selected" @endif>EN</a>
         </div>
     </div>
    

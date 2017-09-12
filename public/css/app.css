@@ -208,6 +208,9 @@ sup {
   max-width: 512px;
   float: left; }
 
+#listaArtistas a:hover {
+  text-decoration: underline; }
+
 #rodape {
   width: 100%;
   height: 440px;
