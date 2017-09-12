@@ -18,7 +18,7 @@
 
 <div class="realizacao">
 
-	<div class="header">Realização</div>
+	<div class="header">{!! switchLang('Realização', 'Presenters') !!}</div>
 
 	<div class="logos">
 
