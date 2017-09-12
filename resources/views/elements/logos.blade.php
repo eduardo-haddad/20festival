@@ -11,14 +11,16 @@
 			<header>{!! switchLang('Apoio cultural', 'Cultural support') !!}</header>
 			<img src="{!! asset('img/logos/blocos/apoio_cultural_2.png') !!}">
 		</div>
+
+		<div class="residencia">
+			<header>{!! switchLang('Parceiros de residência', 'Residency program partners') !!}</header>
+			<img src="{!! asset('img/logos/blocos/residencia.png') !!}">
+		
+		</div>
 	</div>
 
 	
 
-	<div class="residencia">
-		<header>{!! switchLang('Parceiros de residência', 'Residency program partners') !!}</header>
-		<img src="{!! asset('img/logos/blocos/residencia.png') !!}">
-		
-	</div>
+	
 
 </div>
