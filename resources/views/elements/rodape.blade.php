@@ -9,11 +9,10 @@
 	<p>Visitação<br>
 	de 3 de outubro de 2017 <br>
 	a 14 de janeiro de 2018<br>
-	terças a sextas, <br>
-	das 7h30 às 21h30<br>
-	sábados, das 10h às 21h30 <br>
+	terça a sábado, <br>
+	das 9h às 22h<br>
 	domingos e feriados, <br>
-	das 10h às 18h</p>
+	das 9h às 20h</p>
 </div>
 
 <div class="realizacao">
@@ -45,9 +44,9 @@
 		<div class="sesc">
 			<a href="http://sescsp.org.br" target="_blank">sescsp.org.br</a><br>
 			<a href="#" {{-- target="_blank" --}}>facebook</a><br>
-			<a href="#" {{-- target="_blank" --}}>spotify</a><br>
+			<a href="#" {{-- target="_blank" --}}>twitter</a><br>
 			<a href="#" {{-- target="_blank" --}}>instagram</a><br>
-			<a href="#" {{-- target="_blank" --}}>flickr</a><br>
+			<a href="#" {{-- target="_blank" --}}>spotify</a><br>
 			<a href="#" {{-- target="_blank" --}}>youtube</a><br>
 		</div>
 	</div>
