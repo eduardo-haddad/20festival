@@ -21,9 +21,9 @@
     <div id="datalang">
         <div id="datas">
             {!! switchLang(
-            '03.10.2017 – 13.01.2018<br>
+            '03.10.2017 – 14.01.2018<br>
              SESC POMPEIA&nbsp;&nbsp;&nbsp;SÃO PAULO&nbsp;&nbsp;&nbsp;BRASIL',
-            '2017.10.03 – 2018.01.13<br>
+            '2017.10.03 – 2018.01.14<br>
              SESC POMPEIA&nbsp;&nbsp;&nbsp;SÃO PAULO&nbsp;&nbsp;&nbsp;BRAZIL') !!}
         </div>
 

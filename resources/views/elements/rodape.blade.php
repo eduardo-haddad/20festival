@@ -7,8 +7,8 @@
 	<p>Sesc Pompeia</p>
 	<p>Rua Clélia, 93, Pompeia São Paulo</p>
 	<p>Visitação<br>
-	de 15 de setembro <br>
-	a 4 de dezembro de 2017<br>
+	de 3 de outubro de 2017 <br>
+	a 14 de janeiro de 2018<br>
 	terças a sextas, <br>
 	das 7h30 às 21h30<br>
 	sábados, das 10h às 21h30 <br>

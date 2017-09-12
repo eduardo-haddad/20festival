@@ -348,7 +348,7 @@ sup {
 }
 
 #rodape .realizacao .logos .sesc img {
-	width: 90px;
+	width: 126px;
 	height: auto;
 }
 
@@ -614,7 +614,7 @@ main {
 }
 
 #logos .logosWrapper > div {
-	padding: 40px 0;
+	padding: 24px 0;
 }
 
 #logos header {
@@ -641,27 +641,32 @@ main {
 }
 
 #logos .institucional img {
-	max-width: 26%;
+	max-width: 52%;
 }
 
 #logos .cultural img {
-	max-width: 70%;
+	max-width: 100%;
 }
 
 #logos .residencia img {
-	max-width: 50%;
+	max-width: 48%;
 }
 
-#logos .realizacao,
+
+#logos .cultural {
+	width: 72%;
+	float: right;
+}
+
 #logos .institucional {
+	width: 21%;
 	float: left;
-	width: 50%;
 }
 
-#logos .realizacaoInstitucional {
+#logos .institucionalCultural {
 	display: inline-block;
-	width: 100%;
-	padding: 30px 200px 20px 200px !important;
+	width: 73%;
+	padding: 30px 0px 20px 0px !important;
 	box-sizing: border-box;
 }
 
