@@ -95,7 +95,9 @@ a.selected:hover {
   height: 114px;
   top: 0;
   background: white;
-  padding: 24px; }
+  padding: 24px;
+  min-width: 768px;
+  /* remover */ }
 
 #header #brand {
   font-family: 'Fugue';
@@ -138,7 +140,9 @@ sup {
   display: table;
   height: auto;
   min-height: 150px;
-  width: 100%;
+  /*width: 100%;*/
+  width: 1280px;
+  /* remover */
   max-width: 1280px; }
 
 .container.home {
@@ -513,5 +517,10 @@ main {
   width: 100%;
   padding: 30px 20px 20px 20px !important;
   box-sizing: border-box; }
+
+/***************/
+@media screen and (max-width: 1023px), screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  #header #brand {
+    font-size: 1.1em; } }
 
 /*# sourceMappingURL=app.css.map */
