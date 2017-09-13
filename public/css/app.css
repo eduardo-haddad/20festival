@@ -461,13 +461,12 @@ main {
 #logos {
   width: 100%;
   height: 200px;
-  background-color: white; }
+  background-color: #ed1c24; }
 
 #logos .logosWrapper {
   width: 100%;
   /*max-width: $containerSize + 800;*/
-  margin: 0 auto;
-  padding-top: 10px; }
+  margin: 0 auto; }
 
 #logos .logosWrapper > div {
   padding: 24px 0; }
@@ -475,7 +474,8 @@ main {
 #logos header {
   width: 100%;
   font-family: 'Fugue';
-  font-size: 0.8em;
+  font-size: 0.75em;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
@@ -489,28 +489,36 @@ main {
   text-align: center; }
 
 #logos .realizacao img {
-  max-width: 45%; }
+  max-width: 33.33%; }
 
 #logos .institucional img {
-  max-width: 48%; }
+  max-width: 51%; }
 
 #logos .cultural img {
-  max-width: 100%; }
+  max-width: 94%; }
 
 #logos .residencia img {
-  max-width: 83%; }
+  max-width: 94%; }
+
+#logos .colaboracao img {
+  max-width: 39%; }
 
 #logos .cultural {
-  width: 41%;
-  float: left; }
+  width: 57%;
+  float: left;
+  margin-right: 0px; }
 
 #logos .institucional {
-  width: 14%;
+  width: 11%;
   float: left; }
 
 #logos .residencia {
   float: left;
-  width: 45%; }
+  width: 22%; }
+
+#logos .colaboracao {
+  float: left;
+  width: 8%; }
 
 #logos .institucionalCultural {
   display: inline-block;
