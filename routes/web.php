@@ -55,6 +55,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 		return view('imprensa');
 	});
 
+	/* Programação */
+	Route::get('/programacao', function(){
+		return view('programacao');
+	});
+
 	/* Downloads */
 	Route::get('/download/{file}', 'Controller@getDownload');
 
