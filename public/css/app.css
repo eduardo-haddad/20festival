@@ -149,7 +149,7 @@ sup {
   margin: 162px auto 0 auto; }
 
 .container.interno {
-  margin: 200px auto 0 auto; }
+  margin: 200px auto 20px auto; }
 
 #imgArtista,
 .container.interno .tituloTexto {
@@ -420,6 +420,22 @@ main {
   padding-left: 11%;
   box-sizing: border-box;
   margin-bottom: 70px; }
+
+.container.interno .texto.interno {
+  margin-bottom: 30px; }
+
+.container.interno .textoPrincipal {
+  padding-left: 24px;
+  margin-bottom: 30px; }
+
+.container.interno .texto h1,
+.container.interno .textoPrincipal h1 {
+  font-family: 'Fugue';
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  font-size: 1em;
+  display: inline; }
 
 .tituloPag {
   margin: 0;

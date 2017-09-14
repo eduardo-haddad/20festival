@@ -55,9 +55,24 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 		return view('imprensa');
 	});
 
-	/* Programação */
-	Route::get('/programacao', function(){
-		return view('programacao');
+	/* Programa de vídeo */
+	Route::get('/programa-de-video', function(){
+		return view('programa-de-video.programa1');
+	});
+	Route::get('/programa-de-video/programa1', function(){
+		return view('programa-de-video.programa1');
+	});
+	Route::get('/programa-de-video/programa2', function(){
+		return view('programa-de-video.programa2');
+	});
+	Route::get('/programa-de-video/programa3', function(){
+		return view('programa-de-video.programa3');
+	});
+	Route::get('/programa-de-video/programa4', function(){
+		return view('programa-de-video.programa4');
+	});
+	Route::get('/programa-de-video/programa5', function(){
+		return view('programa-de-video.programa5');
 	});
 
 	/* Downloads */

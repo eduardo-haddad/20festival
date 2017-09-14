@@ -77,8 +77,37 @@ $route = Route::getFacadeRoot()->current()->uri();
 	</li>
 --}}
 	<li>
-		<a @if($route=='programacao' || $route=='en/programacao') class="selected" @endif href="{{url('/programacao')}}" data-pjax>{!! switchLang('Programação', 'Schedule') !!}</a>
-	</li> 
+		
+		@if(strpos($route, 'programa-de-video') === 0 || strpos($route, 'en/programa-de-video') === 0)
+			{!! switchLang('Programa de vídeo', 'Video program') !!}
+			<div class="submenu" style="display: block !important;">
+				<ul>				
+					<li><a href="{{url('/programa-de-video/programa1')}}" data-pjax 
+							@if($route=='programa-de-video' || $route=='en/programa-de-video') class="selected" @endif>
+							{!! switchLang('Programa 1', 'Program 1') !!}
+					</a></li>
+					<li><a href="{{url('/programa-de-video/programa2')}}" data-pjax 
+							@if($route=='programa-de-video/programa2' || $route=='en/programa-de-video/programa2') class="selected" @endif>
+							{!! switchLang('Programa 2', 'Program 2') !!}
+					</a></li>
+					<li><a href="{{url('/programa-de-video/programa3')}}" data-pjax 
+							@if($route=='programa-de-video/programa3' || $route=='en/programa-de-video/programa3') class="selected" @endif>
+							{!! switchLang('Programa 3', 'Program 3') !!}
+					</a></li>
+					<li><a href="{{url('/programa-de-video/programa4')}}" data-pjax 
+							@if($route=='programa-de-video/programa4' || $route=='en/programa-de-video/programa4') class="selected" @endif>
+							{!! switchLang('Programa 4', 'Program 4') !!}
+					</a></li>
+					<li><a href="{{url('/programa-de-video/programa5')}}" data-pjax 
+							@if($route=='programa-de-video/programa5' || $route=='en/programa-de-video/programa5') class="selected" @endif>
+							{!! switchLang('Programa 5', 'Program 5') !!}
+					</a></li>
+				</ul>
+			</div>
+		@else
+			<a href="{{url('/programa-de-video')}}" data-pjax>{!! switchLang('Programa de vídeo', 'Video program') !!}</a>
+		@endif
+	</li>
 
 	<li>
 		<a @if($route=='imprensa' || $route=='en/imprensa') class="selected" @endif href="{{url('/imprensa')}}" data-pjax>{!! switchLang('Imprensa', 'Press') !!}</a>

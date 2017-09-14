@@ -209,7 +209,7 @@ sup {
 }
 
 .container.interno {
-	margin: ($headerHeight + 86px) auto 0 auto;
+	margin: ($headerHeight + 86px) auto 20px auto;
 }
 
 #imgArtista,
@@ -552,6 +552,25 @@ main {
 	padding-left: 11%;
 	box-sizing: border-box;
 	margin-bottom: 70px;
+}
+
+.container.interno .texto.interno {
+	margin-bottom: 30px;
+}
+
+.container.interno .textoPrincipal {
+	padding-left: 24px;
+	margin-bottom: 30px;
+}
+
+.container.interno .texto h1,
+.container.interno .textoPrincipal h1 {
+	font-family: 'Fugue';
+	text-transform: uppercase;
+	color: black;
+	font-weight: 700;
+	font-size: 1em;
+	display: inline;
 }
 
 .tituloPag {
