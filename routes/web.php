@@ -1,7 +1,6 @@
 <?php
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,8 +27,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 			'2203583','2203597','2203604','2203609','2203631','2203676','2204470');
 
 		$random = mt_rand(1,count($todas_obras)-1);
+		$artista_id = DB::table('works')->where('id', $todas_obras[$random])->pluck('artist_id');
+		$slug_artista = DB::table('artists')->where('id', $artista_id)->pluck('slug');
 
-    	return view('home', compact('random', 'todas_obras'));
+    	return view('home', compact('random', 'todas_obras', 'slug_artista'));
 
 	})->name('home');
 

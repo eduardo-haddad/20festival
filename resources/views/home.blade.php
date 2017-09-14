@@ -7,6 +7,9 @@
     '20th Contemporary Art Festival Sesc_Videobrasil') !!}
 @stop
 
+@php
+    //dd($link_artista[0]);
+@endphp
 
 @section('body')
 
@@ -17,7 +20,7 @@
         <div class="container home">
     
             <div id="imgArtista">
-                {!! Html::image('img/obras/' . $todas_obras[$random] . '.jpg') !!}
+                <a href="{{url('/artista/' . $slug_artista[0])}}"><img src="img/obras/{!! $todas_obras[$random] !!}.jpg"></a>
             </div>
     
             <div id="mainMenu">
