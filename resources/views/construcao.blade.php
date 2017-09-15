@@ -22,7 +22,6 @@ header('Location: www.festivalsescvideobrasil.org.br');
         <div class="container interno" style="text-align: center; margin: 120px auto 40px auto; width: 100%; max-width: 800px;">
 
             <img src="{{asset('img/construcao_2.png')}}" style="width: 100%;">
-            {{//$variavel}}
             
 
             {{-- <div class="tituloTexto">
