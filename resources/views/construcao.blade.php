@@ -3,8 +3,8 @@
 
 @section('title')
 {!! switchLang(
-    'Apresentação - 20º Festival de Arte Contemporânea Sesc_Videobrasil',
-    'Introduction - 20th Contemporary Art Festival Sesc_Videobrasil') !!}
+    '20º Festival de Arte Contemporânea Sesc_Videobrasil',
+    '20th Contemporary Art Festival Sesc_Videobrasil') !!}
 @stop
 
 
