@@ -1,8 +1,9 @@
 <?php
-// if (($_SERVER['HTTP_HOST'] == "festivalsescvideobrasil.org.br"))
-// {
+if (($_SERVER['HTTP_HOST'] == "ec2-18-220-212-118.us-east-2.compute.amazonaws.com"))
+{
 // header('Location: www.festivalsescvideobrasil.org.br');
-// }
+    $variavel = 'ok';
+}
 ?>
 
 
@@ -22,7 +23,7 @@
         <div class="container interno" style="text-align: center; margin: 120px auto 40px auto; width: 100%; max-width: 800px;">
 
             <img src="{{asset('img/construcao_2.png')}}" style="width: 100%;">
-            {{$_SERVER['HTTP_HOST']}}
+            {{$variavel}}
             
 
             {{-- <div class="tituloTexto">
