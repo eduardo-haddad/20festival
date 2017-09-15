@@ -1,8 +1,4 @@
-{{-- @if(($_SERVER['HTTP_HOST'] == "ec2-18-220-212-118.us-east-2.compute.amazonaws.com"))
 
-<?php header('Location: http://www.festivalsescvideobrasil.org.br'); die(); ?>
-
-@else --}}
 
 
     @extends('layouts.base')
@@ -37,4 +33,4 @@
 
     @stop
 
-{{-- @endif --}}
+
