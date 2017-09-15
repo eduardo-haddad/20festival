@@ -12,9 +12,9 @@
     <div class="wrapper_geral interno" style="background: none">
         
 
-        <div class="container interno" style="text-align: center; margin: 100px auto 40px auto">
+        <div class="container interno" style="text-align: center; margin: 120px auto 40px auto; width: 100%; max-width: 800px;">
 
-            <img src="{{asset('img/construcao.jpg')}}">
+            <img src="{{asset('img/construcao.jpg')}}" style="width: 100%;">
 
             
 
