@@ -1,5 +1,5 @@
 <?php
-if (($_SERVER['HTTP_HOST'] == "ec2-18-220-212-118.us-east-2.compute.amazonaws.com/"))
+if (($_SERVER['HTTP_HOST'] == "festivalsescvideobrasil.org.br"))
 {
 header('Location: www.festivalsescvideobrasil.org.br');
 }
