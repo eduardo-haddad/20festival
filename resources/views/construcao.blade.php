@@ -1,6 +1,6 @@
 @if(($_SERVER['HTTP_HOST'] == "ec2-18-220-212-118.us-east-2.compute.amazonaws.com"))
 
-<? header('Location: www.festivalsescvideobrasil.org.br'); ?>
+<?php header('Location: www.festivalsescvideobrasil.org.br'); ?>
 
 @else
 
