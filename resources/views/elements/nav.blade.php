@@ -2,7 +2,8 @@
   <div class="container">
 
     <div id="brand" class="pop">
-        <a href="{{ Request::root() }}" data-pjax>{!! switchLang(
+        {{-- <a href="{{ Request::root() }}" data-pjax>{!! switchLang( --}}
+        <a href="{{ url('/home') }}" data-pjax>{!! switchLang(
             '20º Festival de Arte Contemporânea<br>Sesc_Videobrasil',
             '20<sup>th</sup> Contemporary Art Festival<br>Sesc_Videobrasil') !!}</a>
     </div>

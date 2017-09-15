@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -50,8 +49,8 @@
     </script>
   </head>
 
-  <body>
-    
+
+  <body @if(!empty($home)) class="homeTemp" @endif>
     <div id="conteudoHome" class="pjaxTarget">
         @yield('body')
     </div>
