@@ -1,39 +1,40 @@
-<?php
-if (($_SERVER['HTTP_HOST'] == "ec2-18-220-212-118.us-east-2.compute.amazonaws.com"))
-{
-header('Location: www.festivalsescvideobrasil.org.br');
-}
-?>
+@if(($_SERVER['HTTP_HOST'] == "ec2-18-220-212-118.us-east-2.compute.amazonaws.com"))
+
+<? header('Location: www.festivalsescvideobrasil.org.br'); ?>
+
+@else
 
 
-@extends('layouts.base')
+    @extends('layouts.base')
 
-@section('title')
-{!! switchLang(
-    '20º Festival de Arte Contemporânea Sesc_Videobrasil',
-    '20th Contemporary Art Festival Sesc_Videobrasil') !!}
-@stop
+    @section('title')
+    {!! switchLang(
+        '20º Festival de Arte Contemporânea Sesc_Videobrasil',
+        '20th Contemporary Art Festival Sesc_Videobrasil') !!}
+    @stop
 
 
-@section('body')
-    <div class="wrapper_geral interno" style="background: none">
-        
-
-        <div class="container interno" style="text-align: center; margin: 120px auto 40px auto; width: 100%; max-width: 800px;">
-
-            <img src="{{asset('img/construcao_2.png')}}" style="width: 100%;">
+    @section('body')
+        <div class="wrapper_geral interno" style="background: none">
             
 
-            {{-- <div class="tituloTexto">
+            <div class="container interno" style="text-align: center; margin: 120px auto 40px auto; width: 100%; max-width: 800px;">
 
-            </div> --}}
-    
+                <img src="{{asset('img/construcao_2.png')}}" style="width: 100%;">
+                
+
+                {{-- <div class="tituloTexto">
+
+                </div> --}}
+        
+
+
+            </div>
 
 
         </div>
+        
 
+    @stop
 
-    </div>
-    
-
-@stop
+@endif
