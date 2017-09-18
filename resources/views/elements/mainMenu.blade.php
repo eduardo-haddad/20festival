@@ -76,7 +76,7 @@ $route = Route::getFacadeRoot()->current()->uri();
 		{!! switchLang('notícias', 'news') !!}
 	</li>
 --}}
-	{{-- <li>
+	<li>
 		
 		@if(strpos($route, 'programa-de-video') === 0 || strpos($route, 'en/programa-de-video') === 0)
 			{!! switchLang('Programa de vídeo', 'Video program') !!}
@@ -107,7 +107,7 @@ $route = Route::getFacadeRoot()->current()->uri();
 		@else
 			<a href="{{url('/programa-de-video')}}" data-pjax>{!! switchLang('Programa de vídeo', 'Video program') !!}</a>
 		@endif
-	</li> --}}
+	</li>
 
 	<li>
 		<a @if($route=='imprensa' || $route=='en/imprensa') class="selected" @endif href="{{url('/imprensa')}}" data-pjax>{!! switchLang('Imprensa', 'Press') !!}</a>
