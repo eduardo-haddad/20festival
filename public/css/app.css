@@ -628,12 +628,16 @@ MEDIUM SCREEN
     width: 320px;
     /*float: unset;
 		margin: 0 auto;*/ }
+  #logos header {
+    text-align: left; }
+  #logos > div {
+    text-align: left; }
   #rodape .newsletter {
     /*margin-bottom: 30px;*/
     width: 100%; }
   #logos .institucional {
     width: 40%;
-    float: unset;
+    float: left;
     margin: 0 auto; }
   #logos .institucional img {
     max-width: 47%; }
@@ -643,11 +647,11 @@ MEDIUM SCREEN
     max-width: 100%; }
   #logos .residencia {
     width: 68%;
-    float: unset;
+    float: left;
     margin: 0 auto; }
   #logos .colaboracao {
     width: 24%;
-    float: unset;
+    float: left;
     margin: 0 auto; }
   /*#rodape .realizacao .header, 
 	#rodape .realizacao .logos, 

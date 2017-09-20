@@ -838,6 +838,14 @@ MEDIUM SCREEN
 		margin: 0 auto;*/
 	}
 
+	#logos header {
+		text-align: left;
+	}
+
+	#logos > div {
+	    text-align: left;
+	}
+
 	#rodape .newsletter {
 		/*margin-bottom: 30px;*/
 		width: 100%;
@@ -845,7 +853,7 @@ MEDIUM SCREEN
 
 	#logos .institucional {
 	    width: 40%;
-	    float: unset;
+	    float: left;
 	    margin: 0 auto;
 	}
 
@@ -863,13 +871,13 @@ MEDIUM SCREEN
 
 	#logos .residencia {
 	    width: 68%;
-	    float: unset;
+	    float: left;
 		margin: 0 auto;
 	}
 
 	#logos .colaboracao {
 	    width: 24%;
-		float: unset;
+		float: left;
 		margin: 0 auto;
 	}
 
