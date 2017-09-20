@@ -935,9 +935,8 @@ SMALL SCREEN
 		height: 172px;
 	}
 
-	.home #header #brand,
 	.interno #header #brand {
-		/*font-size: 1.1em;*/
+		font-size: 1em;
 	}
 
 	#rodape .realizacao .logos .vb img {
@@ -972,6 +971,10 @@ SMALL SCREEN
 
 	#popArtista main {
 		margin: 123px auto 0 auto;
+	}
+
+	#popArtista nav .close {
+		width: 35px;
 	}
 
 	#popArtista .nomeArtista,
