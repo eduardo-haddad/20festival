@@ -702,12 +702,14 @@ SMALL SCREEN
   #listaArtistas .col2 {
     margin-top: -15px; }
   /* Artistas */
+  #popArtista #header {
+    padding: 24px 24px 20px 24px; }
   #popArtista #header #brand {
     font-size: 1.2em; }
   #popArtista main {
     margin: 123px auto 0 auto; }
   #popArtista nav .close {
-    width: 35px; }
+    width: 46px; }
   #popArtista .nomeArtista,
   #popArtista .bioArtista,
   #popArtista .wrapperTituloSinopse {
@@ -723,5 +725,11 @@ SMALL SCREEN
     margin-bottom: 12px; }
   #popArtista .plataforma {
     margin: 80px 0 30px 0; } }
+
+@media screen and (max-width: 370px), screen and (max-width: 370px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  #popArtista #header #brand {
+    font-size: 1em; }
+  #popArtista nav .close {
+    width: 35px; } }
 
 /*# sourceMappingURL=app.css.map */
