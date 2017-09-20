@@ -9,7 +9,7 @@
                     	'20<sup>th</sup> Contemporary Art Festival<br>Sesc_Videobrasil') !!}</a>
                 </div>
                 <div class="close">
-                    <a href="{{url('/')}}" data-pjax>
+                    <a href="{{url('/home')}}" data-pjax>
                         {{ Html::image('img/closepop.png') }}
                     </a>
                 </div>

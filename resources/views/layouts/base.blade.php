@@ -11,11 +11,12 @@
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/nprogress.css')}}">
-    <link rel="stylesheet" href="{{asset('css/lightbox.min.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('css/lightbox.min.css')}}"> --}}
     <script type="text/javascript" src="{{asset('jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('jquery.pjax.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/nprogress.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/lightbox.min.js')}}"></script>
+    {{-- <script type="text/javascript" src="{{asset('js/lightbox.min.js')}}"></script> --}}
+    <script type="text/javascript" src="{{asset('js/imageMapResizer.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/app.min.js')}}"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

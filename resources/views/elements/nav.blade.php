@@ -18,7 +18,8 @@
         $en_path = Request::root() . '/en/' . $path;
     @endphp
 
-    
+    <div class="clear mv"></div>
+
     <div id="datalang">
         <div id="datas">
             {!! switchLang(
@@ -28,8 +29,10 @@
              SESC POMPEIA&nbsp;&nbsp;&nbsp;SÃO PAULO&nbsp;&nbsp;&nbsp;BRAZIL') !!}
         </div>
 
+        <div class="clear mv"></div>
+
         <div id="lang">
-        <a href="{!! $pt_path !!}" @if($lang != 'en') class="selected" @endif>PT</a>&nbsp;&nbsp;&nbsp;<a href="{!! $en_path !!}" @if($lang == 'en') class="selected" @endif>EN</a>
+            <a href="{!! $pt_path !!}" @if($lang != 'en') class="selected" @endif>PT</a>&nbsp;&nbsp;&nbsp;<a href="{!! $en_path !!}" @if($lang == 'en') class="selected" @endif>EN</a>
         </div>
     </div>
    

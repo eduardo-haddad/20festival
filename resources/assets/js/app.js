@@ -44,9 +44,8 @@ $document.on('ready pjax:success', function() {
 	});
 
 
-	/* random bg home */
-	var random_home = (Math.floor(Math.random() * (5)) + 1);
-	$('.wrapper_geral.home').addClass('inicio'+random_home);
+	/* image map responsivo */
+	$('map').imageMapResize();
 
 
 });

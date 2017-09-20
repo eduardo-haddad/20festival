@@ -36,10 +36,12 @@ gulp.task('copy', function () {
     //     .pipe(gulp.dest('resources/assets/js'));
     // gulp.src('node_modules/nprogress/nprogress.css')
     //     .pipe(gulp.dest('public/css'));
-    gulp.src('node_modules/lightbox2/dist/js/lightbox.min.js')
+    // gulp.src('node_modules/lightbox2/dist/js/lightbox.min.js')
+    //     .pipe(gulp.dest('public/js'));
+    // gulp.src('node_modules/lightbox2/dist/css/lightbox.min.css')
+    //     .pipe(gulp.dest('public/css'));
+    gulp.src('node_modules/image-map-resizer/js/imageMapResizer.min.js')
         .pipe(gulp.dest('public/js'));
-    gulp.src('node_modules/lightbox2/dist/css/lightbox.min.css')
-        .pipe(gulp.dest('public/css'));
 });
 
 

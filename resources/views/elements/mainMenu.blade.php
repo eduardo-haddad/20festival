@@ -109,9 +109,9 @@ $route = Route::getFacadeRoot()->current()->uri();
 			</div>
 		</li>
 		@else
-			{{-- <li>
+			<li>
 				<a href="{{url('/programa-de-video')}}" data-pjax>{!! switchLang('Programa de vídeo', 'Video program') !!}</a>
-			</li> --}}
+			</li>
 		@endif
 	
 

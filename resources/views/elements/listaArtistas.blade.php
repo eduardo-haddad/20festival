@@ -80,6 +80,8 @@
 	</ul>
 </div>
 
+<div class="mv small clear"></div>
+
 <div class="col2">
 	<ul>
 		<li><a href="{{url('/artista/louise-botkay')}}" data-pjax>

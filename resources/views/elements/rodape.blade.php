@@ -3,6 +3,8 @@
 	[FORMULARIO]
 </div>
 
+<div class="mv clear"></div>
+
 <div class="servico">
 	<p>Sesc Pompeia</p>
 	<p>Rua Clélia, 93, Pompeia São Paulo</p>

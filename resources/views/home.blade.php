@@ -13,15 +13,17 @@
 
 @section('body')
 
-    <div class="wrapper_geral home">
+    <div class="wrapper_geral home inicio{{$random_bg}}">
 
         @include('elements.nav')
     
         <div class="container home">
     
             <div id="imgArtista">
-                <a href="{{url('/artista/' . $slug_artista[0])}}"><img src="img/obras/{!! $todas_obras[$random] !!}.jpg"></a>
+                <a href="{{url('/artista/' . $slug_artista[0])}}"><img src="{{ asset('img/obras/'.$todas_obras[$random].'.jpg') }}"></a>
             </div>
+
+            <div class="clear mv"></div>
     
             <div id="mainMenu">
                 @include('elements.mainMenu')
