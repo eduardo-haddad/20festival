@@ -828,12 +828,14 @@ MEDIUM SCREEN
 	}
 
 	#rodape .servico {
-		margin-right: 10px;
-		width: 50%;
+		width: 100%;
+		margin-bottom: 30px;
 	}
 
 	#rodape .realizacao {
-		width: calc(50% - 10px);
+		width: 320px;
+		/*float: unset;
+		margin: 0 auto;*/
 	}
 
 	#rodape .newsletter {
@@ -842,20 +844,49 @@ MEDIUM SCREEN
 	}
 
 	#logos .institucional {
-	    width: 22%;
+	    width: 40%;
+	    float: unset;
+	    margin: 0 auto;
+	}
+
+	#logos .institucional img {
+	    max-width: 47%;
 	}
 
 	#logos .cultural {
 	    width: 100%;
 	}
 
+	#logos .cultural img {
+	    max-width: 100%;
+	}
+
 	#logos .residencia {
-	    width: 54%;
+	    width: 68%;
+	    float: unset;
+		margin: 0 auto;
 	}
 
 	#logos .colaboracao {
-	    width: 16%;
+	    width: 24%;
+		float: unset;
+		margin: 0 auto;
 	}
+
+	/*#rodape .realizacao .header, 
+	#rodape .realizacao .logos, 
+	#rodape .realizacao .redes {
+	    width: 320px;
+	    display: inline-block;
+	}
+
+	#rodape .realizacao .header {
+		text-align: center;
+	}
+
+	#rodape .realizacao .logos .sesc, #rodape .realizacao .redes .sesc {
+	    width: 160px;
+	}*/
 
 
 

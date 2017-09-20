@@ -17,6 +17,8 @@
 	das 9h às 20h</p>
 </div>
 
+<div class="mv clear"></div>
+
 <div class="realizacao">
 
 	<div class="header">{!! switchLang('Realização', 'Presenters') !!}</div>
