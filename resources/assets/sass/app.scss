@@ -936,7 +936,7 @@ SMALL SCREEN
 	}
 
 	.interno #header #brand {
-		font-size: 1em;
+		/*font-size: 1.1em;*/
 	}
 
 	#rodape .realizacao .logos .vb img {
@@ -968,6 +968,10 @@ SMALL SCREEN
 	}
 
 	/* Artistas */
+
+	#popArtista #header #brand {
+		font-size: 1em;
+	}
 
 	#popArtista main {
 		margin: 123px auto 0 auto;
