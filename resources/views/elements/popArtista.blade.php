@@ -44,6 +44,8 @@
 		        	
 		        	</div>
 
+		        	<div class="clear mv small"></div>
+
 	        		
 		        	<div class="wrapperTituloSinopse">
 

@@ -14,7 +14,9 @@
 
         <div class="container interno">
 
-            
+            <div id="mainMenu">
+                @include('elements.mainMenu')
+            </div>
 
             <div class="tituloTexto">
 
@@ -69,10 +71,6 @@
                 </div>
             </div>
     
-            <div id="mainMenu">
-                @include('elements.mainMenu')
-            </div>
-
         </div>
 
         <footer id="rodape" class="borderbox">
