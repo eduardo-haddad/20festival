@@ -4,12 +4,12 @@
         <nav id="header" class="borderbox">
             <div class="container artista">
                 <div id="brand" class="pop">
-                    <a href="{{url('/home')}}" data-pjax>{!! switchLang(
+                    <a href="{{url('/')}}" data-pjax>{!! switchLang(
                     	'20º Festival de Arte Contemporânea<br>Sesc_Videobrasil',
                     	'20<sup>th</sup> Contemporary Art Festival<br>Sesc_Videobrasil') !!}</a>
                 </div>
                 <div class="close">
-                    <a href="{{url('/home')}}" data-pjax>
+                    <a href="{{url('/')}}" data-pjax>
                         {{ Html::image('img/closepop.png') }}
                     </a>
                 </div>

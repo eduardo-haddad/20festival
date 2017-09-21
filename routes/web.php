@@ -14,14 +14,12 @@
 
 Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'localeSessionRedirect', 'localizationRedirect' ]], function() {
 
+	// Route::get('/', function(){
+	// 	$home = true;
+	// 	return view('construcao', compact('home'));
+	// });
+
 	Route::get('/', function(){
-		$home = true;
-		return view('construcao', compact('home'));
-	});
-
-
-
-	Route::get('/home', function(){
 
 		$todas_obras = array(
 			'2199880','2199889','2199898','2200047','2200304','2201622','2202133','2202146',
