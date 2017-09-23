@@ -25,7 +25,7 @@
 
             <div class="clear mv"></div>
     
-            <div id="mainMenu">
+            <div id="mainMenu" class="dv">
                 @include('elements.mainMenu')
             </div>
     

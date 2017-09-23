@@ -14,7 +14,7 @@
 
         <div class="container interno">
 
-            <div id="mainMenu">
+            <div id="mainMenu" class="dv">
                 @include('elements.mainMenu')
             </div>
 

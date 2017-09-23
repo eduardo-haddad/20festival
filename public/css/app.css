@@ -152,6 +152,39 @@ sup {
   width: 80%;
   text-align: right; }
 
+#header .openButton {
+  position: absolute;
+  top: 24px;
+  right: 24px; }
+
+.topMenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #dbdcde;
+  display: none; }
+
+.topMenu section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 24px;
+  box-sizing: border-box; }
+
+.topMenu .closeButton,
+#header .openButton {
+  width: 36px;
+  height: 36px;
+  float: right; }
+
+.topMenu .closeButton img,
+#header .openButton img {
+  width: 100%;
+  height: auto;
+  cursor: pointer; }
+
 /** Home **/
 .container.home,
 .container.interno {
@@ -574,6 +607,10 @@ main {
 
 /* 
 ======
+LARGE SCREEN
+====== */
+/* 
+======
 MEDIUM SCREEN
 ====== */
 @media screen and (max-width: 1023px), screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -612,11 +649,16 @@ MEDIUM SCREEN
   #imgArtista img {
     width: calc(100% - 48px);
     float: none; }
-  #mainMenu {
-    float: left;
-    width: 100%; }
+  #mainMenu.top {
+    float: right;
+    width: 50%; }
   #mainMenu ul {
     padding: 0 0 0 72px; }
+  #mainMenu.top ul {
+    padding: 0; }
+  #mainMenu.top ul li {
+    font-size: 1em;
+    line-height: 1.45em; }
   .container.interno #mainMenu ul {
     margin-top: 0; }
   .container.interno .tituloTexto {
@@ -625,8 +667,6 @@ MEDIUM SCREEN
   .container.interno .texto,
   .tituloPag {
     padding: 0 24px; }
-  #listaArtistas {
-    margin: 0px 0 70px 0; }
   #listaArtistas ul {
     margin-top: 0; }
   #listaArtistas .col1 {
@@ -680,25 +720,26 @@ MEDIUM SCREEN
 SMALL SCREEN
 ====== */
 @media screen and (max-width: 768px), screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .mv.small {
+    display: block; }
   .home #header,
   .interno #header {
     height: 172px; }
   .interno #header #brand {
     /*font-size: 1.1em;*/ }
+  .home #header #brand, .interno #header #brand {
+    width: calc(100% - 60px); }
   #rodape .realizacao .logos .vb img {
     width: 82px; }
   #rodape .realizacao .logos .sesc img {
     width: 106px; }
-  .mv.small {
-    display: block; }
   #listaArtistas {
     margin: 20px 0 70px 0;
     font-size: 14px; }
   #listaArtistas .col1, #listaArtistas .col2 {
     width: 100%;
     max-width: unset;
-    float: none;
-    margin-top: -21px; }
+    float: none; }
   #listaArtistas .col2 {
     margin-top: -15px; }
   /* Artistas */

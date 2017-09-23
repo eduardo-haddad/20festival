@@ -14,7 +14,7 @@
 
         <div class="container interno">
 
-            <div id="mainMenu">
+            <div id="mainMenu" class="dv">
                 @include('elements.mainMenu')
             </div>
 
@@ -27,7 +27,7 @@
                 
                 <div class="texto">
 
-                    <div class="imgSobre">
+                    <div class="imgSobre" class="dv">
                         {!! Html::image('img/sobre/danilo.jpg') !!}
                     </div>
 

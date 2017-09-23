@@ -48,5 +48,23 @@ $document.on('ready pjax:success', function() {
 	$('map').imageMapResize();
 
 
+	/* Top menu */
+	$('#header .openButton img').click(function(){
+		$('.topMenu').show();
+	});
+
+	$('.topMenu .closeButton img').click(function(){
+		$('.topMenu').hide();
+	});
+
+	var screenSize = 1024;
+
+	$(window).on('resize', function(){
+		if($(window).width() >= screenSize){
+			$('.topMenu').hide();
+		}	
+	});
+
+
 });
 
