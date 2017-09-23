@@ -651,7 +651,9 @@ MEDIUM SCREEN
     float: none; }
   #mainMenu.top {
     float: right;
-    width: 50%; }
+    /*width: 50%;*/
+    width: auto;
+    min-width: 50%; }
   #mainMenu ul {
     padding: 0 0 0 72px; }
   #mainMenu.top ul {
