@@ -472,6 +472,7 @@ sup {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	position: static;
 }
 
 #popArtista nav .close {
@@ -490,7 +491,7 @@ main {
 	width: 100%;
 	max-width: 1280px;
 	padding: $padding;
-	margin: (70px + $headerHeight) auto 0 auto;
+	margin: 66px auto 0 auto;
 }
 
 
