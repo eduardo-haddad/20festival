@@ -625,7 +625,7 @@ main {
 }
 
 .container.interno .texto {
-	padding-left: 11%;
+	padding-left: 12%;
 	box-sizing: border-box;
 	margin-bottom: 70px;
 }
@@ -634,9 +634,17 @@ main {
 	margin-bottom: 30px;
 }
 
+.container.interno .texto.interno.programa {
+	margin-top: 80px;
+}
+
 .container.interno .textoPrincipal {
 	padding-left: 24px;
 	margin-bottom: 30px;
+}
+
+.container.interno .textoPrincipal.espaco {
+	margin-top: 80px;
 }
 
 .container.interno .texto h1,
@@ -693,6 +701,53 @@ main {
 .nota {
 	font-size: 0.8em;
 	margin-top: 70px;
+}
+
+/* Ficha técnica */
+
+.fichaTecnica {
+	padding: 0 0 0 24px;
+	font-size: 0.9em;
+	margin-bottom: 24px;
+}
+
+.fichaTecnica h1 {
+	font-size: 1.5em;
+	margin: 0 0 24px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.fichaTecnica h1.espaco {
+	margin-top: 24px;
+}
+
+.fichaTecnica h1.interno {
+	font-size: 1.3em;
+}
+
+.fichaTecnica .fichaEsq,
+.fichaTecnica .fichaDir {
+	float: left;
+	width: 50%;
+	padding: 0 18px 0 0;
+}
+
+.fichaTecnica .fichaEsq p,
+.fichaTecnica .fichaDir p {
+	margin: 0 0 20px 0;
+}
+
+.fichaTecnica .fichaEsq span,
+.fichaTecnica .fichaDir span {
+	font-family: 'Fugue';
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.fichaTecnica h1 {
+	
+
 }
 
 /* Logos */
@@ -885,7 +940,10 @@ MEDIUM SCREEN
 		margin-top: 30px;
 	}
 
-	.container.interno .texto,
+	.container.interno .texto {
+		padding: 0 60px;
+	}
+
 	.tituloPag {
 		padding: 0 24px;
 	}
@@ -965,7 +1023,7 @@ MEDIUM SCREEN
 	}
 
 	.container.interno .textoPrincipal {
-	    padding-left: 48px;
+	    padding-left: 24px;
 	}
 
 	/* Artistas */

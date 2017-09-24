@@ -44,7 +44,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 
 	/* Sobre */
 	Route::get('/sobre', function(){
-		return view('sobre.apresentacao');
+		return view('sobre.sesc');
 	});
 	Route::get('/sobre/sesc', function(){
 		return view('sobre.sesc');
@@ -52,8 +52,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 	Route::get('/sobre/videobrasil', function(){
 		return view('sobre.videobrasil');
 	});
-	Route::get('/sobre/curadores', function(){
-		return view('sobre.curadores');
+	Route::get('/sobre/ficha-tecnica', function(){
+		return view('sobre.ficha-tecnica');
 	});
 
 	/* Imprensa */
@@ -62,23 +62,49 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 	});
 
 	/* Programa de vídeo */
-	Route::get('/programa-de-video', function(){
-		return view('programa-de-video.programa1');
+	// Route::get('/programa-de-video', function(){
+	// 	return view('programa-de-video.programa1');
+	// });
+	// Route::get('/programa-de-video/programa1', function(){
+	// 	return view('programa-de-video.programa1');
+	// });
+	// Route::get('/programa-de-video/programa2', function(){
+	// 	return view('programa-de-video.programa2');
+	// });
+	// Route::get('/programa-de-video/programa3', function(){
+	// 	return view('programa-de-video.programa3');
+	// });
+	// Route::get('/programa-de-video/programa4', function(){
+	// 	return view('programa-de-video.programa4');
+	// });
+	// Route::get('/programa-de-video/programa5', function(){
+	// 	return view('programa-de-video.programa5');
+	// });
+
+	/* Programação */
+	Route::get('/programacao', function(){
+		return view('programacao.programa-de-video');
 	});
-	Route::get('/programa-de-video/programa1', function(){
-		return view('programa-de-video.programa1');
+	Route::get('/programacao/exposicao', function(){
+		return view('programacao.exposicao');
 	});
-	Route::get('/programa-de-video/programa2', function(){
-		return view('programa-de-video.programa2');
+	Route::get('/programacao/programa-de-video', function(){
+		return view('programacao.programa-de-video');
 	});
-	Route::get('/programa-de-video/programa3', function(){
-		return view('programa-de-video.programa3');
+	Route::get('/programacao/performances', function(){
+		return view('programacao.performances');
 	});
-	Route::get('/programa-de-video/programa4', function(){
-		return view('programa-de-video.programa4');
+	Route::get('/programacao/aulas-abertas', function(){
+		return view('programacao.aulas-abertas');
 	});
-	Route::get('/programa-de-video/programa5', function(){
-		return view('programa-de-video.programa5');
+	Route::get('/programacao/conversas', function(){
+		return view('programacao.conversas');
+	});
+	Route::get('/programacao/lancamentos', function(){
+		return view('programacao.lancamentos');
+	});
+	Route::get('/programacao/agenda', function(){
+		return view('programacao.agenda');
 	});
 
 	/* Downloads */

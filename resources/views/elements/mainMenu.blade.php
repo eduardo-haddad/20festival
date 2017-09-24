@@ -1,7 +1,7 @@
 @php
-use Illuminate\Support\Facades\Route;
 $route = Route::getFacadeRoot()->current()->uri();
 @endphp
+
 <ul>
 	<li>
 		
@@ -9,21 +9,20 @@ $route = Route::getFacadeRoot()->current()->uri();
 			{!! switchLang('Sobre', 'About') !!}
 			<div class="submenu" style="display: block !important;">
 				<ul>				
-					<li><a href="{{url('/sobre')}}" data-pjax 
-							@if($route=='sobre' || $route=='en/sobre') class="selected" @endif>
-							{!! switchLang('Apresentação', 'Introduction') !!}
-					</a></li>
 					<li><a href="{{url('/sobre/sesc')}}" data-pjax 
-							@if($route=='sobre/sesc' || $route=='en/sobre/sesc') class="selected" @endif>
+							@if($route=='sobre/sesc' || $route=='en/sobre/sesc' || $route=='sobre' || $route=='en/sobre') class="selected" @endif>
 							{!! switchLang('Palavra do Sesc', 'Word from Sesc') !!}
 					</a></li>
 					<li><a href="{{url('/sobre/videobrasil')}}" data-pjax
 							@if($route=='sobre/videobrasil' || $route=='en/sobre/videobrasil') class="selected" @endif>
-							{!! switchLang('Sul em Toda Parte', 'South Everywhere') !!}
+							{!! switchLang('Videobrasil', 'Videobrasil') !!}
 					</a></li>
-					<li><a href="{{url('/sobre/curadores')}}" data-pjax 
-							@if($route=='sobre/curadores' || $route=='en/sobre/curadores') class="selected" @endif>
-							{!! switchLang('Por uma Explicação Necessária', 'For a Necessary Explanation') !!}
+					<li><a href="{{url('/sobre/ficha-tecnica')}}" data-pjax
+							@if($route=='sobre/ficha-tecnica' || $route=='en/sobre/ficha-tecnica') class="selected" @endif>
+							{!! switchLang('Ficha técnica', 'Staff') !!}
+					</a></li>
+					<li><a href="http://site.videobrasil.org.br/festival/festivais" target="_blank">
+							{!! switchLang('Edições anteriores', 'Past editions') !!}
 					</a></li>
 				</ul>
 			</div>
@@ -32,87 +31,50 @@ $route = Route::getFacadeRoot()->current()->uri();
 		@endif
 	</li>
 
-	{{-- <li>
-		{!! switchLang('exposição', 'exhibition') !!}
-	</li>
-
+	@if(strpos($route, 'programacao') === 0 || strpos($route, 'en/programacao') === 0)
 	<li>
-		{!! switchLang('programa de filmes', 'film program') !!}
-	</li>
 
-	<li>
-		{!! switchLang('performances', 'performances') !!}
-	</li>
-
-	<li>
-		{!! switchLang('prêmios', 'awards') !!}
-	</li>
-
-	<li>
-		{!! switchLang('programas públicos', 'public programs') !!}
-	</li>
-
-	<li>
-		{!! switchLang('educativo', 'educational') !!}
-	</li>
-
-	<li>
-		{!! switchLang('publicações', 'publications') !!}
-	</li>
-
-	<li>
-		{!! switchLang('pesquisa', 'research') !!}
-	</li>
-
-	<li>
-		{!! switchLang('agenda', 'schedule') !!}
-	</li>
-
-	<li>
-		{!! switchLang('fotos e vídeos', 'photos and videos') !!}
-	</li>
-
-	<li>
-		{!! switchLang('notícias', 'news') !!}
-	</li>
---}}
-	
+		{!! switchLang('Programação', 'Program') !!}
 		
-		@if(strpos($route, 'programa-de-video') === 0 || strpos($route, 'en/programa-de-video') === 0)
-		<li>
+		<div class="submenu" style="display: block !important;">
+			<ul>	
+				{{-- <li><a href="{{url('/programacao/exposicao')}}" data-pjax 
+						@if($route=='exposicao' || $route=='en/exposicao') class="selected" @endif>
+						{!! switchLang('Exposição', 'Exhibition') !!}
+				</a></li> --}}			
+				<li><a href="{{url('/programacao/programa-de-video')}}" data-pjax 
+						@if($route=='programacao/programa-de-video' || $route=='en/programacao/programa-de-video' || $route=='programacao' || $route=='en/programacao') class="selected" @endif>
+						{!! switchLang('Programa de vídeo', 'Video program') !!}
+				</a></li>
+				<li><a href="{{url('/programacao/performances')}}" data-pjax 
+						@if($route=='programacao/performances' || $route=='en/programacao/performances') class="selected" @endif>
+						{!! switchLang('Performances', 'Performances') !!}
+				</a></li>
+				<li><a href="{{url('/programacao/aulas-abertas')}}" data-pjax 
+						@if($route=='programacao/aulas-abertas' || $route=='en/programacao/aulas-abertas') class="selected" @endif>
+						{!! switchLang('Aulas abertas', 'Open lectures') !!}
+				</a></li>
+				<li><a href="{{url('/programacao/conversas')}}" data-pjax 
+						@if($route=='programacao/conversas' || $route=='en/programacao/conversas') class="selected" @endif>
+						{!! switchLang('Conversas', 'Talks') !!}
+				</a></li>
+				<li><a href="{{url('/programacao/lancamentos')}}" data-pjax 
+						@if($route=='programacao/lancamentos' || $route=='en/programacao/lancamentos') class="selected" @endif>
+						{!! switchLang('Lançamentos', 'Launch') !!}
+				</a></li>
+				{{-- <li><a href="{{url('/programacao/agenda')}}" data-pjax 
+						@if($route=='programacao/agenda' || $route=='en/programacao/agenda') class="selected" @endif>
+						{!! switchLang('Agenda', '') !!}
+				</a></li> --}}
+			</ul>
+		</div>
 
-			{!! switchLang('Programa de vídeo', 'Video program') !!}
-			
-			<div class="submenu" style="display: block !important;">
-				<ul>				
-					<li><a href="{{url('/programa-de-video/programa1')}}" data-pjax 
-							@if($route=='programa-de-video' || $route=='en/programa-de-video') class="selected" @endif>
-							{!! switchLang('Programa 1', 'Program 1') !!}
-					</a></li>
-					<li><a href="{{url('/programa-de-video/programa2')}}" data-pjax 
-							@if($route=='programa-de-video/programa2' || $route=='en/programa-de-video/programa2') class="selected" @endif>
-							{!! switchLang('Programa 2', 'Program 2') !!}
-					</a></li>
-					<li><a href="{{url('/programa-de-video/programa3')}}" data-pjax 
-							@if($route=='programa-de-video/programa3' || $route=='en/programa-de-video/programa3') class="selected" @endif>
-							{!! switchLang('Programa 3', 'Program 3') !!}
-					</a></li>
-					<li><a href="{{url('/programa-de-video/programa4')}}" data-pjax 
-							@if($route=='programa-de-video/programa4' || $route=='en/programa-de-video/programa4') class="selected" @endif>
-							{!! switchLang('Programa 4', 'Program 4') !!}
-					</a></li>
-					<li><a href="{{url('/programa-de-video/programa5')}}" data-pjax 
-							@if($route=='programa-de-video/programa5' || $route=='en/programa-de-video/programa5') class="selected" @endif>
-							{!! switchLang('Programa 5', 'Program 5') !!}
-					</a></li>
-				</ul>
-			</div>
-		</li>
-		@else
-			{{-- <li>
-				<a href="{{url('/programa-de-video')}}" data-pjax>{!! switchLang('Programa de vídeo', 'Video program') !!}</a>
-			</li> --}}
-		@endif
+	</li>
+	@else
+	<li>
+		<a href="{{url('/programacao')}}" data-pjax>{!! switchLang('Programação', 'Program') !!}</a>
+	</li>
+	@endif
 	
 
 	<li>

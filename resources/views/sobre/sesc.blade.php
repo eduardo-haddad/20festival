@@ -3,8 +3,8 @@
 
 @section('title')
 {!! switchLang(
-    'Enciclopédia para (re)ver o mundo - 20º Festival de Arte Contemporânea Sesc_Videobrasil',
-    'Encyclopedia to (Re)View the World - 20th Contemporary Art Festival Sesc_Videobrasil') !!}
+    'Palavra do Sesc - 20º Festival de Arte Contemporânea Sesc_Videobrasil',
+    'Word from Sesc - 20th Contemporary Art Festival Sesc_Videobrasil') !!}
 @stop
 
 
@@ -33,38 +33,42 @@
 
                     {!! switchLang('
 
-                    <div class="subTituloPag">Enciclopédia para (re)ver o mundo</div>
+                    <div class="subTituloPag">Outros Nós a Partir do Sul</div>
 
                     <p class="assinatura">
                         por Danilo Santos de Miranda<br>
                         Diretor Regional do Sesc São Paulo
                     </p>
 
-                    <p>As transformações culturais e sociais advindas das novas configurações do mundo não só nos apresentam enormes desafios, mas também proporcionam e inspiram uma gama de possibilidades estéticas que interferem nos modos de compreender e repensar a contemporaneidade. Novas mídias e concepções imagéticas tornam-se onipresentes nas situações mais diversas e cotidianas, como se há muito fizessem parte delas, facilitando e, ao mesmo tempo, tornando dispersas e superficiais muitas de nossas experiências.</p>
+                    <p>No cenário global contemporâneo, as fronteiras que dividem os Estados-nação e indicam suas posições no mapa-múndi são relativizadas pelas dinâmicas transnacionais de mercado. Nesse contexto, a ideia de geopolítica adquire centralidade. Ao conjugar aspectos geográficos e políticos, essa noção reflete a interdependência entre fatores territoriais, demográficos e econômicos num dado país ou região, cuja governança depende de decisões baseadas em variáveis internas e externas.</p>
 
-                    <p>O diálogo da vanguarda com a tradição é um modo eficaz de pensar novos rumos em meio à miríade crescente de recursos que se sucedem e se tornam cada vez mais acessíveis. Em um tempo em que grande parte da informação circulante se estrutura e flui por meio de <em>hyperlinks</em>, o catálogo da 20ª edição do Festival retoma o conceito que os embasa: a enciclopédia – uma coleção organizada de saberes textuais e imagéticos –, apropriando-se da linguagem do campo científico para transformar artistas e obras em linhas-guias para examinar o mundo.</p>
+                    <p>No âmbito cultural, a intensificação das relações entre os países proporciona um cosmopolitismo ambivalente. Por um lado, atualizam-se as formas de colonização do relações, tendo por base a razão imperialista forjada e difundida pelas grandes potências. Esse mesmo processo abre, por outro lado, uma surpreendente contraface não hegemônica, através da qual outras formas de produzir conhecimento vêm à tona, reivindicando a descolonização do saber ao passo que postulam modos alternativos de lidar com a história e as contradições do presente.</p>
 
-                    <p>O presente catálogo entrelaça arte, cultura, astronomia, biologia, história e geografia, entre outras áreas do conhecimento, de modo a tornar mais evidente o rompimento das fronteiras entre arte e ciência. Mais que isso, integra cosmovisões ancestrais a um pensamento crítico sobre a conjuntura política global, tema presente em muitos dos trabalhos dos cinquenta artistas de mais de vinte países participantes do Festival.</p>
+                    <p>O reconhecimento da importância da produção simbólica emergida das margens do sistema mundial capitalista beneficia-se do conceito de Sul global, caro</p>
 
-                    <p>A cada edição do Festival, o Sesc e a Associação Cultural Videobrasil promovem o engajamento de curadores, artistas e pesquisadores de diferentes territórios e culturas, identificados com a noção de Sul global, buscando fomentar a produção dessa região geopolítica em sintonia com as mais recentes inquietações no campo das artes visuais. Por meio da pesquisa, do fomento, de ações educativas, do engajamento e do pensamento crítico, ambas as instituições vêm atualizando questões endêmicas abaixo da linha do Equador, incorporando importantes discussões ao conteúdo sempre aberto das artes, em pleno diálogo com o mundo.</p>', 
+                    <p>às premissas do <strong>20º Festival de Arte Contemporânea Sesc_Videobrasil</strong>. Apresentando propostas de artistas provenientes de diferentes nações do Sul geopolítico – relativo aos países em desenvolvimento –, o Festival aposta na ampliação das concepções de mundo, alavancada por investigações artísticas imbuídas de problemáticas que se revelam, dialeticamente, locais e globais.</p>
+
+                    <p>Situando-se nessa encruzilhada onde o específico e o geral se encontram, o Sesc realiza uma ação cultural afeita a experiências dedicadas a desfazer as amarras herdadas do passado colonial e contraídas de uma condição geopolítica periférica. Iniciada nos anos 1990, a parceria entre o Sesc e a Associação Cultural Videobrasil vem possibilitando que esses cruzamentos entre as linhas de força locais e internacionais resultem na invenção de outros nós a partir do Sul.</p>
+', 
 
 
                     '
 
-                    <div class="subTituloPag">Encyclopedia to (Re)View the World</div>
+                    <div class="subTituloPag">Other Nodes from the South</div>
 
                     <p class="assinatura">
                         by Danilo Santos de Miranda<br>
                         Regional Director, Sesc São Paulo
                     </p>
 
-                    <p>The cultural and social changes stemming from new world configurations not only pose huge challenges but also provide and inspire a host of aesthetic possibilities that interfere with the ways of understanding and rethinking contemporaneity. New media and imaging concepts have become ubiquitous in the most diverse and mundane circumstances, as if long part of them, facilitating many of our experiences and, at the same time, rendering them more dispersed and superficial.</p>
+                    <p>In the contemporary global setting, the boundaries that divide nation-states and mark their positions on the world map are relativized by transnational market dynamics. In this context, the idea of geopolitics acquires centrality. By combining geographic and political aspects, this notion reflects the interdependence between territorial, demographic and economic factors in a given country or region, whose governance depends on decisions based on internal and external variables.</p>
 
-                    <p>The dialogue between avant-garde and tradition is an effective way to reflect about new directions amidst the growing myriad of resources that succeed each other and become increasingly accessible. At a time when much of the information in circulation is structured and flows through <em>hyperlinks</em>, the catalog of the Festival’s 20th edition retrieves the concept behind them: the encyclopedia—an organized collection of knowledge in texts and images—appropriating scientific language to transform artists and works into guidelines to examine the world.</p>
+                    <p>In the cultural sphere, intensified relationships between countries give rise to ambivalent cosmopolitanism. On the one hand, the means of colonizing minds are updated, based on imperialist reason forged and spread by the great powers. This same process, on the other hand, paves the way for a surprising non-hegemonic flip side, through which other forms of producing knowledge come to the fore, demanding the decolonization of knowledge while postulating alternative ways of addressing history and the contradictions of present times.</p>
 
-                    <p>This catalog interweaves art, culture, astronomy, biology, history, and geography, among other fields of knowledge, to further evidence the blurring of boundaries between art and science. More than that, it combines ancestral worldviews with critical thinking on the global political conjuncture, a theme present in many of the works by the fifty artists from more than twenty countries taking part in the Festival.</p>
+                    <p>Acknowledgment of the importance of the symbolic production emerging from the fringes of the capitalist world system benefits from the concept of Global South, dear to the premises of the <strong>20th Contemporary Art Festival Sesc_Videobrasil</strong>. Presenting proposals by artists from different nations of the geopolitical South—related to the developing countries—the festival targets the expansion of worldviews, leveraged by artistic investigations imbued with issues that prove to be, dialectically, local and global.</p>
 
-                    <p>In each edition of the Festival, Sesc and Associação Cultural Videobrasil promote the involvement of curators, artists, and researchers from different territories and cultures identified with the notion of global South, seeking to foster the production of this geopolitical region in line with the most recent concerns in the field of visual arts. Through research, development, educational action, involvement, and critical thinking both institutions have updated issues that are endemic below the equator and incorporated important debates into the ever-open content of the arts in full dialogue with the world.</p>') !!}
+                    <p>Lying at this crossroads where the specific meets the general, Sesc presents a cultural action akin to experiences bent on casting off shackles inherited from the colonial past and imposed by a peripheral geopolitical condition. Initiated in the 1990s, the partnership between Sesc and Associação Cultural Videobrasil has enabled such intersections between local and international forces to create other nodes originating in the South.</p>
+') !!}
 
                     
 
