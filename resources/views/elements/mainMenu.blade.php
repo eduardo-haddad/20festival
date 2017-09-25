@@ -31,6 +31,35 @@ $route = Route::getFacadeRoot()->current()->uri();
 		@endif
 	</li>
 
+	@if(strpos($route, 'conceito') === 0 || strpos($route, 'en/conceito') === 0)
+	<li>
+
+		{!! switchLang('Conceito', 'Concept') !!}
+		
+		<div class="submenu" style="display: block !important;">
+			<ul>	
+				<li><a href="{{url('/conceito/curadoria')}}" data-pjax 
+						@if($route=='conceito/curadoria' || $route=='en/conceito/curadoria' || $route=='conceito' || $route=='en/conceito') class="selected" @endif>
+						{!! switchLang('Curadoria', 'Curatorship') !!}
+				</a></li>
+				{{-- <li><a href="{{url('/conceito/eixos-conceituais')}}" data-pjax 
+						@if($route=='conceito/eixos-conceituais' || $route=='en/conceito/eixos-conceituais') class="selected" @endif>
+						{!! switchLang('Eixos conceituais', '') !!}
+				</a></li> --}}
+				<li><a href="{{url('/conceito/identidade-visual')}}" data-pjax 
+						@if($route=='conceito/identidade-visual' || $route=='en/conceito/identidade-visual') class="selected" @endif>
+						{!! switchLang('Identidade visual', 'Visual identity') !!}
+				</a></li>
+			</ul>
+		</div>
+
+	</li>
+	@else
+	<li>
+		<a href="{{url('/conceito')}}" data-pjax>{!! switchLang('Conceito', 'Concept') !!}</a>
+	</li>
+	@endif
+
 	@if(strpos($route, 'programacao') === 0 || strpos($route, 'en/programacao') === 0)
 	<li>
 
@@ -73,6 +102,35 @@ $route = Route::getFacadeRoot()->current()->uri();
 	@else
 	<li>
 		<a href="{{url('/programacao')}}" data-pjax>{!! switchLang('Programação', 'Program') !!}</a>
+	</li>
+	@endif
+
+	@if(strpos($route, 'premios') === 0 || strpos($route, 'en/premios') === 0)
+	<li>
+
+		{!! switchLang('Prêmios', 'Awards') !!}
+		
+		<div class="submenu" style="display: block !important;">
+			<ul>		
+				<li><a href="{{url('/premios')}}" data-pjax 
+						@if($route=='premios' || $route=='en/premios') class="selected" @endif>
+						{!! switchLang('Prêmios', 'Awards') !!}
+				</a></li>
+				<li><a href="{{url('/premios/juri')}}" data-pjax 
+						@if($route=='premios/juri' || $route=='en/premios/juri') class="selected" @endif>
+						{!! switchLang('Júri', 'Jury') !!}
+				</a></li>
+				<li><a href="{{url('/premios/trofeu')}}" data-pjax 
+						@if($route=='premios/trofeu' || $route=='en/premios/trofeu') class="selected" @endif>
+						{!! switchLang('Troféu', 'Trophy') !!}
+				</a></li>
+			</ul>
+		</div>
+
+	</li>
+	@else
+	<li>
+		<a href="{{url('/premios')}}" data-pjax>{!! switchLang('Prêmios', 'Awards') !!}</a>
 	</li>
 	@endif
 	

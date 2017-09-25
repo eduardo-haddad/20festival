@@ -27,10 +27,10 @@
 
                 <div class="fichaTecnica borderbox">
 
-                    <h1>
+                    {{-- <h1>
                         {!! switchLang('20º FESTIVAL DE ARTE CONTEMPORÂNEA SESC_VIDEOBRASIL',
                                        '20TH CONTEMPORARY ART FESTIVAL SESC_VIDEOBRASIL') !!}
-                    </h1>
+                    </h1> --}}
 
                     <div class="fichaEsq borderbox">
 

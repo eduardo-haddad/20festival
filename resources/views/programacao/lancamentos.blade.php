@@ -26,7 +26,7 @@
                  {!! switchLang('Lançamentos', 'Launch') !!}
                 </div>
 
-                <div class="textoPrincipal espaco">
+                <div class="textoPrincipal">
                     {!!switchLang(
                     'Dia 7.10, sábado, às 17h / Deck<br><br>
                     <strong>COINCIDÊNCIA – Programa Pro Helvetia para a América do Sul</strong>', 

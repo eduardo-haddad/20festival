@@ -61,25 +61,19 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 		return view('imprensa');
 	});
 
-	/* Programa de vídeo */
-	// Route::get('/programa-de-video', function(){
-	// 	return view('programa-de-video.programa1');
-	// });
-	// Route::get('/programa-de-video/programa1', function(){
-	// 	return view('programa-de-video.programa1');
-	// });
-	// Route::get('/programa-de-video/programa2', function(){
-	// 	return view('programa-de-video.programa2');
-	// });
-	// Route::get('/programa-de-video/programa3', function(){
-	// 	return view('programa-de-video.programa3');
-	// });
-	// Route::get('/programa-de-video/programa4', function(){
-	// 	return view('programa-de-video.programa4');
-	// });
-	// Route::get('/programa-de-video/programa5', function(){
-	// 	return view('programa-de-video.programa5');
-	// });
+	/* Conceito */
+	Route::get('/conceito', function(){
+		return view('conceito.curadoria');
+	});
+	Route::get('/conceito/curadoria', function(){
+		return view('conceito.curadoria');
+	});
+	Route::get('/conceito/eixos-conceituais', function(){
+		return view('conceito.eixos-conceituais');
+	});
+	Route::get('/conceito/identidade-visual', function(){
+		return view('conceito.identidade-visual');
+	});
 
 	/* Programação */
 	Route::get('/programacao', function(){
@@ -106,6 +100,18 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 	Route::get('/programacao/agenda', function(){
 		return view('programacao.agenda');
 	});
+
+	/* Prêmios */
+	Route::get('/premios', function(){
+		return view('premios.premios');
+	});
+	Route::get('/premios/juri', function(){
+		return view('premios.juri');
+	});
+	Route::get('/premios/trofeu', function(){
+		return view('premios.trofeu');
+	});
+
 
 	/* Downloads */
 	Route::get('/download/{file}', 'Controller@getDownload');
