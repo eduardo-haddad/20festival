@@ -112,6 +112,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 		return view('premios.trofeu');
 	});
 
+	/* Publicações */
+	Route::get('/publicacoes', function(){
+		return view('publicacoes');
+	});
+
 
 	/* Downloads */
 	Route::get('/download/{file}', 'Controller@getDownload');

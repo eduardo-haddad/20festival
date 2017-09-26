@@ -39,6 +39,8 @@
                         Vitor Cesar & Felipe Kaizer
                     </p>
 
+                    <p><strong>Sul e Norte</strong></p>
+
                     <p>Em questão, o Sul do mundo. Destaca-se o “Sul” dos “Panoramas” em detrimento dos outros elementos que compõem o título da exposição. O Sul supera em importância tudo o mais. “Sul” é um dos nomes do Festival e remete aos debates sobre <em>descolonização </em>e <em>pós-colonianismo</em>. Assim se expressa a direção geral da curadoria nos últimos anos. A diferença dessa vez está na <em>desierarquização</em> dos nomes, em desacordo com a lógica oriunda do Norte.</p>
 
                     <p>O Sul também é tema no Norte. Mais uma vez, o Norte se interessa pelo Sul. As razões de hoje se encontram nos limites da sociedade afluente, que rapidamente se torna insustentável. Busca-se no Sul outros modos de viver, novos campos a ocupar. Nos seus termos, o Norte fala de um “estado mental” ainda destacado do corpo. Mas no Sul o problema não se coloca da mesma forma.</p>
@@ -64,7 +66,37 @@
                     <p>Esse processo parte de reflexões curatoriais. Decisões sobre conceitos, mas também sobre artistas. Identifica-se um universo particular na produção escolhida. A partir daí se define um “vocabulário” possível para esse universo. Mas, nesse processo, experimenta-se a antítese da sistematização: catálogo, sinalização, anúncios são desenhados <em>caso a caso</em>. Essa atitude não impede que o projeto como um todo encontre, afinal, uma forma singular, considerando o modo como cada manifestação da linguagem herda características da anterior e incorpora novos elementos.</p>', 
 
 
-                    '') !!}
+                    '<div class="subTituloPag">Topics on the visual language of the 20th Contemporary Art Festival Sesc_Videobrasil</div>
+
+                    <p class="assinatura">
+                        Vitor Cesar & Felipe Kaizer
+                    </p>
+
+                    <p><strong>South and North</strong></p>
+
+                    <p>The South of the world is in focus. The word “Sul” (South) is emphasized over the other elements that make up the exhibition’s title. The South surpasses in importance everything else. “South” is one of the Festival’s names, alluding to the debates on <em>decolonization</em> and <em>post-colonialism</em>. That is how the curatorship’s overarching trend has been expressed in recent years. The difference this time is the break with the hierarchization of names, running counter to the logic stemming from the North.</p>
+
+                    <p>The South is also a subject in the North. Once again, the North takes an interest in the South. Current reasons lie in the limitations of affluent society, which is quickly becoming unsustainable. The South seeks different ways of life, new fields to occupy. In its own terms, the North speaks of a “state of mind” still detached from the body. But in the South the problem is not approached in the same way.</p>
+
+                    <p><strong>Anthropocene</strong></p>
+
+                    <p>We live in a geological age which is also artificially produced. From now on, human beings are a factor of the planet’s climate. The <em>Anthropocene</em> implies, among other things, overcoming the difference between natural and artificial. Human beings result from climatic conditions and climatic conditions result from human action. Plastic is a component of new volcanic rock. <em>Plastiglomerates</em> accumulate in seas and shores. Soon they will be found in streets and apartments.</p>
+
+                    <p>Buildings over sidewalks over stones, in layers, give rise to great confusion. The <em>urban</em> is, from now on, irremediably at the core of our concerns. It is a point of no return. Everything revolves around its quantities, its scales, its densities. Cities expand, multiply, obstruct each other.</p>
+
+                    <p><strong>Visual identities</strong></p>
+
+                    <p>Every visual identity <em>identifies</em> and <em>communicates</em>. Every identity seeks repetition and coherence. To this end, <em>control</em> is kept over its manifestations. Such control is acquired through <em>systems</em> and <em>programs</em>. Thus reads the corporate identity textbook, internationally consolidated post-1950.</p>
+
+                    <p>The Sesc_Videobrasil Festival project seeks to steer clear of such imperatives. It is a contemporary art exhibition with no problems of continuity. There remains, however, the demand for <em>distinction</em>, in whose name one runs the risk of <em>strangeness</em> in face of the standard project for art.</p>
+
+                    <p>Also considered are the conditions of new means of communication. The digital environment promotes the dissociation between visual form and information structure. Nowadays, all textual information borrows the media vehicles in which it circulates. The pressure for distinction then falls entirely on the <em>image</em>. That has consequences for all visual communicators who have become accustomed to the predictable interaction between text and image.</p>
+
+                    <p><strong>Ways of doing</strong></p>
+
+                    <p>The visual language of the 20th Contemporary Art Festival Sesc_Videobrasil is a response to the series of questions raised. Or rather, to the extent that the questions remain unanswered, graphic design configures itself as a question. What one sees is a way of questioning.</p>
+
+                    <p>This process starts out from curatorial reflections. Decisions on concepts, but also on artists. A particular universe is identified in the chosen production. Then, a possible “vocabulary” is defined for that universe. However, the antithesis of systematization is attempted in this process: catalog, signage, advertisements are drawn <em>case by case</em>. Such an attitude does not prevent the project as a whole from eventually finding an individual form, considering how each manifestation of language inherits traits from the former and incorporates new elements.</p>') !!}
 
                     
 
