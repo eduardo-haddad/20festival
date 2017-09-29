@@ -50,6 +50,10 @@ $route = Route::getFacadeRoot()->current()->uri();
 						@if($route=='conceito/identidade-visual' || $route=='en/conceito/identidade-visual') class="selected" @endif>
 						{!! switchLang('Identidade visual', 'Visual identity') !!}
 				</a></li>
+				<li><a href="{{url('/conceito/expografia')}}" data-pjax 
+						@if($route=='conceito/expografia' || $route=='en/conceito/expografia') class="selected" @endif>
+						{!! switchLang('Expografia', 'Exhibition design') !!}
+				</a></li>
 			</ul>
 		</div>
 

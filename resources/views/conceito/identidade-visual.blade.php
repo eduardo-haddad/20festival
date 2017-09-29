@@ -36,7 +36,7 @@
                     <div class="subTituloPag">Tópicos sobre a linguagem visual do 20º Festival de Arte Contemporânea Sesc_Videobrasil</div>
 
                     <p class="assinatura">
-                        Vitor Cesar & Felipe Kaizer
+                        por Vitor Cesar & Felipe Kaizer
                     </p>
 
                     <p><strong>Sul e Norte</strong></p>
@@ -69,7 +69,7 @@
                     '<div class="subTituloPag">Topics on the visual language of the 20th Contemporary Art Festival Sesc_Videobrasil</div>
 
                     <p class="assinatura">
-                        Vitor Cesar & Felipe Kaizer
+                        by Vitor Cesar & Felipe Kaizer
                     </p>
 
                     <p><strong>South and North</strong></p>

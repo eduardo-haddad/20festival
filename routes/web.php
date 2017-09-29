@@ -74,6 +74,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 	Route::get('/conceito/identidade-visual', function(){
 		return view('conceito.identidade-visual');
 	});
+	Route::get('/conceito/expografia', function(){
+		return view('conceito.expografia');
+	});
 
 	/* Programação */
 	Route::get('/programacao', function(){
