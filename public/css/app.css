@@ -577,6 +577,16 @@ main {
   text-transform: uppercase;
   font-weight: 700; }
 
+.obraExpo {
+  margin-bottom: 30px; }
+
+.obraExpo .listaObras {
+  font-size: 0.9em;
+  line-height: 1.3em; }
+
+.obraExpo .tituloObra {
+  margin: 0 !important; }
+
 /* Logos */
 #logos {
   width: 100%;

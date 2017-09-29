@@ -80,8 +80,15 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 		return view('programacao.programa-de-video');
 	});
 	Route::get('/programacao/exposicao', function(){
+
+		/* Convivência */
+
+
+
+
 		return view('programacao.exposicao');
 	});
+
 	Route::get('/programacao/programa-de-video', function(){
 		return view('programacao.programa-de-video');
 	});
