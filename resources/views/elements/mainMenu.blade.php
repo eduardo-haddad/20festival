@@ -68,11 +68,11 @@ $route = Route::getFacadeRoot()->current()->uri();
 		<div class="submenu" style="display: block !important;">
 			<ul>	
 				<li><a href="{{url('/programacao/exposicao')}}" data-pjax 
-						@if($route=='programacao/exposicao' || $route=='en/programacao/exposicao') class="selected" @endif>
+						@if($route=='programacao/exposicao' || $route=='en/programacao/exposicao' || $route=='programacao' || $route=='en/programacao') class="selected" @endif>
 						{!! switchLang('Exposição', 'Exhibition') !!}
 				</a></li>			
 				<li><a href="{{url('/programacao/programa-de-video')}}" data-pjax 
-						@if($route=='programacao/programa-de-video' || $route=='en/programacao/programa-de-video' || $route=='programacao' || $route=='en/programacao') class="selected" @endif>
+						@if($route=='programacao/programa-de-video' || $route=='en/programacao/programa-de-video') class="selected" @endif>
 						{!! switchLang('Programa de vídeo', 'Video program') !!}
 				</a></li>
 				<li><a href="{{url('/programacao/performances')}}" data-pjax 
