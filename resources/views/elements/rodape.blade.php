@@ -1,6 +1,6 @@
 <div class="newsletter">
 	Receba notícias sobre o 20º Festival de Arte<br>Contemporânea Sesc_Videobrasil<br>
-	[FORMULARIO]
+	[Aguarde]
 </div>
 
 <div class="mv clear"></div>
@@ -38,20 +38,19 @@
 	<div class="redes">
 		<div class="vb">
 			<a href="http://videobrasil.org.br" target="_blank">videobrasil.org.br</a><br>
-			<a href="#" {{-- target="_blank" --}}>facebook</a><br>
-			<a href="#" {{-- target="_blank" --}}>twitter</a><br>
-			<a href="#" {{-- target="_blank" --}}>instagram</a><br>
-			<a href="#" {{-- target="_blank" --}}>flickr</a><br>
-			<a href="#" {{-- target="_blank" --}}>youtube</a>
+			<a href="https://www.facebook.com/ACVideobrasil" target="_blank">facebook</a><br>
+			<a href="http://instagram.com/videobrasil" target="_blank">instagram</a><br>
+			<a href="http://flickr.com/videobrasil" target="_blank">flickr</a><br>
+			<a href="https://www.youtube.com/channel/UC-zNq5fU2e5SkY7ClBzGiZw" target="_blank">youtube</a>
 		</div>
 
 		<div class="sesc">
 			<a href="http://sescsp.org.br" target="_blank">sescsp.org.br</a><br>
-			<a href="#" {{-- target="_blank" --}}>facebook</a><br>
-			<a href="#" {{-- target="_blank" --}}>twitter</a><br>
-			<a href="#" {{-- target="_blank" --}}>instagram</a><br>
-			<a href="#" {{-- target="_blank" --}}>spotify</a><br>
-			<a href="#" {{-- target="_blank" --}}>youtube</a><br>
+			<a href="http://facebook.com/sescsp" target="_blank">facebook</a><br>
+			<a href="http://twitter.com/sescsp" target="_blank">twitter</a><br>
+			<a href="http://instagram.com/sescsp" target="_blank">instagram</a><br>
+			{{-- <a href="#" target="_blank">spotify</a><br> --}}
+			<a href="http://youtube.com/sescsp" target="_blank">youtube</a><br>
 		</div>
 	</div>
 
