@@ -27,11 +27,14 @@
                 <!-- Programa 1 -->
                 <a name="programa1"></a>
                 <div class="texto interno">
-                {!! switchLang('<h1>PROGRAMA 1</h1>&nbsp;&nbsp;Duracão 1h15’50”<br>
+                {!! switchLang('<h1>PROGRAMA 1</h1>&nbsp;&nbsp;Duração 1h15’50”<br>
                     Dia 4.10 às 13h, 15h, 17h, 19h e 21h; dia 8.10, às 10h<br>
                     A partir do dia 10.10: de terça a sábado, às 12h; domingos, às 10h', 
 
-                    '') !!}
+                    '<h1>PROGRAM 1</h1>&nbsp;&nbsp;Running time 1h15’50”<br>
+                    Oct 4, at 1:00 p.m., 3:00 p.m., 5:00 p.m., 7:00 p.m.,<br>and 9:00 p.m.; Oct 8, at 10:00 a.m.<br>
+                    As of Oct 10: Tuesdays through Saturdays, at 12:00 p.m.;<br>
+                    Sundays, at 10:00 a.m.') !!}
                     
                 </div>
 
@@ -85,11 +88,14 @@
                 <!-- Programa 2 -->
                 <a name="programa2"></a>
                 <div class="texto interno programa">
-                {!! switchLang('<h1>PROGRAMA 2</h1>&nbsp;&nbsp;Duracão 1h06’20”<br>
+                {!! switchLang('<h1>PROGRAMA 2</h1>&nbsp;&nbsp;Duração 1h06’20”<br>
                     Dia 5.10 às 13h, 15h, 17h, 19h e 21h; dia 8.10, às 12h<br>
                     A partir do dia 10.10: de terça a sábado, às 14h; domingos, às 12h', 
 
-                    '') !!}
+                    '<h1>PROGRAM 2</h1>&nbsp;&nbsp;Running time 1h06’20”<br>
+                    Oct 5, at 1:00 p.m., 3:00 p.m., 5:00 p.m., 7:00 p.m.,<br>and 9:00 p.m.; Oct 8, at 12:00 p.m.<br>
+                    As of Oct 10: Tuesdays through Saturdays, at 2:00 p.m.;<br>
+                    Sundays, at 12:00 p.m.') !!}
                     
                 </div>
 
@@ -118,11 +124,14 @@
                 <!-- Programa 3 -->
                 <a name="programa3"></a>
                 <div class="texto interno programa">
-                {!! switchLang('<h1>PROGRAMA 3</h1>&nbsp;&nbsp;Duracão 1h02’41”<br>
+                {!! switchLang('<h1>PROGRAMA 3</h1>&nbsp;&nbsp;Duração 1h02’41”<br>
                     Dia 6.10 às 13h, 15h, 17h, 19h e 21h; dia 8.10, às 14h<br>
                     A partir do dia 10.10: de terça a sábado, às 16h; domingos, às 14h', 
 
-                    '') !!}
+                    '<h1>PROGRAM 3</h1>&nbsp;&nbsp;Running time 1h02’41”<br>
+                    Oct 6, at 1:00 p.m., 3:00 p.m., 5:00 p.m., 7:00 p.m.,<br>and 9:00 p.m.; Oct 8, at 2:00 p.m.<br>
+                    As of Oct 10: Tuesdays through Saturdays, at 4:00 p.m.;<br>
+                    Sundays, at 2:00 p.m.') !!}
                     
                 </div>
 
@@ -162,11 +171,14 @@
                 <!-- Programa 4 -->
                 <a name="programa4"></a>
                 <div class="texto interno programa">
-                {!! switchLang('<h1>PROGRAMA 4</h1>&nbsp;&nbsp;Duracão 1h15’<br>
+                {!! switchLang('<h1>PROGRAMA 4</h1>&nbsp;&nbsp;Duração 1h15’<br>
                     Dia 7.10 às 12h e 16h; dia 8.10, às 16h<br>
                     A partir do dia 10.10: de terça a sábado, às 18h; domingos, às 16h', 
 
-                    '') !!}
+                    '<h1>PROGRAM 4</h1>&nbsp;&nbsp;Running time 1h15’<br>
+                    Oct 7, at 12:00 p.m. and 4:00 p.m.; Oct 8, at 4:00 p.m.<br>
+                    As of Oct 10: Tuesdays through Saturdays, at 6:00 p.m.;<br>
+                    Sundays, at 4:00 p.m.') !!}
                     
                 </div>
 
@@ -184,11 +196,14 @@
                 <!-- Programa 5 -->
                 <a name="programa5"></a>
                 <div class="texto interno programa">
-                {!! switchLang('<h1>PROGRAMA 5</h1>&nbsp;&nbsp;Duracão 1h15’<br>
+                {!! switchLang('<h1>PROGRAMA 5</h1>&nbsp;&nbsp;Duração 1h15’<br>
                     Dia 7.10 às 14h e 18h; dia 8.10, às 18h<br>
                     A partir do dia 10.10: de terça a sábado, às 20h; domingos, às 18h', 
 
-                    '') !!}
+                    '<h1>PROGRAM 5</h1>&nbsp;&nbsp;Running time 1h15’<br>
+                    Oct 7, at 2:00 p.m. and 6:00 p.m.; Oct 8, at 6:00 p.m.<br>
+                    As of Oct 10: Tuesdays through Saturdays, at 8:00 p.m.;<br>
+                    Sundays, at 6:00 p.m.') !!}
                     
                 </div>
 
