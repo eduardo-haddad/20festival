@@ -28,6 +28,28 @@
 
                 <div class="textoPrincipal">
                     {!!switchLang(
+                    'Dia 3.10, terça, às 20h / Rua central<br>
+                    Dia 4.10, quarta, das 16h às 19h / Rua central<br>
+                    Dia 5.10, quinta, das 16h às 19h / Rua central<br><br>
+                    <strong>Roy Dib</strong> (Líbano)<br>
+                    <em>Here and There – São Paulo Edition</em>, 2017', 
+
+                    'Tuesday, Oct 3, at 8:00 p.m. / Central street<br>
+                    Wednesday, Oct 4, from 4:00 p.m. to 7:00 p.m. / Central street<br>
+                    Thursday, Oct 5, from 4:00 p.m. to 7:00 p.m. / Central street<br><br>
+                    <strong>Roy Dib</strong> (Lebanon)<br>
+                    <em>Here and There – São Paulo Edition</em>, 2017')!!}
+                </div>
+                
+                <div class="texto interno">
+                    {!! switchLang(
+                                    'Em Alepo, uma das cidades sírias mais atingidas pela guerra, quem não tem refúgio usa cortinas e tapetes costurados para se proteger – se não das balas, pelo menos da visão dos atiradores. Os corredores coloridos de paredes de pano são uma imagem contundente das atrocidades da guerra. Na performance, uma parede-cortina semelhante é erguida no espaço do Festival por uma atriz que cose retalhos de tecidos orientais com uma agulha de tapeçaria, enquanto fala um texto. ', 
+
+                                    'In Aleppo, one of the most war-torn cities in Syria, those who have no shelter protect themselves behind curtains and carpets stitched together—if not from the bullets, at least from the sight of snipers. The colorful corridors of cloth walls are a powerful image of the atrocities of war. In the performance, a similar curtain-wall is set up in the Festival space by an actress who sews a patchwork of Eastern fabrics with a tapestry needle while reciting a text. ') !!}
+                </div>
+
+                <div class="textoPrincipal espaco">
+                    {!!switchLang(
                     'Dia 3.10, terça, às 21h30 / Comedoria<br><br>
                     <strong>Natasha Mendonca e Suman Sridhar</strong> (Índia)<br>
                     <em>The Black Mamba</em>, 75’', 
@@ -77,6 +99,29 @@
                     'In an environment featuring musical instruments—bass drum, cymbal, bagpipes—and inflatable, hanging objects, the artists and a musician put on a scenic-sonorous concert. The “toncert” is based on two motifs, the first Tau and the second Tau. “The first Tau addresses the tautauistic speculative principle which states that the original tone of the universe (the first Tau?) stems from the copy and replication of itself ((the second Tau?)). Thus, it is the tautauistic copy and replication of the Tau that originates the Tau. The second Tau is the attempt to discuss this phenomenon through words, in a concert made up of short songs. The ultimate aim is, therefore, to finish at the end. After the second Tau follows (((at last)) the first Tau.”') !!}
                 </div>
 
+
+                <div class="textoPrincipal espaco">
+                    {!!switchLang(
+                    'Dia 6.10, sexta, às 20h30 / Convivência<br>
+                    Dia 4.11, sábado, às 15h / Convivência<br><br>
+                    <strong>Mabe Betônico</strong> (Brasil)<br>
+                    <em>Histórias minerais extraordinárias</em>, 2017, aproximadamente 50’', 
+
+                    'Friday, Oct 6, at 8:30 p.m. / Convivência<br>
+                    Saturday, Nov 4, at 3 p.m. / Convivência<br>
+                    <strong>Mabe Betônico</strong> (Brasil)<br>
+                    <em>Histórias minerais extraordinárias</em>, 2017, approximately 50’')!!}
+                </div>
+                
+                <div class="texto interno">
+                    {!! switchLang(
+                                    'A videoinstalação promove uma visita ao universo íntimo do povo Hunikui (Kaxinawà), na fronteira amazônica entre Brasil e Peru. Afastando-se deliberadamente do exotismo, do didatismo e de um viés antropológico-artístico, as imagens de detalhes e planos fechados buscam sensações para partilhar e revelam modos de vida e saberes. ',
+
+                                    'Drawing on three characters in Swiss history—the geographer Aubert de la Rüe, the ufologist Billy Meier, and Pierre Versins, founder of the science fiction museum Maison d’Ailleurs—the work overlays boundaries between geography, ufology, and fiction, and takes on the format of a lecture and debate event. ') !!}
+                </div>
+
+
+
                 <div class="textoPrincipal espaco">
                     {!!switchLang(
                     'Dia 7.10, sábado, às 20h30 / Auditório<br><br>
@@ -92,6 +137,24 @@
                     {!! switchLang('Um texto que desconstrói o título da performance e envolve notícias relacionadas ao momento histórico contemporâneo é a base da ação. Enquanto lê o texto, o artista projeta imagens, criando uma narrativa a partir da notícia de uma praga que afeta as palmeiras em Portugal e se alastra pelo sul da Europa. “No limite, nosso desejo é tornar o mundo maior ou menor? Por que as palmeiras são símbolo de desejo? Será por esse motivo que suas folhas estão sendo queimadas? Resta-nos ser ainda mais selvagens ou menos selvagens, mais ou menos animais? Quem são os bárbaros de hoje? Talvez os agentes da bolsa de Wall Street, que Paul Krugman considera os responsáveis pela crise econômica atual?”, diz o artista, num trecho do texto.”', 
 
                     'A text that deconstructs the performance’s title and involves news related to the current historical moment is the basis of the action. While reading the text, the artist screens images, creating a narrative from the news of a pest that a ects palm trees in Portugal and is spreading throughout southern Europe. “Ultimately, do we desire to make the world larger or smaller? Why are palm trees a symbol of desire? Is that why their leaves are being burned? Should we be even more savage or less savage, more or less animal? Who are the barbarians of today? Perhaps the Wall Street stockbrokers, whom Paul Krugman blames for the current economic crisis?” asks the artist in a passage from the text.”') !!}
+                </div>
+
+                <div class="textoPrincipal espaco">
+                    {!!switchLang(
+                    'Dias 7 e 8.10, sábado e domingo, às 15h / Convivência<br><br>
+                    <strong>Emo de Medeiros</strong> (França)<br>
+                    <em>Kaleta/Kaleta</em>, 2013-2017, aproximadamente 45’', 
+
+                    'Oct 7–8, at 3:00 p.m. / Convivência<br><br>
+                    <strong>Emo de Medeiros</strong> (France)<br>
+                    <em>Kaleta/Kaleta</em>, 2013-2017, approximately 45’')!!}
+                </div>
+                
+                <div class="texto interno">
+                    {!! switchLang(
+                                    'No fim do ano, a juventude de Benin celebra a Kaleta, festividade com máscaras locais que parece uma mistura de Carnaval brasileiro e Halloween norte-americano. A tradição é atribuída a ex-escravos que foram levados para o Brasil e voltaram ao Benin após se sublevarem na Revolta dos Malês, ocorrida em 1835 em Salvador. Com elementos da festa, o artista cria um ambiente imersivo que convida o público a confrontar suas próprias personas. ', 
+
+                                    'At the end of the year, Benin’s youth celebrate Kaleta, a festivity with local masks that resembles a mixture of Brazilian Carnival and American Halloween. The tradition is attributed to former slaves who were brought to Brazil and returned to Benin after taking part in the Bahia Muslim slave revolt in Salvador in 1835. Drawing on the festivity elements, the artist creates an immersive environment that invites the audience to confront their own personas. ') !!}
                 </div>
 
                 <div class="textoPrincipal espaco">
