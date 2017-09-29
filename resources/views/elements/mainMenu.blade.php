@@ -8,9 +8,12 @@ $route = Route::getFacadeRoot()->current()->uri();
 		@if(strpos($route, 'sobre') === 0 || strpos($route, 'en/sobre') === 0)
 			{!! switchLang('Sobre', 'About') !!}
 			<div class="submenu" style="display: block !important;">
-				<ul>				
+				<ul>
+					<li><a href="{{url('/sobre/apresentacao')}}" data-pjax 
+							@if($route=='sobre/apresentacao' || $route=='en/sobre/apresentacao' || $route=='sobre' || $route=='en/sobre') class="selected" @endif>
+							{!! switchLang('Apresentação', 'Introduction') !!}			
 					<li><a href="{{url('/sobre/sesc')}}" data-pjax 
-							@if($route=='sobre/sesc' || $route=='en/sobre/sesc' || $route=='sobre' || $route=='en/sobre') class="selected" @endif>
+							@if($route=='sobre/sesc' || $route=='en/sobre/sesc') class="selected" @endif>
 							{!! switchLang('Palavra do Sesc', 'Word from Sesc') !!}
 					</a></li>
 					<li><a href="{{url('/sobre/videobrasil')}}" data-pjax

@@ -44,7 +44,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 
 	/* Sobre */
 	Route::get('/sobre', function(){
-		return view('sobre.sesc');
+		return view('sobre.apresentacao');
+	});
+	Route::get('/sobre/apresentacao', function(){
+		return view('sobre.apresentacao');
 	});
 	Route::get('/sobre/sesc', function(){
 		return view('sobre.sesc');
