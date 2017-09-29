@@ -2,7 +2,7 @@
 	
 	{!! switchLang('Receba notícias sobre o 20º Festival de Arte<br>Contemporânea Sesc_Videobrasil<br>
 	[Aguarde]', 
-	'Receive the latest news from the 20th Contemporary Art Festival Sesc_Videobrasil<br>
+				   'Receive the latest news from the 20th Contemporary<br>Art Festival Sesc_Videobrasil<br>
 	[Soon]') !!}
 </div>
 
