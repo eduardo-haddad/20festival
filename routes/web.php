@@ -77,7 +77,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 
 	/* Programação */
 	Route::get('/programacao', function(){
-		return view('programacao.programa-de-video');
+		return view('programacao.exposicao');
 	});
 	Route::get('/programacao/exposicao', function(){
 
