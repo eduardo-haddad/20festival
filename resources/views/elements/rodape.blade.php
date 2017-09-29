@@ -1,12 +1,15 @@
 <div class="newsletter">
-	Receba notícias sobre o 20º Festival de Arte<br>Contemporânea Sesc_Videobrasil<br>
-	[Aguarde]
+	
+	{!! switchLang('Receba notícias sobre o 20º Festival de Arte<br>Contemporânea Sesc_Videobrasil<br>
+	[Aguarde]', 
+	'Receive the latest news from the 20th Contemporary Art Festival Sesc_Videobrasil<br>
+	[Soon]') !!}
 </div>
 
 <div class="mv clear"></div>
 
 <div class="servico">
-	<p>Sesc Pompeia</p>
+{!! switchLang('<p>Sesc Pompeia</p>
 	<p>Rua Clélia, 93, Pompeia São Paulo</p>
 	<p>Visitação<br>
 	de 3 de outubro de 2017 <br>
@@ -14,7 +17,19 @@
 	terça a sábado, <br>
 	das 9h às 22h<br>
 	domingos e feriados, <br>
-	das 9h às 20h</p>
+	das 9h às 20h</p>', 
+
+	'<p>Sesc Pompeia</p>
+	<p>Rua Clélia, 93, Pompeia São Paulo</p>
+	<p>Visiting hours<br>
+	from october 3, 2017<br>
+	to january 14, 2018<br>
+	tue-sat, from 9am to 10pm<br>
+	sun, holidays,<br>
+	from 9am to 8pm</p>') !!}
+
+ 
+	
 </div>
 
 <div class="mv clear"></div>
