@@ -116,7 +116,8 @@ a.selected:hover {
   top: 0;
   background: white;
   padding: 24px 24px 0 24px;
-  display: table; }
+  display: table;
+  z-index: 1; }
 
 #header #brand {
   font-family: 'Fugue';
