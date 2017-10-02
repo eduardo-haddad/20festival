@@ -815,9 +815,9 @@
     
                             <p>
                                 {!! switchLang(
-                                    'A videoinstalação promove uma visita ao universo íntimo do povo Hunikui (Kaxinawà), na fronteira amazônica entre Brasil e Peru. Afastando-se deliberadamente do exotismo, do didatismo e de um viés antropológico-artístico, as imagens de detalhes e planos fechados buscam sensações para partilhar e revelam modos de vida e saberes. ',
+                                    'Partindo de três personagens da história da Suíça – o geógrafo Aubert de la Rüe, o ufólogo Billy Meier e Pierre Versins, fundador do museu de ficção científica Maison d’Ailleurs –, o trabalho sobrepõe fronteiras entre geografia, ufologia e ficção, e toma a forma de um programa de palestras e debates.',
 
-                                    'Drawing on three characters in Swiss history—the geographer Aubert de la Rüe, the ufologist Billy Meier, and Pierre Versins, founder of the science fiction museum Maison d’Ailleurs—the work overlays boundaries between geography, ufology, and fiction, and takes on the format of a lecture and debate event. ') !!}
+                                    'Drawing on three characters in Swiss history—the geographer Aubert de la Rüe, the ufologist Billy Meier, and Pierre Versins, founder of the science fiction museum Maison d’Ailleurs—the work overlays boundaries between geography, ufology, and fiction, and takes on the format of a lecture and debate event.') !!}
 
                             </p>
                         </article>
