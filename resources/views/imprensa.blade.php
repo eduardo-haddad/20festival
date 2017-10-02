@@ -27,7 +27,9 @@
                 <div class="texto">
 
                     {{-- {!! switchLang('', '') !!} --}}
-                    <span class="bold">Press release</span>: <a href="/download/release_20Festival_pt.pdf">PT</a> / <a href="/download/release_20Festival_en.pdf">EN</a>
+                    <p><span class="bold">Press release</span>: <a class="underline" href="/download/release_20Festival_pt.pdf">PT</a> / <a class="underline" href="/download/release_20Festival_en.pdf">EN</a></p>
+
+                    <p><span class="bold">{!! switchLang('Imagens (obras)', 'Images (works)') !!}</span>: <a class="underline" href="/download/20FestivalSescVideobrasil_imagens.zip">download</a></p>
                     
                 </div>
             </div>
