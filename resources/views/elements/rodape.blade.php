@@ -64,7 +64,7 @@
 			<a href="http://facebook.com/sescsp" target="_blank">facebook</a><br>
 			<a href="http://twitter.com/sescsp" target="_blank">twitter</a><br>
 			<a href="http://instagram.com/sescsp" target="_blank">instagram</a><br>
-			{{-- <a href="#" target="_blank">spotify</a><br> --}}
+			<a href="https://open.spotify.com/user/sescsp" target="_blank">spotify</a><br>
 			<a href="http://youtube.com/sescsp" target="_blank">youtube</a><br>
 		</div>
 	</div>
