@@ -1,9 +1,7 @@
 <div class="newsletter">
 	
-	{!! switchLang('Receba notícias sobre o 20º Festival de Arte<br>Contemporânea Sesc_Videobrasil<br>
-	[Aguarde]', 
-				   'Receive the latest news from the 20th Contemporary<br>Art Festival Sesc_Videobrasil<br>
-	[Soon]') !!}
+	<a href="http://site.videobrasil.org.br/" target="_blank">{!! switchLang('Receba notícias sobre o 20º Festival de Arte<br>Contemporânea Sesc_Videobrasil', 
+				   'Receive the latest news from the 20th Contemporary<br>Art Festival Sesc_Videobrasil') !!}</a>
 </div>
 
 <div class="mv clear"></div>
