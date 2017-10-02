@@ -800,14 +800,14 @@
                                         '<em>Histórias minerais extraordinárias</em>, 2017<br>
                                         Instalação<br><br>
                                         Narrativa performada<br>
-                                        (aproximadamente 50’)<br>
+                                        (aproximadamente 25’)<br>
                                         Dia 6.10, às 20h30<br>
                                         Dia 4.11, às 15h', 
 
                                         '<em>Histórias minerais extraordinárias</em>, 2017<br>
                                         Installation<br><br>
                                         Narrative performance<br>
-                                        (approximately 50’)<br>
+                                        (approximately 25’)<br>
                                         Oct 6, at 8:30 p.m.<br>
                                         Nov 4, at 3:00 p.m') !!}
                                 </section>
