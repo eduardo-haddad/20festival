@@ -29,7 +29,7 @@
                     {{-- {!! switchLang('', '') !!} --}}
                     <p><span class="bold">Press release</span>: <a class="underline" href="/download/release_20Festival_pt.pdf">PT</a> / <a class="underline" href="/download/release_20Festival_en.pdf">EN</a></p>
 
-                    <p><span class="bold">{!! switchLang('Imagens (obras)', 'Images (works)') !!}</span>: <a class="underline" href="http://videobrasil.org.br/press/20festival/imagens_imprensa/20FestivalSescVideobrasil_imagens.zip">download</a></p>
+                    <p><span class="bold">{!! switchLang('Imagens (obras)', 'Images (works)') !!}</span>: <a class="underline" href="http://videobrasil.org.br/press/20festival/imagens_imprensa/20FestivalSescVideobrasil_imagens.zip">Download</a> / <a class="underline" href="https://www.flickr.com/photos/videobrasil/sets/72157686595495121"  target="_blank">Flickr</a></p>
                     
                 </div>
             </div>
