@@ -53,7 +53,7 @@
 
                 <div class="textoPrincipal"><strong>Marina Fokidis</strong> (Grécia)</div>
 
-                <div class="texto interno">É curadora e crítica de arte. Chefiou o escritório artístico da documenta 14 (2017) em Atenas. Codirigiu a Oxymoron, organização sem fins lucrativos dedicada a promover a arte visual contemporânea na Grécia. Foi cocuradora da 3ª Bienal de Thessaloniki (2011), curadora do Pavilhão Grego na 51ª Bienal de Veneza (2003) e esteve entre os curadores da 1ª Bienal de Tirana (2001).</div>
+                <div class="texto interno">É curadora e escritora. Foi membro da equipe curadora da documenta 14 (2017), e desde 2014 chefia o escritório artístico da exposição em Atenas. É fundadora e editora-chefe da revista South as a State of Mind, e foi fundadora e diretora artística do. Foi também fundadora e diretora artística da Kunsthalle Athena (2010-2014). Foi cocuradora da 3ª Bienal de Thessaloniki (2011), curadora do Pavilhão Grego na 51ª Bienal de Veneza (2003) e esteve entre os curadores da 1ª Bienal de Tirana (2001).</div>
 
                 <div class="textoPrincipal"><strong>Pablo León de la Barra </strong>(México)</div>
 
@@ -91,7 +91,7 @@
 
                 <p></p>
 
-                <p><strong>Marina Fokidis</strong> (Greece) is a curator and writer. She has served documenta 14 (2017) as head of artistic office in Athens. She has also codirected Oxymoron, a non-profit organization dedicated to promoting contemporary visual art in Greece. She was cocurator of the 3rd Thessaloniki Biennial (2011), commissioner and curator of the Greek Pavilion at the 51st Venice Biennale (2003), and one of the curators of the 1st Tirana Biennial (2001).</p>
+                <p><strong>Marina Fokidis</strong> (Greece) is a curator and writer. She was a member of the curatorial team of documenta 14 (2017), where she also served as head of artistic office in Athens, since 2014. She is the founder and editorial director of the journal South as a State of Mind, and was the founder and artistic director of Kunsthalle Athena (2010-2014). She was cocurator of the 3rd Thessaloniki Biennial (2011), commissioner and curator of the Greek Pavilion at the 51st Venice Biennale (2003), and one of the curators of the 1st Tirana Biennial (2001).</p>
 
                 <p></p>
 

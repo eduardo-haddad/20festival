@@ -596,7 +596,7 @@
                         <article class="obraExpo">
                             <p class="tituloObra">
                                 
-                            {!! switchLang('<strong>Bárbara Wagner</strong> (Brasil, 1980) e <strong>Benjamin de Burca</strong> (Alemanha, 1975)', '<strong>Bárbara Wagner</strong> (Brazil, 1980) and <strong>Benjamin de Burca</strong> (Germany, 1975)') !!}<br>
+                            {!! switchLang('<strong>Bárbara Wagner</strong> (Brasil, 1980) e <strong>Benjamin de Burca</strong> (Alemanha, 1975)', '<strong>Bárbara Wagner</strong> (Brazil, 1980) and <strong>Benjamin de Burca</strong> (Germany, 1975)') !!}<br>
                                 <section class="listaObras">
                                     
                                     {!! switchLang(
@@ -610,9 +610,9 @@
     
                             <p>
                                 {!! switchLang(
-                                    'A artista reconstrói cômodos da casa onde os avós moraram, agora desabitada, incorporando a eles elementos da memória, da imaginação e do universo da história da arte, como animais e objetos de decoração. As cenas são fotografadas e servem de modelo às pinturas. As telas resultantes devolvem ao real sua dimensão original de estranheza. As pinturas integram a série Jacarezinho, 92, em que a artista revisita, recria e mapeia a casa dos avós.',
+                                    'Em quatro atos, bailarinos misturam movimentos do frevo, dança tradicional do Carnaval pernambucano, a outros, típicos de ritmos contemporâneos, como funk, swingueira, electro e vogue. Ao pôr em xeque a pureza atribuída ao frevo pelos governos que o promovem como expressão originária de um povo, o trabalho cria tensão em categorias como folclore, cultura popular e cultura de massas, além de tocar em questões de raça, classe e gênero. ',
 
-                                    'Em quatro atos, bailarinos misturam movimentos do frevo, dança tradicional do Carnaval pernambucano, a outros, típicos de ritmos contemporâneos, como funk, swingueira, electro e vogue. Ao pôr em xeque a pureza atribuída ao frevo pelos governos que o promovem como expressão originária de um povo, o trabalho cria tensão em categorias como folclore, cultura popular e cultura de massas, além de tocar em questões de raça, classe e gênero. ') !!}
+                                    'In four acts, dancers combine steps of frevo, a traditional Carnival dance of Pernambuco State, with others typical of contemporary rhythms like funk, swingueira, electro, and vogue. Challenging the purity ascribed to frevo by governments that promote it as a primitive popular expression, the work puts a strain on categories such as folklore, popular culture, and mass culture, besides addressing issues of race, class, and gender. ') !!}
 
                             </p>
                         </article>
