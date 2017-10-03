@@ -632,6 +632,16 @@ main {
 	margin-bottom: 70px;
 }
 
+.container.interno .texto.eixos {
+	padding-left: 0;
+	margin-top: 50px;
+}
+
+.container.interno .texto.eixos img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
 .container.interno .texto.interno {
 	margin-bottom: 30px;
 }
@@ -957,6 +967,10 @@ MEDIUM SCREEN
 
 	.container.interno .texto {
 		padding: 0 60px;
+	}
+
+	.container.interno .texto.eixos {
+		padding: 0 10px;
 	}
 
 	.tituloPag {

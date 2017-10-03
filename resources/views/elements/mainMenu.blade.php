@@ -45,10 +45,10 @@ $route = Route::getFacadeRoot()->current()->uri();
 						@if($route=='conceito/curadoria' || $route=='en/conceito/curadoria' || $route=='conceito' || $route=='en/conceito') class="selected" @endif>
 						{!! switchLang('Curadoria', 'Curatorship') !!}
 				</a></li>
-				{{-- <li><a href="{{url('/conceito/eixos-conceituais')}}" data-pjax 
+				<li><a href="{{url('/conceito/eixos-conceituais')}}" data-pjax 
 						@if($route=='conceito/eixos-conceituais' || $route=='en/conceito/eixos-conceituais') class="selected" @endif>
 						{!! switchLang('Eixos conceituais', '') !!}
-				</a></li> --}}
+				</a></li>
 				<li><a href="{{url('/conceito/identidade-visual')}}" data-pjax 
 						@if($route=='conceito/identidade-visual' || $route=='en/conceito/identidade-visual') class="selected" @endif>
 						{!! switchLang('Identidade visual', 'Visual identity') !!}
