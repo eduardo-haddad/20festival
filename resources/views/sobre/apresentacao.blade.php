@@ -37,6 +37,10 @@
         <footer id="rodape" class="borderbox">
             @include('elements.rodape')
         </footer>
+
+        <div id="logos">
+            @include('elements.logos')
+        </div>
     </div>
     
 
