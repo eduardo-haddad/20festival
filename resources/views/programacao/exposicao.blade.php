@@ -212,9 +212,9 @@
     
                             <p>
                                 {!! switchLang(
-                                    'Durante a guerra de libertação da Guiné--Bissau, o Partido Africano da Independência da Guiné e Cabo Verde (PAIGC) denominava Zonas Liberadas os territórios controlados pela guerrilha. No vídeo, um rapaz dialoga, nos dias de hoje, com documentos referentes à visita de quatro personagens históricos aos domínios do Partido na época. ',
+                                    'Durante a guerra de libertação da Guiné-Bissau, o partido PAIGC denominava Zonas Liberadas os territórios controlados pela guerrilha. No vídeo, um rapaz dialoga, nos dias de hoje, com documentos e testemunhos referentes ao envolvimento solidário de quatro suecos nos eventos históricos que levaram o país à libertação do colonialismo Português em 1974.',
 
-                                    'During the war of independence of Guinea-Bissau, the African Party for the Independence of Guinea and Cape Verde (PAIGC) named the territories controlled by the guerilla Liberated Zones. In the video, a young man interacts in the present day with documents concerning the visit of four historical figures to the Party’s domains at the time. ') !!}
+                                    'During the war of independence of Guinea-Bissau, the PAIGC party named the territories controlled by the guerilla Liberated Zones. In the video, a young man interacts in the present day with documents and statements concerning the solidary involvement of four Swedish in the course of the historical events that led the country to liberation from Portuguese colonialism in 1974.') !!}
 
                             </p>
                         </article>
@@ -740,9 +740,9 @@
     
                             <p>
                                 {!! switchLang(
-                                    'O grupo de percussão afro formado apenas por mulheres faz apresentações abertas que transformam temporariamente a face de espaços públicos de São Paulo, opondo-se à privatização e à gentrificação. A obra mostra esgares dessa mudança, ao expor a dança de um grupo de pessoas que vive sob um viaduto: ao som dos tambores, seus corpos criam um lugar de festa e dignidade. O vídeo integra o projeto A.N.T.I. cinema. ', 
+                                    'O grupo de percussão afro formado apenas por mulheres faz apresentações abertas que transformam temporariamente a face de espaços públicos de São Paulo, engajando a população mais excluída da cidade. Formado por um único plano, o vídeo mostra esgares dessa mudança, ao expor a dança de um grupo de mulheres e homens trans que vivem sob um viaduto: ao som dos tambores, seus corpos criam um lugar de festa e dignidade.', 
 
-                                    'The all-women Afro percussion group holds open performances that temporarily transform the look of public spaces in São Paulo, denouncing privatization and gentrification. The work reveals grimaces of such change by showing the dance of a group of homeless people living under a viaduct: to the sound of the drums, their bodies create a place of celebration and dignity. The video is part of the A.N.T.I. cinema project. ') !!}
+                                    'The afro percussion group, exclusively composed of women, makes open performances that temporarily transform the face of public spaces in São Paulo, engaging the excluded population of the city. Made from a single plan, the video shows the face of this change, showing a dancing group of transgender women and men who live under a bridge: to the sound of the drums, their bodies create a place of celebration and dignity.') !!}
                                 
                             </p>
 
@@ -759,9 +759,9 @@
     
                             <p>
                                 {!! switchLang(
-                                    'Em 2015, um levante estudantil ocupou mais de duzentas escolas estaduais de São Paulo para protestar contra a decisão do governo paulista de fechar diversas instituições de ensino. O vídeo é composto por uma sequência de fotografias das ocupações e protestos, que transformaram prédios negligenciados pelo estado em espaços vivos e potentes. Como um trabalho escolar, a apresentação (em slides e sem som) insinua o que podemos aprender com a revolta secundarista. ', 
+                                    'Em 2015, um levante estudantil ocupou mais de duzentas escolas estaduais de São Paulo em protesto contra a decisão do governo paulista de fechar diversas instituições de ensino. O vídeo é composto por uma sequência de 26 fotografias filmadas, com oito segundos de duração cada, das ocupações e protestos que transformaram prédios negligenciados pelo estado em espaços vivos e potentes. Como um trabalho escolar, a apresentação (em slides e sem som) insinua o que podemos aprender com a revolta secundarista.', 
 
-                                    'In 2015, a student uprising occupied over two hundred state schools in São Paulo to protest the state government’s decision to close down several educational institutions. The video features a sequence of photographs of the occupations and protests, which turned state-neglected buildings into spaces of dynamic and powerful interaction. Like a school assignment, the presentation (slides without sound) hints at what we can learn from the revolt by secondary students. ') !!}
+                                    'In 2015, a student uprising occupied more than 200 public state schools in São Paulo to protest against the decision of the São Paulo government to close several educational institutions. The video is made up of a sequence of 26 filmed photographs, each with eight seconds of duration, of occupations and protests that turned buildings neglected by the state government into living, powerful spaces. Similar to a school homework, the presentation (on slides and with no sound) hints at what we can learn from the high school uprising.') !!}
                                 
                             </p>
 
