@@ -172,7 +172,8 @@
                 <a name="programa4"></a>
                 <div class="texto interno programa">
                 {!! switchLang('<h1>PROGRAMA 4</h1>&nbsp;&nbsp;Duração 1h15’<br>
-                    Dia 7.10 às 12h e 16h; dia 8.10, às 16h<br>
+                    Dia 7.10 às 12h e 16h - apresentação dos artistas às 16h e 18h;<br>
+                    dia 8.10, às 16h<br>
                     A partir do dia 10.10: de terça a sábado, às 18h; domingos, às 16h', 
 
                     '<h1>PROGRAM 4</h1>&nbsp;&nbsp;Running time 1h15’<br>
