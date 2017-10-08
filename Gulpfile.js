@@ -40,8 +40,14 @@ gulp.task('copy', function () {
     //     .pipe(gulp.dest('public/js'));
     // gulp.src('node_modules/lightbox2/dist/css/lightbox.min.css')
     //     .pipe(gulp.dest('public/css'));
-    gulp.src('node_modules/image-map-resizer/js/imageMapResizer.min.js')
-        .pipe(gulp.dest('public/js'));
+    // gulp.src('node_modules/image-map-resizer/js/imageMapResizer.min.js')
+    //     .pipe(gulp.dest('public/js'));
+    // gulp.src('node_modules/slick-carousel/slick/slick.min.js')
+    //     .pipe(gulp.dest('public/js'));
+    // gulp.src('node_modules/slick-carousel/slick/slick.css')
+    //     .pipe(gulp.dest('public/css'));
+    // gulp.src('node_modules/slick-carousel/slick/slick-theme.css')
+    //     .pipe(gulp.dest('public/css'));
 });
 
 

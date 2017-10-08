@@ -80,7 +80,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 	Route::get('/conceito/expografia', function(){
 		return view('conceito.expografia');
 	});
-	
+
 
 	/* Programação */
 	Route::get('/programacao', function(){
@@ -129,6 +129,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 	/* Publicações */
 	Route::get('/publicacoes', function(){
 		return view('publicacoes');
+	});
+
+	/* Fotos */
+	Route::get('/fotos', function(){
+		return view('fotos');
 	});
 
 

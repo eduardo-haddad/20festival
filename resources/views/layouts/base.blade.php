@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  
+
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33383260-3"></script>
     <script>
@@ -19,16 +19,22 @@
     <meta name="author" content="">
 
     <title>@yield('title')</title>
-
+    <link rel="stylesheet" href="{{asset('css/slick.css')}}">
+    <link rel="stylesheet" href="{{asset('css/slick-theme.css')}}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/nprogress.css')}}">
+
     {{-- <link rel="stylesheet" href="{{asset('css/lightbox.min.css')}}"> --}}
     <script type="text/javascript" src="{{asset('jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('jquery.pjax.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/app.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/slick.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/nprogress.min.js')}}"></script>
     {{-- <script type="text/javascript" src="{{asset('js/lightbox.min.js')}}"></script> --}}
     <script type="text/javascript" src="{{asset('js/imageMapResizer.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/app.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/imageMapResizer.min.js')}}"></script>
+
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -50,11 +56,11 @@
             }     
         });
         /** Loading **/
-        $document.on('pjax:send', function() {
+        $(document).on('pjax:send', function() {
             NProgress.start();
         });
 
-        $document.on('pjax:complete', function() {
+        $(document).on('pjax:complete', function() {
             NProgress.done();
         });
 

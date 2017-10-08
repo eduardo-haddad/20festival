@@ -65,6 +65,54 @@ $document.on('ready pjax:success', function() {
 		}	
 	});
 
+	$('.carrossel').css('height', $('.carrossel img').height());
+
+
+	$(window).on('resize', function(){
+		$('.carrossel').css('height', $('.carrossel img').height());
+		
+	});
+
+
+	 /* Carrossel - Slick */
+            $('.carrossel').slick({
+	            lazyLoad: 'ondemand',
+	            // appendDots: $('.carrossel .fotosNum'),
+	            dots: false,
+	            centerMode: true,
+	            infinite: true,
+	            slidesToShow: 1,
+	            slidesToScroll: 1,
+	            speed: 0,
+	            fade: true,
+	            swipe: false,
+	            arrows: true,
+	            // responsive: [
+	            //     {
+	            //       breakpoint: 1023,
+	            //       settings: {
+	            //         slidesToShow: 1,
+	            //         slidesToScroll: 1,
+	            //         infinite: true,
+	            //         dots: true
+	            //       }
+	            //     },
+	            //     ]
+	            // customPaging : function(slider, i) {
+	            // 	i++;
+	            //     return '<a>'+i+'</a>';
+	            // }
+            });
+
+            $('.slick-track img').on(
+                'click', function(){
+                    $('.carrossel').slick('slickNext');
+                    
+                }
+            );
+
+
+
 
 });
 

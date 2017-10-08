@@ -144,6 +144,10 @@ $route = Route::getFacadeRoot()->current()->uri();
 	<li>
 		<a @if($route=='publicacoes' || $route=='en/publicacoes') class="selected" @endif href="{{url('/publicacoes')}}" data-pjax>{!! switchLang('Publicações', 'Publications') !!}</a>
 	</li> 
+
+	<li>
+		<a @if($route=='fotos' || $route=='en/fotos') class="selected" @endif href="{{url('/fotos')}}" data-pjax>{!! switchLang('Fotos', 'Photos') !!}</a>
+	</li> 
 	
 
 	<li>
