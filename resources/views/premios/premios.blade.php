@@ -47,7 +47,7 @@
 
                 
 
-                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/filipa-cesar"><b>Filipa César</b></a></span><span><b> </b>(Portugal/ Alemanha), obra <br><i>Transmission from the Liberated Zones </i>(2015, vídeo);</p>
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/filipa-cesar"><b>Filipa César</b></a></span><span><b> </b>(Portugal/ Alemanha),<br>obra <i>Transmission from the Liberated Zones </i>(2015, vídeo);</p>
 
                 
 
