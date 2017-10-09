@@ -59,7 +59,7 @@
 
                 
 
-                <div class="subTituloPag"><br>Prêmio O.F.F. Ostrovsky Family Fund)</div>
+                <div class="subTituloPag"><br>Prêmio O.F.F. (Ostrovsky Family Fund)</div>
 
                 <p>Prêmio de R$ 25 mil concedido pela fundação <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a> (EUA, Israel, Brasil) a <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a><b> </b>(Brasil),<b> </b>obras <i>Morte Súbita </i>(2014, vídeo) e <i>O Brasil</i> (2014, vídeo).</p>
 
@@ -100,7 +100,7 @@
                     <p><strong>Prêmios Especiais</strong></p>
 
                     <p>Serão oferecidos quatro prêmios em dinheiro.<br />
-                    O Sesc São Paulo, realizador do Festival, oferece três <strong>Prêmios de Aquisição Acervo Sesc de Arte</strong>, no valor de R$ 25 mil cada um, a obras em vídeo. Os trabalhos contemplados passarão a integrar o acervo de arte contemporânea da instituição. A fundação Ostrovsky Family Fund, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, oferece o <strong>Prêmio O.F.F.</strong>, no valor de R$ 25 mil, a uma obra em vídeo.</p>
+                    O Sesc São Paulo, realizador do Festival, oferece três <strong>Prêmios de Aquisição Acervo Sesc de Arte</strong>, no valor de R$ 25 mil cada um, a obras em vídeo. Os trabalhos contemplados passarão a integrar o acervo de arte contemporânea da instituição. A fundação Ostrovsky Family Fund, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, oferece o <strong>Prêmio O.F.F. (Ostrovsky Family Fund)</strong>, no valor de R$ 25 mil, a uma obra em vídeo.</p>
 
                     <p><strong>Prêmios de Residência Artística</strong></p>
 
@@ -242,7 +242,7 @@
 
                     <p><strong>Special awards</strong></p>
 
-                    <p>Four money awards will be offered. Sesc São Paulo, the Festival’s presenter, offers three <strong>Sesc Art Collection Acquisition Awards</strong>, worth R$25,000 each, for video works. The winning productions will be included in the institution’s contemporary art collection. The Ostrovsky Family Fund, which supports several cultural initiatives in the United States, Israel, and Brazil, offers the <strong>O.F.F Award</strong>, worth R$25,000, for a video work.</p>
+                    <p>Four money awards will be offered. Sesc São Paulo, the Festival’s presenter, offers three <strong>Sesc Art Collection Acquisition Awards</strong>, worth R$25,000 each, for video works. The winning productions will be included in the institution’s contemporary art collection. The Ostrovsky Family Fund, which supports several cultural initiatives in the United States, Israel, and Brazil, offers the <strong>O.F.F Award (Ostrovsky Family Fund)</strong>, worth R$25,000, for a video work.</p>
 
                     <p><strong>Artist residency awards</strong></p>
 
