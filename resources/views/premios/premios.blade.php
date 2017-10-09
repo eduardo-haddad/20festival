@@ -59,7 +59,7 @@
 
                 
 
-                <div class="subTituloPag"><br>Prêmio O.F.F. Ostrovsky Family Fund).</div>
+                <div class="subTituloPag"><br>Prêmio O.F.F. Ostrovsky Family Fund)</div>
 
                 <p>Prêmio de R$ 25 mil concedido pela fundação <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a> (EUA, Israel, Brasil) a <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a><b> </b>(Brasil),<b> </b>obras <i>Morte Súbita </i>(2014, vídeo) e <i>O Brasil</i> (2014, vídeo).</p>
 
