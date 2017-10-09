@@ -24,17 +24,83 @@
                  {!! switchLang('Prêmios', 'Awards') !!}
                 </div>
 
-               
+                <div class="texto interno">
+
+                <div class="imgSobre" class="dv">
+                    {!! Html::image('img/fotos/premios/premiados_geral.jpg') !!}
+                </div>
+
+                {{-- <div class="subTituloPag">Confira a relação de artistas premiados no 20º Festival de Arte Contemporânea Sesc_Videobrasil</div> --}}
+
+
+
+
                 {!! switchLang('
 
-                <div class="texto interno">
+                    <div class="subTituloPag">Prêmios de Aquisição Acervo Sesc de Arte</div>
+
+                <p>Os seguintes artistas receberão R$ 25 mil cada um, e seus trabalhos passarão a integrar o acervo de arte contemporânea da instituição:</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/barbara-wagner-benjamin-de-burca"><b>Bárbara Wagner &amp; Benjamin de Burca</b></a></span><span><b> </b>(Brasil/ Alemanha), <br>obra <i>Faz que vai </i>(2015, vídeo);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/filipa-cesar"><b>Filipa César</b></a></span><span><b> </b>(Portugal/ Alemanha), obra <br><i>Transmission from the Liberated Zones </i>(2015, vídeo);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/quy-minh-truong"><b>Quy Minh Truong</b></a></span><span><b> </b> (Vietnã), <br>obra <i>Vuon Bau Xanh Tuoi </i>(2016, vídeo).</p>
+
+                
+
+     
+
+                
+
+                <div class="subTituloPag"><br>Prêmio O.F.F. Ostrovsky Family Fund).</div>
+
+                <p>Prêmio de R$ 25 mil concedido pela fundação <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a> (EUA, Israel, Brasil) a <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a><b> </b>(Brasil),<b> </b>obras <i>Morte Súbita </i>(2014, vídeo) e <i>O Brasil</i> (2014, vídeo).</p>
+
+                            
+
+                <div class="subTituloPag"><br>Prêmios de residência artística</div>
+
+               <p>Cinco artistas foram contemplados e realizarão intercâmbios de dois meses, entre 2018 e 2019, com passagem aérea, acomodação e <i>per diem </i>incluídos:</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/graziela-kunsch"><b>Graziela Kunsch</b></a></span><span><b> </b>(Brasil), obras <i>Ensaio Ilú Obá de Min</i> (2015, video) e <i>Escolas</i> (2016, video): <a  target="_blank" href="http://u-jazdowski.pl/en/main"><span><b>Ujazdowski Castle Centre for Contemporary Art</b></span></a> (Polônia);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/engel-leonardo"><b>Engel Leonardo</b></a></span><span><b> </b>(República Dominicana), obra <i>Pisos</i> (2017, instalação): <a  target="_blank" href="http://www.kac.or.jp/eng/"><span><b>Kyoto Art Center</b></span></a> (Japão);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/la-decanatura"><b>La Decanatura</b></a></span><span><b> </b>(Colômbia), obra <i>Centro Espacial Satelital de Colombia</i> (2015, vídeo): <a  target="_blank" href="https://prohelvetia.ch/en/"><span><b>Pro Helvetia</b></span></a> (Suíça);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/emo-de-medeiros"><b>Emo de Medeiros</b></a></span><span><b> </b>(França/ Benim), obras <i>Kaleta/Kaleta</i> (2013-2017, videoinstalação em três canais) e <i>Vodunaut #009</i>, <i>Vodunaut #010</i>, <i>Vodunaut #011</i>(da série Vodunaut, 2016-2017, instalação): <a  target="_blank" href="https://www.goethe.de/ins/br/en/sta/sal/res.html"><span><b>Residência Vila Sul do Goethe-Institut</b></span></a> (Brasil);</p>
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/natasha-mendonca"><b>Natasha Mendonca</b></a></span><span><b> </b>(Índia), obras <i>Ajeeb Aashiq</i> (2016, filme) e <i>Trance</i> (2016, video): <a  target="_blank" href="https://wexarts.org/"><span><b>Wexner Center for the Arts</b></span></a> (EUA).</p>            
+
+
+                <div class="subTituloPag"><br>Menção honrosa</div>
+
+                <p><b>Menção honrosa</b> para <a href="http://www.festivalsescvideobrasil.org.br/artista/andres-padilla-domene"><span><b>Andrés Padilla Domene</b></span></a><b> </b>(México/França), obra <i>Ciudad Maya</i> (2016, vídeo).</p>
+
+                <p><br><a href="http://site.videobrasil.org.br/news/2208156" class="underline" target="_blank">Saiba mais</a></p>
                    
-                    <p>O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios serão atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
+                    <p><br><br>
+                    <div class="subTituloPag">Sobre a premiação</div><br>O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios serão atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
 
                     <p><strong>Prêmios Especiais</strong></p>
 
                     <p>Serão oferecidos quatro prêmios em dinheiro.<br />
-                    O Sesc São Paulo, realizador do Festival, oferece três&nbsp;<strong>Prêmios de Aquisição Acervo Sesc de Arte</strong>, no valor de R$ 25 mil cada um, a obras em vídeo. Os trabalhos contemplados passarão a integrar o acervo de arte contemporânea da instituição. A fundação Ostrovsky Family Fund, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, oferece o <strong>Prêmio O.F.F.</strong>, no valor de R$ 25 mil, a uma obra em vídeo.</p>
+                    O Sesc São Paulo, realizador do Festival, oferece três <strong>Prêmios de Aquisição Acervo Sesc de Arte</strong>, no valor de R$ 25 mil cada um, a obras em vídeo. Os trabalhos contemplados passarão a integrar o acervo de arte contemporânea da instituição. A fundação Ostrovsky Family Fund, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, oferece o <strong>Prêmio O.F.F.</strong>, no valor de R$ 25 mil, a uma obra em vídeo.</p>
 
                     <p><strong>Prêmios de Residência Artística</strong></p>
 
@@ -107,9 +173,72 @@
 
 
 
-                '<div class="texto interno">
+                '
+
+
+                    <div class="subTituloPag">Sesc Art Collection Acquisition Award</div>
+
+                <p>The following artists will receive R$ 25,000 each and their works will be included in the institution’s contemporary art collection:</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/barbara-wagner-benjamin-de-burca"><b>Bárbara Wagner &amp; Benjamin de Burca</b></a></span><span><b> </b>(Brazil/ Germany), <br>work <i>Faz que vai </i>(2015, video);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/filipa-cesar"><b>Filipa César</b></a></span><span><b> </b>(Portugal/ Alemanha), work <br><i>Transmission from the Liberated Zones </i>(2015, video);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/quy-minh-truong"><b>Quy Minh Truong</b></a></span><span><b> </b> (Vietnã), <br>work <i>Vuon Bau Xanh Tuoi </i>(2016, video).</p>
+
+                
+
+     
+
+                
+
+                <div class="subTituloPag"><br>O.F.F. (Ostrovsky Family Fund) Award</div>
+
+                <p>Prize money of R$ 25,000 granted by the <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a> (USA, Israel, Brazil) to the artist <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a> (Brazil), works <em>Morte Súbita</em> (2014, video) and <em>O Brasil</em> (2014, video).</p>
+
+
+                            
+
+                <div class="subTituloPag"><br>Artist residency awards</div>
+
+               <p>Five artists were awarded and will take part in two-month residency programs in 2018-2019, with airfare, ac
+                
+
+                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/graziela-kunsch"><b>Graziela Kunsch</b></a></span><span> (Brazil), works <i>Ensaio Ilú Obá de Min</i> (2015, video) and <i>Escolas</i> (2016, video): <a href="http://u-jazdowski.pl/en/main"><span><b>Ujazdowski Castle Centre for Contemporary Art</b></span></a> (Poland);</span></p>
+
+
+
+                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/engel-leonardo"><b>Engel Leonardo</b></a></span><span> (Dominican Republic), work <i>Pisos</i> (2017, installation): <a href="http://www.kac.or.jp/eng/"><span><b>Kyoto Art Center</b></span></a> (Japan);</span></p>
+
+
+
+                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/la-decanatura"><b>La Decanatura</b></a></span><span> (Colombia), work <i>Centro Espacial Satelital de Colombia</i> (2015, video): <a href="https://prohelvetia.ch/en/"><span><b>Pro Helvetia</b></span></a> (Switzerland);</span></p>
+
+
+
+                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/emo-de-medeiros"><b>Emo de Medeiros</b></a></span><span> (France/Benin), works <i>Kaleta/Kaleta</i> (2013-2017, three-channel video installation) and <i>Vodunaut #009</i>, <i>Vodunaut #010</i>, <i>Vodunaut #011</i> (from the series Vodunaut, 2016-2017, installation): <a href="https://www.goethe.de/ins/br/en/sta/sal/res.html"><span><b>Residência Vila Sul - Goethe-Institut</b></span></a> (Brazil);</span></p>
+
+
+
+                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/natasha-mendonca"><b>Natasha Mendonca</b></a></span><span> (India), works <i>Ajeeb Aashiq</i> (2016, film) and <i>Trance</i> (2016, video): <a href="https://wexarts.org/"><span><b>Wexner Center for the Arts</b></span></a> (USA).</span></p>
+
+                <div class="subTituloPag"><br>Honorable mention</div>
+
+
+                <p><span><b>Honorable mention</b> conferred to the artist <a href="http://www.festivalsescvideobrasil.org.br/en/artista/andres-padilla-domene"><span><b>Andrés Padilla Domene</b></span></a><b> </b>(Mexico/ France), work <i>Ciudad Maya</i>.</span></p>
+
+
+                <p><br><a href="http://site.videobrasil.org.br/news/2208156" class="underline" target="_blank">Learn more</a></p>
+
+
                    
-                    <p>The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards will be granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
+                    <p><br><br><div class="subTituloPag">Sobre a premiação</div><br>The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards will be granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
 
                     <p><strong>Special awards</strong></p>
 
@@ -130,7 +259,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <p>Ujazdowski Castle Centre for Contemporary Art is the premiere interdisciplinary art center in Poland and one of the most vibrant art centers in Central and Eastern Europe. About four hundred events take place yearly at the <em>U-jazdowski</em> that involve audience consisted of professionals, artists, students but also people not acquainted with art on an everyday basis. The residencies for artists, curators, designers, and researchers constitute an important part of the Ujazdowski CCC Art&nbsp; programme since 2002. They have accommodated almost two hundred residents from the whole world, allowing them to cooperate with important foreign institutions, galleries, and art festivals. For each foreign artist visiting Warsaw U-jazdowski, the team of curators Ika Sienkiewicz-Nowacka (head), Marianna Dobkowska, Anna Ptak, Agnieszka Sosnowska, and Aleksandra Biedka (office manager), create a unique network of cooperators, artists, activists, researchers, and institutions, regarding his or her individual practice.</p>
+                    <p>Ujazdowski Castle Centre for Contemporary Art is the premiere interdisciplinary art center in Poland and one of the most vibrant art centers in Central and Eastern Europe. About four hundred events take place yearly at the <em>U-jazdowski</em> that involve audience consisted of professionals, artists, students but also people not acquainted with art on an everyday basis. The residencies for artists, curators, designers, and researchers constitute an important part of the Ujazdowski CCC Art  programme since 2002. They have accommodated almost two hundred residents from the whole world, allowing them to cooperate with important foreign institutions, galleries, and art festivals. For each foreign artist visiting Warsaw U-jazdowski, the team of curators Ika Sienkiewicz-Nowacka (head), Marianna Dobkowska, Anna Ptak, Agnieszka Sosnowska, and Aleksandra Biedka (office manager), create a unique network of cooperators, artists, activists, researchers, and institutions, regarding his or her individual practice.</p>
                 </div>
 
                 <div class="textoPrincipal">
