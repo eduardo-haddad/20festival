@@ -238,7 +238,7 @@
 
 
                    
-                    <p><br><br><div class="subTituloPag">Sobre a premiação</div><br>The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards will be granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
+                    <p><br><br><div class="subTituloPag">About the awards</div><br>The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards will be granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
 
                     <p><strong>Special awards</strong></p>
 
