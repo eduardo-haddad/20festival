@@ -28,6 +28,7 @@
 
                 <div class="imgSobre" class="dv">
                     {!! Html::image('img/fotos/premios/premiados_geral.jpg') !!}
+                    <span style="font-size: 0.7em">{!! switchLang('Artistas premiados, membros do júri e curadores do 20º Festival de Arte Contemporânea Sesc_Videobrasil no palco do Teatro do Sesc Pompeia, 08 de outubro de 2017 (foto: Pedro Napolitano Prata)', 'Awarded artists, jury members and curators of the 20th Contemporary Art Festival Sesc_Videobrasil. Sesc Pompeia, Oct 8th, 2017 (photo: Pedro Napolitano Prata)') !!}</span>
                 </div>
 
                 {{-- <div class="subTituloPag">Confira a relação de artistas premiados no 20º Festival de Arte Contemporânea Sesc_Videobrasil</div> --}}
@@ -37,9 +38,13 @@
 
                 {!! switchLang('
 
-                    <div class="subTituloPag">Prêmios de Aquisição Acervo Sesc de Arte</div>
+                    <p>O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios serão atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
 
-                <p>Os seguintes artistas receberão R$ 25 mil cada um, e seus trabalhos passarão a integrar o acervo de arte contemporânea da instituição:</p>
+                    <p><br><div class="subTituloPag">Prêmios Especiais</div></p>
+
+                    <p><div class="subTituloPag">Prêmios de Aquisição Acervo Sesc de Arte</div></p>
+
+                <p>O Sesc São Paulo, realizador do Festival, ofereceu três <strong>Prêmios de Aquisição Acervo Sesc de Arte</strong> a obras em vídeo. Os seguintes artistas receberão R$ 25 mil cada um, e seus trabalhos passarão a integrar o acervo de arte contemporânea da instituição:</p>
 
                 
 
@@ -61,13 +66,15 @@
 
                 <div class="subTituloPag"><br>Prêmio O.F.F. (Ostrovsky Family Fund)</div>
 
-                <p>Prêmio de R$ 25 mil concedido pela fundação <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a> (EUA, Israel, Brasil) a <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a><b> </b>(Brasil),<b> </b>obras <i>Morte Súbita </i>(2014, vídeo) e <i>O Brasil</i> (2014, vídeo).</p>
+                <p>A fundação <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a>, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, ofereceu o <strong>Prêmio O.F.F. (Ostrovsky Family Fund)</strong>, no valor de R$ 25 mil, a <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a> (Brasil), pelas obras <em>Morte Súbita</em> (2014, vídeo) e <em>O Brasil</em> (2014, vídeo).
+
+                </p>
 
                             
 
                 <div class="subTituloPag"><br>Prêmios de residência artística</div>
 
-               <p>Cinco artistas foram contemplados e realizarão intercâmbios de dois meses, entre 2018 e 2019, com passagem aérea, acomodação e <i>per diem </i>incluídos:</p>
+               <p>O Festival oferece prêmios de residência artística de forma sistemática desde o começo dos anos 2000, em colaboração com uma rede dinâmica de instituições e programas de intercâmbio parceiros no mundo todo. A interdisciplinaridade e o foco no diálogo Sul-Sul são características importantes para boa parte destas organizações, embora ofereçam, no conjunto, uma diversidade de experiências, e linhas de reflexão e trabalho. Os prêmios de residência foram atribuídos pelo júri do Festival, levando em conta afinidades entre a pesquisa de cada artista premiado e as diretrizes de cada programa. Cinco artistas foram contemplados e realizarão intercâmbios de dois meses, entre 2018 e 2019, com passagem aérea, acomodação e <em>per diem</em> incluídos:</p>
 
                 
 
@@ -92,19 +99,9 @@
 
                 <p><b>Menção honrosa</b> para <a href="http://www.festivalsescvideobrasil.org.br/artista/andres-padilla-domene"><span><b>Andrés Padilla Domene</b></span></a><b> </b>(México/França), obra <i>Ciudad Maya</i> (2016, vídeo).</p>
 
-                <p><br><a href="http://site.videobrasil.org.br/news/2208156" class="underline" target="_blank">Saiba mais</a></p>
+                <p><br><a href="http://site.videobrasil.org.br/news/2208156" class="underline" target="_blank">Acesse o site do Videobrasil para mais informações</a></p>
                    
-                    <p><br><br>
-                    <div class="subTituloPag">Sobre a premiação</div><br>O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios serão atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
-
-                    <p><strong>Prêmios Especiais</strong></p>
-
-                    <p>Serão oferecidos quatro prêmios em dinheiro.<br />
-                    O Sesc São Paulo, realizador do Festival, oferece três <strong>Prêmios de Aquisição Acervo Sesc de Arte</strong>, no valor de R$ 25 mil cada um, a obras em vídeo. Os trabalhos contemplados passarão a integrar o acervo de arte contemporânea da instituição. A fundação Ostrovsky Family Fund, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, oferece o <strong>Prêmio O.F.F. (Ostrovsky Family Fund)</strong>, no valor de R$ 25 mil, a uma obra em vídeo.</p>
-
-                    <p><strong>Prêmios de Residência Artística</strong></p>
-
-                    <p>O Festival oferece prêmios de residência artística de forma sistemática desde o começo dos anos 2000, em colaboração com uma rede dinâmica de instituições e programas de intercâmbio parceiros no mundo todo. A interdisciplinaridade e o foco no diálogo Sul-Sul são características importantes para boa parte destas organizações, embora ofereçam, no conjunto, uma diversidade de experiências, e linhas de reflexão e trabalho. Os prêmios de residência serão atribuídos pelo júri do Festival, levando em conta afinidades entre a pesquisa de cada artista premiado e as diretrizes de cada programa. Os intercâmbios serão realizados entre 2018 e 2019, e os prêmios incluem passagem aérea, acomodação e <em>per diem</em>. Nesta edição, são oferecidos os seguintes prêmios de residência:</p>
+                    <div class="subTituloPag"><br><br><br>Sobre os Prêmios de Residência Artística</div>
 
                 </div>
 
