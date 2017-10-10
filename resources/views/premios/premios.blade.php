@@ -38,7 +38,7 @@
 
                 {!! switchLang('
 
-                    <p>O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios serão atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
+                    <p>O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios foram atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
 
                     <p><br><div class="subTituloPag">Prêmios Especiais</div></p>
 
@@ -64,9 +64,9 @@
 
                 
 
-                <div class="subTituloPag"><br>Prêmio O.F.F. (Ostrovsky Family Fund)</div>
+                <div class="subTituloPag"><br>Prêmio O.F.F. - Ostrovsky Family Fund</div>
 
-                <p>A fundação <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a>, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, ofereceu o <strong>Prêmio O.F.F. (Ostrovsky Family Fund)</strong>, no valor de R$ 25 mil, a <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a> (Brasil), pelas obras <em>Morte Súbita</em> (2014, vídeo) e <em>O Brasil</em> (2014, vídeo).
+                <p>A fundação <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a>, que atua nos Estados Unidos, Israel e Brasil apoiando iniciativas na área cultural, ofereceu o <strong>Prêmio O.F.F.</strong>, no valor de R$ 25 mil, a <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a> (Brasil), pelas obras <em>Morte Súbita</em> (2014, vídeo) e <em>O Brasil</em> (2014, vídeo).
 
                 </p>
 
@@ -97,7 +97,7 @@
 
                 <div class="subTituloPag"><br>Menção honrosa</div>
 
-                <p><b>Menção honrosa</b> para <a href="http://www.festivalsescvideobrasil.org.br/artista/andres-padilla-domene"><span><b>Andrés Padilla Domene</b></span></a><b> </b>(México/França), obra <i>Ciudad Maya</i> (2016, vídeo).</p>
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/andres-padilla-domene"><span><b>Andrés Padilla Domene</b></span></a><b> </b>(México/França), obra <i>Ciudad Maya</i> (2016, vídeo).</p>
 
                 <p><br><a href="http://site.videobrasil.org.br/news/2208156" class="underline" target="_blank">Acesse o site do Videobrasil para mais informações</a></p>
                    
