@@ -170,12 +170,21 @@
 
 
 
+
+
+
+
+
                 '
 
 
-                    <div class="subTituloPag">Sesc Art Collection Acquisition Award</div>
+                    <p>The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards were granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
 
-                <p>The following artists will receive R$ 25,000 each and their works will be included in the institution’s contemporary art collection:</p>
+                    <p><br><div class="subTituloPag">Special awards</div></p>
+
+                    <p><div class="subTituloPag">SESC ART COLLECTION ACQUISITION AWARD</div></p>
+
+                <p>Sesc São Paulo, the Festival’s presenter, offers three <strong>Sesc Art Collection Acquisition Awards</strong>, worth R$25,000 each, for video works. The following artists will receive R$ 25,000 each and their works will be included in the institution’s contemporary art collection:</p>
 
                 
 
@@ -183,11 +192,11 @@
 
                 
 
-                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/filipa-cesar"><b>Filipa César</b></a></span><span><b> </b>(Portugal/ Alemanha), work <br><i>Transmission from the Liberated Zones </i>(2015, video);</p>
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/filipa-cesar"><b>Filipa César</b></a></span><span><b> </b>(Portugal/ Germany),<br>work <i>Transmission from the Liberated Zones </i>(2015, video);</p>
 
                 
 
-                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/quy-minh-truong"><b>Quy Minh Truong</b></a></span><span><b> </b> (Vietnã), <br>work <i>Vuon Bau Xanh Tuoi </i>(2016, video).</p>
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/quy-minh-truong"><b>Quy Minh Truong</b></a></span><span><b> </b> (Vietnam), <br>work <i>Vuon Bau Xanh Tuoi </i>(2016, video).</p>
 
                 
 
@@ -195,55 +204,43 @@
 
                 
 
-                <div class="subTituloPag"><br>O.F.F. (Ostrovsky Family Fund) Award</div>
+                <div class="subTituloPag"><br>O.F.F. – OSTROVSKY FAMILY FUND AWARD</div>
 
-                <p>Prize money of R$ 25,000 granted by the <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a> (USA, Israel, Brazil) to the artist <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a> (Brazil), works <em>Morte Súbita</em> (2014, video) and <em>O Brasil</em> (2014, video).</p>
 
+                <p>The <a href="http://www.ostrovsky-family-fund.com/"><span><b>Ostrovsky Family Fund</b></span></a>, which supports several cultural initiatives in the United States, Israel, and Brazil, offered the <strong>O.F.F Award</strong>, worth R$25,000, to the artist <a href="http://www.festivalsescvideobrasil.org.br/artista/jaime-lauriano"><span><b>Jaime Lauriano</b></span></a> (Brazil), works <em>Morte Súbita</em> (2014, video) and <em>O Brasil</em> (2014, video).</p>
 
                             
 
-                <div class="subTituloPag"><br>Artist residency awards</div>
+                <div class="subTituloPag"><br>ARTIST RESIDENCY AWARDS</div>
 
-               <p>Five artists were awarded and will take part in two-month residency programs in 2018-2019, with airfare, ac
+               <p>The Festival has consistently offered artist residency awards since the early 2000s, in cooperation with a dynamic network of partner institutions and exchange programs worldwide. Interdisciplinarity and focus on the South-South dialogue are important characteristics for many of these organizations, although they offer, on the whole, a diversity of experiences and lines of thought and work. The residency awards were granted by the Festival’s jury, taking into consideration the affinities between the research of each winning artist and the guidelines of each program. Five artists were awarded and will take part in two-month residency programs in 2018-2019, with airfare, accommodation and <em>per diem</em>:</p>
+
                 
 
-                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/graziela-kunsch"><b>Graziela Kunsch</b></a></span><span> (Brazil), works <i>Ensaio Ilú Obá de Min</i> (2015, video) and <i>Escolas</i> (2016, video): <a href="http://u-jazdowski.pl/en/main"><span><b>Ujazdowski Castle Centre for Contemporary Art</b></span></a> (Poland);</span></p>
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/graziela-kunsch"><b>Graziela Kunsch</b></a></span><span><b> </b>(Brazil), works <i>Ensaio Ilú Obá de Min</i> (2015, video) and <i>Escolas</i> (2016, video): <a  target="_blank" href="http://u-jazdowski.pl/en/main"><span><b>Ujazdowski Castle Centre for Contemporary Art</b></span></a> (Poland);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/engel-leonardo"><b>Engel Leonardo</b></a></span><span><b> </b>(Dominican Republic), work <i>Pisos</i> (2017, installation): <a  target="_blank" href="http://www.kac.or.jp/eng/"><span><b>Kyoto Art Center</b></span></a> (Japan);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/la-decanatura"><b>La Decanatura</b></a></span><span><b> </b>(Colombia), work <i>Centro Espacial Satelital de Colombia</i> (2015, video): <a  target="_blank" href="https://prohelvetia.ch/en/"><span><b>Pro Helvetia</b></span></a> (Switzerland);</p>
+
+                
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/emo-de-medeiros"><b>Emo de Medeiros</b></a></span><span><b> </b>(France/ Benin), works <i>Kaleta/Kaleta</i> (2013-2017, three-channel video installation) and <i>Vodunaut #009</i>, <i>Vodunaut #010</i>, <i>Vodunaut #011</i>(from the series Vodunaut, 2016-2017, installation): <a  target="_blank" href="https://www.goethe.de/ins/br/en/sta/sal/res.html"><span><b>Residência Vila Sul - Goethe-Institut</b></span></a> (Brazil);</p>
+
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/natasha-mendonca"><b>Natasha Mendonca</b></a></span><span><b> </b>(India), works <i>Ajeeb Aashiq</i> (2016, film) and <i>Trance</i> (2016, video): <a  target="_blank" href="https://wexarts.org/"><span><b>Wexner Center for the Arts</b></span></a> (USA).</p>            
 
 
+                <div class="subTituloPag"><br>HONORABLE MENTION</div>
 
-                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/engel-leonardo"><b>Engel Leonardo</b></a></span><span> (Dominican Republic), work <i>Pisos</i> (2017, installation): <a href="http://www.kac.or.jp/eng/"><span><b>Kyoto Art Center</b></span></a> (Japan);</span></p>
-
-
-
-                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/la-decanatura"><b>La Decanatura</b></a></span><span> (Colombia), work <i>Centro Espacial Satelital de Colombia</i> (2015, video): <a href="https://prohelvetia.ch/en/"><span><b>Pro Helvetia</b></span></a> (Switzerland);</span></p>
-
-
-
-                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/emo-de-medeiros"><b>Emo de Medeiros</b></a></span><span> (France/Benin), works <i>Kaleta/Kaleta</i> (2013-2017, three-channel video installation) and <i>Vodunaut #009</i>, <i>Vodunaut #010</i>, <i>Vodunaut #011</i> (from the series Vodunaut, 2016-2017, installation): <a href="https://www.goethe.de/ins/br/en/sta/sal/res.html"><span><b>Residência Vila Sul - Goethe-Institut</b></span></a> (Brazil);</span></p>
-
-
-
-                <p><span><a href="http://www.festivalsescvideobrasil.org.br/en/artista/natasha-mendonca"><b>Natasha Mendonca</b></a></span><span> (India), works <i>Ajeeb Aashiq</i> (2016, film) and <i>Trance</i> (2016, video): <a href="https://wexarts.org/"><span><b>Wexner Center for the Arts</b></span></a> (USA).</span></p>
-
-                <div class="subTituloPag"><br>Honorable mention</div>
-
-
-                <p><span><b>Honorable mention</b> conferred to the artist <a href="http://www.festivalsescvideobrasil.org.br/en/artista/andres-padilla-domene"><span><b>Andrés Padilla Domene</b></span></a><b> </b>(Mexico/ France), work <i>Ciudad Maya</i>.</span></p>
-
+                <p><a href="http://www.festivalsescvideobrasil.org.br/artista/andres-padilla-domene"><span><b>Andrés Padilla Domene</b></span></a><b> </b>(México/France), work <i>Ciudad Maya</i> (2016, video).</p>
 
                 <p><br><a href="http://site.videobrasil.org.br/news/2208156" class="underline" target="_blank">Learn more</a></p>
-
-
                    
-                    <p><br><br><div class="subTituloPag">About the awards</div><br>The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards will be granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
-
-                    <p><strong>Special awards</strong></p>
-
-                    <p>Four money awards will be offered. Sesc São Paulo, the Festival’s presenter, offers three <strong>Sesc Art Collection Acquisition Awards</strong>, worth R$25,000 each, for video works. The winning productions will be included in the institution’s contemporary art collection. The Ostrovsky Family Fund, which supports several cultural initiatives in the United States, Israel, and Brazil, offers the <strong>O.F.F Award (Ostrovsky Family Fund)</strong>, worth R$25,000, for a video work.</p>
-
-                    <p><strong>Artist residency awards</strong></p>
-
-                    <p>The Festival has consistently offered artist residency awards since the early 2000s, in cooperation with a dynamic network of partner institutions and exchange programs worldwide. Interdisciplinarity and focus on the South-South dialogue are important characteristics for many of these organizations, although they offer, on the whole, a diversity of experiences and lines of thought and work. The residency awards will be granted by the Festival’s jury, taking into consideration the affinities between the research of each winning artist and the guidelines of each program. The residencies will take place between 2018 and 2019 and the awards include airfare, accommodation and <em>per diem</em>. This edition offers the following residency awards:</p>
+                    <div class="subTituloPag"><br><br><br>About Artist Residency Awards</div>
 
                 </div>
 
@@ -256,7 +253,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <p>Ujazdowski Castle Centre for Contemporary Art is the premiere interdisciplinary art center in Poland and one of the most vibrant art centers in Central and Eastern Europe. About four hundred events take place yearly at the <em>U-jazdowski</em> that involve audience consisted of professionals, artists, students but also people not acquainted with art on an everyday basis. The residencies for artists, curators, designers, and researchers constitute an important part of the Ujazdowski CCC Art  programme since 2002. They have accommodated almost two hundred residents from the whole world, allowing them to cooperate with important foreign institutions, galleries, and art festivals. For each foreign artist visiting Warsaw U-jazdowski, the team of curators Ika Sienkiewicz-Nowacka (head), Marianna Dobkowska, Anna Ptak, Agnieszka Sosnowska, and Aleksandra Biedka (office manager), create a unique network of cooperators, artists, activists, researchers, and institutions, regarding his or her individual practice.</p>
+                    <p>Ujazdowski Castle Centre for Contemporary Art is the premiere interdisciplinary art center in Poland and one of the most vibrant art centers in Central and Eastern Europe. About four hundred events take place yearly at the U-jazdowskithat involve audience consisted of professionals, artists, students but also people not acquainted with art on an everyday basis. The residencies for artists, curators, designers, and researchers constitute an important part of the Ujazdowski CCC Art programme since 2002. They have accommodated almost two hundred residents from the whole world, allowing them to cooperate with important foreign institutions, galleries, and art festivals. For each foreign artist visiting Warsaw U-jazdowski, the team of curators Ika Sienkiewicz-Nowacka (head), Marianna Dobkowska, Anna Ptak, Agnieszka Sosnowska, and Aleksandra Biedka (office manager), create a unique network of cooperators, artists, activists, researchers, and institutions, regarding his or her individual practice.</p>
                 </div>
 
                 <div class="textoPrincipal">
@@ -286,7 +283,7 @@
 
                 <div class="textoPrincipal">
 
-                    <p><strong>Pro Helvetia Residency Prize | South America Programme </strong></p>
+                    <p><strong>Pro Helvetia Residency Prize | South America Programme</strong></p>
 
                 </div>
 
@@ -306,7 +303,7 @@
 
                 <div class="texto interno">
 
-                    <p>Among the diverse artists who receive production assistance from the Wexner Center each year, recipients of theWexner Center Artist Residency Awardconstitute a special category. A handful of artists spanning all creative disciplines are selected annually by the center’s director and curators to receive this distinction. Celebrating its 22nd anniversary this season, the Artist Residency Award program offers the most substantial support: considerable financial resources, along with technical, intellectual, professional, and moral support to develop new work.</p>
+                    <p>mong the diverse artists who receive production assistance from the Wexner Center each year, recipients of theWexner Center Artist Residency Awardconstitute a special category. A handful of artists spanning all creative disciplines are selected annually by the center’s director and curators to receive this distinction. Celebrating its 22nd anniversary this season, the Artist Residency Award program offers the most substantial support: considerable financial resources, along with technical, intellectual, professional, and moral support to develop new work.</p>
 
                 </div>') !!}
 
