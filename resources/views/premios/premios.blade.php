@@ -303,7 +303,7 @@
 
                 <div class="texto interno">
 
-                    <p>mong the diverse artists who receive production assistance from the Wexner Center each year, recipients of theWexner Center Artist Residency Awardconstitute a special category. A handful of artists spanning all creative disciplines are selected annually by the center’s director and curators to receive this distinction. Celebrating its 22nd anniversary this season, the Artist Residency Award program offers the most substantial support: considerable financial resources, along with technical, intellectual, professional, and moral support to develop new work.</p>
+                    <p>Among the diverse artists who receive production assistance from the Wexner Center each year, recipients of theWexner Center Artist Residency Awardconstitute a special category. A handful of artists spanning all creative disciplines are selected annually by the center’s director and curators to receive this distinction. Celebrating its 22nd anniversary this season, the Artist Residency Award program offers the most substantial support: considerable financial resources, along with technical, intellectual, professional, and moral support to develop new work.</p>
 
                 </div>') !!}
 
