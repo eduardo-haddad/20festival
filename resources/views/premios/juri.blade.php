@@ -24,6 +24,14 @@
                  {!! switchLang('Júri', 'Jury') !!}
                 </div>
 
+                <div class="texto interno">
+
+                    <div class="imgSobre" class="dv">
+                        {!! Html::image('img/juri.jpg') !!}
+                    </div>
+
+                </div>
+
                
                 {!! switchLang('
                 
