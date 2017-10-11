@@ -55,6 +55,27 @@
                     </div>
 
                     <!--  -->
+
+                    <!-- Premiação -->
+                    <div class="subTituloPag">Premiação</div>
+                    <span class="fotoDescricao">Dia 8.10, Sesc Pompeia - Teatro / fotos por Pedro Napolitano Prata</span>
+
+                    <div class="carrossel premiacao">
+                        <?php
+                        $albumPath2 = '/img/fotos/premios';
+                        $fileList2 = scandir(public_path() . $albumPath2);
+                        for($i = 1; $i < count($fileList2); $i++): 
+                            $file = $fileList2[$i]; 
+                            if(strpos($file, '.jpg') !== false) { ?>
+                                <content style="outline: 0;">
+                                    <img src="{{asset($albumPath2 . '/' . $file)}}">
+                                    <p style="font-size: 0.9em;"><?php echo strstr(substr(strstr($file, '-'), 1), '.jpg', true); ?></p>
+                                </content><?php
+                            }
+                        endfor; ?>
+                    </div>
+
+                    <!--  -->
                         
                     
 

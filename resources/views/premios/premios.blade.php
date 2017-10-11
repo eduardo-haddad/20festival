@@ -27,7 +27,7 @@
                 <div class="texto interno">
 
                 <div class="imgSobre" class="dv">
-                    {!! Html::image('img/fotos/premios/premiados_geral.jpg') !!}
+                    {!! Html::image('img/premiados_geral.jpg') !!}
                     <span style="font-size: 0.7em">{!! switchLang('Artistas premiados, membros do júri e curadores do 20º Festival de Arte Contemporânea Sesc_Videobrasil no palco do Teatro do Sesc Pompeia, 08 de outubro de 2017 (foto: Pedro Napolitano Prata)', 'Awarded artists, jury members and curators of the 20th Contemporary Art Festival Sesc_Videobrasil. Sesc Pompeia, Oct 8th, 2017 (photo: Pedro Napolitano Prata)') !!}</span>
                 </div>
 
