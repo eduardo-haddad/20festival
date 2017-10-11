@@ -665,9 +665,10 @@ main {
   max-width: 39%; }
 
 #logos .cultural {
-  width: 57%;
+  width: 55%;
   float: left;
-  margin-right: 0px; }
+  margin-right: 0px;
+  margin-left: 25px; }
 
 #logos .institucional {
   width: 10%;
@@ -880,6 +881,9 @@ MEDIUM SCREEN
     text-align: left; }
   #logos > div {
     text-align: left; }
+  #logos .cultural {
+    width: 57%;
+    margin-left: 0; }
   #rodape .newsletter {
     /*margin-bottom: 30px;*/
     width: 100%; }

@@ -10,14 +10,14 @@
 		<div class="mv clear" style=""></div>
 
 		<div class="cultural">
-			<header>{!! switchLang('Apoio cultural', 'Cultural support') !!}</header>
+			<header style="text-align: left">{!! switchLang('Apoio cultural', 'Cultural support') !!}</header>
 			<img src="{!! asset('img/logos/blocos/final/cultural.png') !!}">
 		</div>
 
 		<div class="mv clear" style="height: 20px;"></div>
 
 		<div class="residencia">
-			<header>{!! switchLang('Parceiros de residência', 'Residency program partners') !!}</header>
+			<header style="text-align: left">{!! switchLang('Parceiros de residência', 'Residency program partners') !!}</header>
 			<img src="{!! asset('img/logos/blocos/final/residencias.png') !!}">
 		
 		</div>
