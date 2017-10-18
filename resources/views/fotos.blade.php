@@ -1,3 +1,5 @@
+<?php $idioma = Config::get('app.locale'); ?>
+
 @extends('layouts.base')
 
 @section('title')
@@ -37,12 +39,13 @@
 
                     <!-- Premiação -->
                     <div class="subTituloPag">Premiação</div>
-                    <span class="fotoDescricao">Dia 8.10, Sesc Pompeia - Teatro / fotos por Pedro Napolitano Prata</span>
+                    <span class="fotoDescricao">{!! switchLang('Dia 8.10, Sesc Pompeia - Teatro / fotos por Pedro Napolitano Prata', 
+                                'October 8, Sesc Pompeia Theatre, photos by Pedro Napolitano Prata') !!}</span>
 
                     <div class="carrossel premiacao">
                         <?php
-                        $albumPath2 = {!! switchLang('/img/fotos/premios', 
-                                '/img/fotos/premios_en') !!};
+
+                        $albumPath2 = $idioma == 'pt' ? '/img/fotos/premios' : '/img/fotos/premios_en';
                         $fileList2 = scandir(public_path() . $albumPath2);
                         for($i = 1; $i < count($fileList2); $i++): 
                             $file = $fileList2[$i]; 
@@ -59,7 +62,8 @@
 
                     <!-- Abertura -->
                     <div class="subTituloPag">Abertura</div>
-                    <span class="fotoDescricao">Dia 3.10, Sesc Pompeia / fotos por Denise Andrade</span>
+                    <span class="fotoDescricao">{!! switchLang('Dia 3.10, Sesc Pompeia / fotos por Denise Andrade', 
+                                'October 3, Sesc Pompeia, photos by Denise Andrade') !!}</span>
 
                     <div class="carrossel abertura">
                         <?php
