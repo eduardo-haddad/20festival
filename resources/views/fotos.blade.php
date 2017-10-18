@@ -41,7 +41,8 @@
 
                     <div class="carrossel premiacao">
                         <?php
-                        $albumPath2 = '/img/fotos/premios';
+                        $albumPath2 = {!! switchLang('/img/fotos/premios', 
+                                '/img/fotos/premios_en') !!};
                         $fileList2 = scandir(public_path() . $albumPath2);
                         for($i = 1; $i < count($fileList2); $i++): 
                             $file = $fileList2[$i]; 
