@@ -1,3 +1,4 @@
+<?php $idioma = Config::get('app.locale'); ?>
 
 @extends('layouts.base')
 
@@ -26,10 +27,33 @@
 
                 <div class="texto interno">
 
-                <div class="imgSobre" class="dv">
+                {{-- <div class="imgSobre" class="dv">
                     {!! Html::image('img/premiados_geral.jpg') !!}
                     <span style="font-size: 0.7em">{!! switchLang('Artistas premiados, membros do júri e curadores do 20º Festival de Arte Contemporânea Sesc_Videobrasil no palco do Teatro do Sesc Pompeia, 08 de outubro de 2017 (foto: Pedro Napolitano Prata)', 'Awarded artists, jury members and curators of the 20th Contemporary Art Festival Sesc_Videobrasil. Sesc Pompeia, Oct 8th, 2017 (photo: Pedro Napolitano Prata)') !!}</span>
-                </div>
+                </div> --}}
+
+                <!-- Premiação -->
+                    {{-- <div class="subTituloPag">Premiação</div>
+                    <span class="fotoDescricao">{!! switchLang('Dia 8.10, Sesc Pompeia - Teatro / fotos por Pedro Napolitano Prata', 
+                                'October 8, Sesc Pompeia Theatre, photos by Pedro Napolitano Prata') !!}</span> --}}
+
+                    <div class="carrossel premiacao">
+                        <?php
+
+                        $albumPath2 = $idioma == 'pt' ? '/img/fotos/premios' : '/img/fotos/premios_en';
+                        $fileList2 = scandir(public_path() . $albumPath2);
+                        for($i = 1; $i < count($fileList2); $i++): 
+                            $file = $fileList2[$i]; 
+                            if(strpos($file, '.jpg') !== false) { ?>
+                                <content style="outline: 0;">
+                                    <img src="{{asset($albumPath2 . '/' . $file)}}">
+                                    <p style="font-size: 0.9em;"><?php echo strstr(substr(strstr($file, '-'), 1), '.jpg', true); ?></p>
+                                </content><?php
+                            }
+                        endfor; ?>
+                    </div>
+
+                    <!--  -->
 
                 {{-- <div class="subTituloPag">Confira a relação de artistas premiados no 20º Festival de Arte Contemporânea Sesc_Videobrasil</div> --}}
 
@@ -38,7 +62,7 @@
 
                 {!! switchLang('
 
-                    <p>O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios foram atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
+                    <p style="margin-top: 0">O conjunto de prêmios oferecido pelo 20º Festival de Arte Contemporânea Sesc_Videobrasil visa contemplar e estimular o desenvolvimento de artistas com uma produção instigante, independentemente de linguagens e meios. Eles incluem prêmios em dinheiro, parte correspondendo à aquisição de obras, e prêmios de residência artística, que obedecem a uma estratégia consolidada de promover experiências de troca e deslocamento como forma de estimular a criação e enriquecer trajetórias. Todos os prêmios foram atribuídos pelo júri de premiação do Festival, composto por curadores convidados e representantes dos programas de residência.</p>
 
                     <p><br><div class="subTituloPag">Prêmios Especiais</div></p>
 
@@ -178,7 +202,7 @@
                 '
 
 
-                    <p>The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards were granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
+                    <p style="margin-top: 0">The awards offered by the 20th Contemporary Art Festival Sesc_Videobrasil aim to acknowledge and encourage the development of artists producing compelling work, regardless of languages and media. They include prize money awards, partly related to the acquisition of artworks, and artist residency awards, in line with an established strategy of fostering experiences of exchange and movement as a means to stimulate creation and enhance trajectories. All awards were granted by the Festival jury, composed of guest curators and representatives of the residency programs.</p>
 
                     <p><br><div class="subTituloPag">Special awards</div></p>
 
