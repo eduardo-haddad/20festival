@@ -62,8 +62,10 @@
 
                     <!-- Abertura -->
                     <div class="subTituloPag">Abertura</div>
-                    <span class="fotoDescricao">{!! switchLang('Dia 3.10, Sesc Pompeia / fotos por Denise Andrade', 
-                                'October 3, Sesc Pompeia, photos by Denise Andrade') !!}</span>
+                    <span class="fotoDescricao" style="margin-bottom: 0">{!! switchLang('Dia 3.10, Sesc Pompeia / fotos por Denise Andrade', 
+                                'October 3, Sesc Pompeia, photos by Denise Andrade') !!}</span><br>
+                    <a href="https://www.flickr.com/photos/videobrasil/sets/72157687578604801" target="_blank" class="underline">{!! switchLang('Veja o álbum completo', 
+                                'See all photos') !!}</a><br><br>
 
                     <div class="carrossel abertura">
                         <?php
