@@ -105,12 +105,12 @@
                 <div class="textoPrincipal espaco">
                     {!!switchLang(
                     'Dia 6.10, sexta, às 20h30 / Convivência<br>
-                    Dia 4.11, sábado, às 15h / Convivência<br><br>
+                    Dia 4.11, sábado, às 15h / Auditório<br><br>
                     <strong>Mabe Betônico</strong> (Brasil)<br>
                     <em>Histórias minerais extraordinárias</em>, 2017, aproximadamente 25’', 
 
                     'Friday, Oct 6, at 8:30 p.m. / Convivência<br>
-                    Saturday, Nov 4, at 3 p.m. / Convivência<br>
+                    Saturday, Nov 4, at 3 p.m. / Auditorium<br>
                     <strong>Mabe Betônico</strong> (Brasil)<br>
                     <em>Histórias minerais extraordinárias</em>, 2017, approximately 25’')!!}
                 </div>
@@ -126,7 +126,7 @@
 
                 <div class="textoPrincipal espaco">
                     {!!switchLang(
-                    'Dia 7.10, sábado, às 20h30 / Auditório<br><br>
+                    'Dia 7.10, sábado, às 20h30 / Auditório<br><br>
                     <strong>Pedro Barateiro</strong> (Portugal)<br>
                     <em>Tristes selvagens</em>, 30’', 
 
