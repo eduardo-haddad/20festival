@@ -38,7 +38,30 @@
                 <div class="texto fotos">
 
                     <!-- Premiação -->
-                    <div class="subTituloPag">Premiação</div>
+                    <div class="subTituloPag">Performances</div>
+                    <span class="fotoDescricao">{!! switchLang('Sesc Pompeia / fotos por Everton Ballardin', 
+                                'Sesc Pompeia / photos by Everton Ballardin') !!}</span>
+
+                    <div class="carrossel premiacao">
+                        <?php
+
+                        $albumPath3 = $idioma == 'pt' ? '/img/fotos/performances_pt' : '/img/fotos/performances_en';
+                        $fileList3 = scandir(public_path() . $albumPath3);
+                        for($i = 1; $i < count($fileList3); $i++): 
+                            $file = $fileList3[$i]; 
+                            if(strpos($file, '.jpg') !== false) { ?>
+                                <content style="outline: 0;">
+                                    <img src="{{asset($albumPath3 . '/' . $file)}}">
+                                    <p style="font-size: 0.9em;"><?php echo strstr(substr(strstr($file, '-'), 1), '.jpg', true); ?></p>
+                                </content><?php
+                            }
+                        endfor; ?>
+                    </div>
+
+                    <!--  -->
+
+                    <!-- Premiação -->
+                    <div class="subTituloPag" style="margin-top: 30px;">Premiação</div>
                     <span class="fotoDescricao">{!! switchLang('Dia 8.10, Sesc Pompeia - Teatro / fotos por Pedro Napolitano Prata', 
                                 'October 8, Sesc Pompeia Theatre, photos by Pedro Napolitano Prata') !!}</span>
 
