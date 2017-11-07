@@ -61,7 +61,7 @@
                     <!--  -->
 
                     <!-- Premiação -->
-                    <div class="subTituloPag" style="margin-top: 30px;">Premiação</div>
+                    <div class="subTituloPag" style="margin-top: 30px;">{!! switchLang('Premiação', 'Awards') !!}</div>
                     <span class="fotoDescricao">{!! switchLang('Dia 8.10, Sesc Pompeia - Teatro / fotos por Pedro Napolitano Prata', 
                                 'October 8, Sesc Pompeia Theatre, photos by Pedro Napolitano Prata') !!}</span>
 
@@ -83,8 +83,31 @@
 
                     <!--  -->
 
+                    <!-- Almoço -->
+                    <div class="subTituloPag">{!! switchLang('Almoço / Visita guiada', 'Lunch / Guided tour') !!}</div>
+                    <span class="fotoDescricao">{!! switchLang('Almoço de confraternização com artistas e curadores do 20º Festival e visita guiada à exposição “Agora somos Todxs Negrxs”. Galpão VB, 04.10 / fotos por Pedro Napolitano Prata', 
+                                'Confraternization lunch with artists and curators of the 20th Festival and guided tour of the exhibition “Agora Somos Todxs Negrxs”. Galpão VB, October 4 / photos by Pedro Napolitano Prata') !!}</span>
+
+                    <div class="carrossel premiacao">
+                        <?php
+
+                        $albumPath4 = $idioma == 'pt' ? '/img/fotos/almoco_pt_en' : '/img/fotos/almoco_pt_en';
+                        $fileList4 = scandir(public_path() . $albumPath4);
+                        for($i = 1; $i < count($fileList4); $i++): 
+                            $file = $fileList4[$i]; 
+                            if(strpos($file, '.jpg') !== false) { ?>
+                                <content style="outline: 0;">
+                                    <img src="{{asset($albumPath4 . '/' . $file)}}">
+                                    <p style="font-size: 0.9em;"><?php echo strstr(substr(strstr($file, '-'), 1), '.jpg', true); ?></p>
+                                </content><?php
+                            }
+                        endfor; ?>
+                    </div>
+
+                    <!--  -->
+
                     <!-- Abertura -->
-                    <div class="subTituloPag">Abertura</div>
+                    <div class="subTituloPag">{!! switchLang('Abertura', 'Opening') !!}</div>
                     <span class="fotoDescricao" style="margin-bottom: 0">{!! switchLang('Dia 3.10, Sesc Pompeia / fotos por Denise Andrade', 
                                 'October 3, Sesc Pompeia, photos by Denise Andrade') !!}</span><br>
                     <a href="https://www.flickr.com/photos/videobrasil/sets/72157687578604801" target="_blank" class="underline">{!! switchLang('Veja o álbum completo', 
