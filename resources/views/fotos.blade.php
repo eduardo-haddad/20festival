@@ -47,7 +47,7 @@
                     <div class="carrossel premiacao">
                         <?php
 
-                        $albumPath5 = $idioma == 'pt' ? '/img/fotos/tour_pt' : '/img/fotos/tour_pt';
+                        $albumPath5 = $idioma == 'pt' ? '/img/fotos/tour_pt' : '/img/fotos/tour_en';
                         $fileList5 = scandir(public_path() . $albumPath5);
                         for($i = 1; $i < count($fileList5); $i++): 
                             $file = $fileList5[$i]; 
