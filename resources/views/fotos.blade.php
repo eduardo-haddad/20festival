@@ -37,7 +37,32 @@
                 
                 <div class="texto fotos">
 
-                    <!-- Premiação -->
+                    <!-- Tour -->
+                    <div class="subTituloPag">{!! switchLang('Tour fotográfico pelo 20º Festival Sesc_Videobrasil', 
+                                'Photo exhibition tour | 20th Festival Sesc_Videobrasil') !!}</div>
+                    <span class="fotoDescricao"></span>
+                    <a href="https://www.flickr.com/photos/videobrasil/albums/72157666310842589" target="_blank" class="underline">{!! switchLang('Veja o álbum completo', 
+                                'See all photos') !!}</a><br><br>
+
+                    <div class="carrossel premiacao">
+                        <?php
+
+                        $albumPath5 = $idioma == 'pt' ? '/img/fotos/tour_pt' : '/img/fotos/tour_pt';
+                        $fileList5 = scandir(public_path() . $albumPath5);
+                        for($i = 1; $i < count($fileList5); $i++): 
+                            $file = $fileList5[$i]; 
+                            if(strpos($file, '.jpg') !== false) { ?>
+                                <content style="outline: 0;">
+                                    <img src="{{asset($albumPath5 . '/' . $file)}}">
+                                    <p style="font-size: 0.9em;"><?php echo strstr(substr(strstr($file, '_'), 1), '.jpg', true); ?></p>
+                                </content><?php
+                            }
+                        endfor; ?>
+                    </div>
+
+                    <!--  -->
+
+                    <!-- Pompeia -->
                     <div class="subTituloPag">Performances</div>
                     <span class="fotoDescricao">{!! switchLang('Sesc Pompeia / fotos por Everton Ballardin', 
                                 'Sesc Pompeia / photos by Everton Ballardin') !!}</span>
