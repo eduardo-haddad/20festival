@@ -1,7 +1,12 @@
 /node_modules
 /public/hot
 /public/storage
-/public/img/fotos/*
+/public/img/fotos/abertura
+/public/img/fotos/almoco_pt_en
+/public/img/fotos/performances_en
+/public/img/fotos/performances_pt
+/public/img/fotos/premios
+/public/img/fotos/premios_en
 /storage/*.key
 /vendor
 /.idea
