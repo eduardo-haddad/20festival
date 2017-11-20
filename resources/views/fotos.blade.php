@@ -40,8 +40,7 @@
                     <!-- Tour -->
                     <div class="subTituloPag">{!! switchLang('Tour fotográfico pelo 20º Festival Sesc_Videobrasil', 
                                 'Photo exhibition tour | 20th Festival Sesc_Videobrasil') !!}</div>
-                    <span class="fotoDescricao"></span>
-                    <a href="https://www.flickr.com/photos/videobrasil/albums/72157666310842589" target="_blank" class="underline">{!! switchLang('Veja o álbum completo', 
+                    <span class="fotoDescricao"></span><a href="https://www.flickr.com/photos/videobrasil/albums/72157666310842589" target="_blank" class="underline">{!! switchLang('Veja o álbum completo', 
                                 'See all photos') !!}</a><br><br>
 
                     <div class="carrossel premiacao">
