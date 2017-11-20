@@ -54,7 +54,7 @@
                             if(strpos($file, '.jpg') !== false) { ?>
                                 <content style="outline: 0;">
                                     <img src="{{asset($albumPath5 . '/' . $file)}}">
-                                    <p style="font-size: 0.9em;"><?php echo strstr(substr(strstr($file, '_'), 1), '.jpg', true); ?></p>
+                                    <p style="font-size: 0.9em;"><?php echo strstr(substr(strstr($file, '-'), 1), '.jpg', true); ?></p>
                                 </content><?php
                             }
                         endfor; ?>
