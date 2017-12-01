@@ -136,6 +136,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
 		return view('fotos');
 	});
 
+	/* Videos */
+	Route::get('/videos', function(){
+		return view('videos');
+	});
+
 
 	/* Downloads */
 	Route::get('/download/{file}', 'Controller@getDownload');

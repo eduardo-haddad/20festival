@@ -145,9 +145,34 @@ $route = Route::getFacadeRoot()->current()->uri();
 		<a @if($route=='publicacoes' || $route=='en/publicacoes') class="selected" @endif href="{{url('/publicacoes')}}" data-pjax>{!! switchLang('Publicações', 'Publications') !!}</a>
 	</li> 
 
-	<li>
+	{{-- <li>
 		<a @if($route=='fotos' || $route=='en/fotos') class="selected" @endif href="{{url('/fotos')}}" data-pjax>{!! switchLang('Fotos', 'Photos') !!}</a>
-	</li> 
+	</li>  --}}
+
+	@if(strpos($route, 'fotos') === 0 || strpos($route, 'en/fotos') === 0 || strpos($route, 'videos') === 0 || strpos($route, 'en/videos') === 0)
+	<li>
+
+		{!! switchLang('Fotos e vídeos', 'Photos and videos') !!}
+		
+		<div class="submenu" style="display: block !important;">
+			<ul>		
+				<li><a href="{{url('/fotos')}}" data-pjax 
+						@if($route=='fotos' || $route=='en/fotos') class="selected" @endif>
+						{!! switchLang('Fotos', 'Photos') !!}
+				</a></li>
+				<li><a href="{{url('/videos')}}" data-pjax 
+						@if($route=='videos' || $route=='en/videos') class="selected" @endif>
+						{!! switchLang('Vídeos', 'Videos') !!}
+				</a></li>
+			</ul>
+		</div>
+
+	</li>
+	@else
+	<li>
+		<a href="{{url('/fotos')}}" data-pjax>{!! switchLang('Fotos e vídeos', 'Photos and videos') !!}</a>
+	</li>
+	@endif
 	
 
 	<li>
