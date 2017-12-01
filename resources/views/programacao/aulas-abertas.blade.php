@@ -85,25 +85,23 @@
                     {!!switchLang(
                     'Dia 13.1.18, sábado, às 15h / Auditório<br><br>
                     <strong>Cosmovisões</strong><br>
-                    Com Beatriz Lemos e Wilbert Villca López', 
+                    Com Beatriz Lemos e Casé Angatu', 
 
                      'Saturday, Jan 13, 2018, at 3:00 p.m. / Auditorium<br><br>
                     <strong>Cosmovisions</strong><br>
-                    With Beatriz Lemos and Wilbert Villca López')!!}
+                    With Beatriz Lemos and Casé Angatu')!!}
                 </div>
                 
                 <div class="texto interno">
-                    {!! switchLang('A partir da hipótese de que cultura é o modo como povos se manifestam no mundo, a conversa traça paralelos entre percepções subjetivas e comunitárias nas relações entre humano, natureza e espiritualidade nas tradições ameríndias na América Latina, e olha para obras que dialogam com discursos não hegemônicos sobre os papéis dos indivíduos em sociedade.
+                    {!! switchLang('A partir da hipótese de que cultura é o modo como povos se manifestam no mundo, a conversa traça paralelos entre percepções subjetivas e comunitárias nas relações entre humano, natureza e espiritualidade nas tradições ameríndias, e olha para obras que dialogam com discursos não hegemônicos sobre os papéis dos indivíduos em sociedade.
                         <br><br>
                         <strong>Beatriz Lemos</strong> (Brasil) é curadora e pesquisadora. Mestra em história social da cultura, é idealizadora da plataforma de pesquisa Lastro – intercâmbios livres em arte. Coordenou o projeto de catalogação dos documentos e da obra de Márcia X (1959-2005). De 2015 a 2016, integrou o programa Curador Visitante, da Escola de Artes Visuais do Parque Lage.
                         <br><br>
-                        <strong>Wilbert Villca López</strong> (Bolívia) é sociólogo de origem quéchua, formou lideranças jovens e comandou políticas agrárias de distribuição da terra na Bolívia. Pesquisa as racionalidades e sabedorias andinas. Coordena o Grupo de Estudos da Língua Quéchua na USP. Mestre pela USP, é doutorando na Université Sorbonne Paris 3, França.', 
+                        <strong>Casé Angatu</strong> (Brasil) é indígena da Aldeia Gwarini Taba Atã, território Tupinambá de Olivença. Professor na Universidade Estadual de Santa Cruz, em Ilhéus (BA), é Doutor pela FAU USP, Mestre em História pela PUCSP, e formado em História pela UNESP. É autor dos livros&nbsp;<em>Nem Tudo Era Italiano – São Paulo e pobreza (1890-1915)</em> e <em>Identidade Urbana e Globalização – A Formação dos Múltiplos Territórios em Guarulhos/SP</em>.', 
 
                     'Through contemporary art, the meeting discusses how constructed space is renewed and behaves under constraints other than those verifiable in environments that faithfully echoed the modern paradigm. More than stressing a peripheral modernity, it is about perceiving spaces conceived through appropriations, resistances, and inventions distinct from the Western hegemonic aesthetic and social project.
                         <br><br>
-                        <strong>Beatriz Lemos</strong> (Brazil) is a curator and researcher. She holds a master’s degree in social history of culture and is the creator of the Lastro – intercâmbios livres em arte research platform. She coordinated the project to catalog the documents and oeuvre of Márcia X (1959–2005). From 2015 to 2016, she took part in the Visiting Curator program of the Parque Lage School of Visual Arts.
-                        <br><br>
-                        <strong>Wilbert Villca López</strong> (Bolivia) is a sociologist of Quechua origin who has trained young leaders and led agrarian land distribution policies in Bolivia. He researches Andean rationalities and wisdom and coordinates the Quechua Language Study Group at USP. He holds a master’s degree from USP and is currently pursuing a doctorate at Université Sorbonne Paris 3, France.') !!}
+                        <strong>Beatriz Lemos</strong> (Brazil) is a curator and researcher. She holds a master’s degree in social history of culture and is the creator of the Lastro – intercâmbios livres em arte research platform. She coordinated the project to catalog the documents and oeuvre of Márcia X (1959–2005). From 2015 to 2016, she took part in the Visiting Curator program of the Parque Lage School of Visual Arts.') !!}
                 </div>
 
                 
