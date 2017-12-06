@@ -21,7 +21,7 @@
             <div class="tituloTexto">
 
                 <div class="tituloPag">
-                 {!! switchLang('Videos', 'Vídeos') !!}
+                 {!! switchLang('Vídeos', 'Videos') !!}
                 </div>
 
                 <!-- -->
@@ -83,8 +83,8 @@
                 <!-- -->
                 <div class="textoPrincipal">
                     {!! switchLang(
-                        'Graziela Kunsch (Brasil), obras <em>Ensaio Ilú Obá de Min</em> (2015, vídeo) e Escolas (2016, vídeo): Ujazdowski Castle Centre for Contemporary Art (Polônia)',
-                        'Graziela Kunsch (Brazil), works <em>Ensaio Ilú Obá de Min</em> (2015, video) and Escolas (2016, video): Ujazdowski Castle Centre for Contemporary Art (Poland)')
+                        'Graziela Kunsch (Brasil): Ujazdowski Castle Centre for Contemporary Art (Polônia)',
+                        'Graziela Kunsch (Brazil): Ujazdowski Castle Centre for Contemporary Art (Poland)')
                     !!}                  
                 </div>
 
@@ -161,6 +161,76 @@
 
                 <div class="texto interno">
                     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/i4MRwD0hY30' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Alia Farid (Kuwait)',
+                        'Alia Farid (Kuwait)')
+                    !!}                  
+                </div>
+
+
+                <div class="texto interno">
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/8AHgyCRkpKY' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Ana Elisa Egreja (Brasil)',
+                        'Ana Elisa Egreja (Brazil)')
+                    !!}                  
+                </div>
+
+
+                <div class="texto interno">
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/MZvE6tRYq8c' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Ana Mazzei (Brasil)',
+                        'Ana Mazzei (Brazil)')
+                    !!}                  
+                </div>
+
+
+                <div class="texto interno">
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/4ZtNvauyGYQ' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Ana Vaz (Brasil)',
+                        'Ana Vaz (Brazil)')
+                    !!}                  
+                </div>
+
+
+                <div class="texto interno">
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/gU8ZmB8-M0E' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Cristiano Lenhardt (Brasil)',
+                        'Cristiano Lenhardt (Brazil)')
+                    !!}                  
+                </div>
+
+
+                <div class="texto interno">
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/IWHQvZCZLqo' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
