@@ -9,6 +9,26 @@
 
 
 @section('body')
+
+    <style>
+        .embed-container { 
+            position: relative; 
+            padding-bottom: 56.25%; 
+            height: 0; 
+            overflow: hidden; 
+            max-width: 100%; 
+        } 
+        .embed-container iframe, 
+        .embed-container object, 
+        .embed-container embed { 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+        }
+    </style>
+
     <div class="wrapper_geral interno">
         @include('elements.nav')
 
@@ -34,7 +54,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/OQKYZf_KCS8' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/OQKYZf_KCS8' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -48,7 +68,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/9S4Hmi20IFg' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/9S4Hmi20IFg' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -62,7 +82,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/RcBujcIw5PI' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/RcBujcIw5PI' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -76,7 +96,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/VSrrdXqTOlU' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/VSrrdXqTOlU' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -90,7 +110,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/a6iakWcnmkg' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/a6iakWcnmkg' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -104,7 +124,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/AmHiVRtkLKg' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/AmHiVRtkLKg' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -118,7 +138,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/9SOXIhnVr3M' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/9SOXIhnVr3M' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -132,7 +152,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Qw4RCrq9kUo' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Qw4RCrq9kUo' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -146,7 +166,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/nHrpqnk4X58' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/nHrpqnk4X58' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -160,7 +180,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/i4MRwD0hY30' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/i4MRwD0hY30' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -174,7 +194,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/8AHgyCRkpKY' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/8AHgyCRkpKY' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -188,7 +208,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/MZvE6tRYq8c' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/MZvE6tRYq8c' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -202,7 +222,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/4ZtNvauyGYQ' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/4ZtNvauyGYQ' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -216,7 +236,7 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/gU8ZmB8-M0E' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/gU8ZmB8-M0E' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -230,7 +250,294 @@
 
 
                 <div class="texto interno">
-                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/IWHQvZCZLqo' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/IWHQvZCZLqo' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Daniel Monroy Cuevas (México)',
+                        'Daniel Monroy Cuevas (Mexico)')
+                    !!}                  
+                </div>
+
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/bAdIehZ_YQY' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Débora Mazloum (Brasil)',
+                        'Débora Mazloum (Brazil)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/UZVZAnEw9x4' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Elizabeth Vásquez Arbulú (Peru)',
+                        'Elizabeth Vásquez Arbulú (Peru)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Wp72ECT8_no' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Elvis Almeida (Brasil)',
+                        'Elvis Almeida (Brazil)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/DXWUpuN7qhs' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Felipe Esparza Pérez (Peru)',
+                        'Felipe Esparza Pérez (Peru)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JDgbplM0zhE' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Identidade visual e expografia do 20º Festival de Arte Contemporânea Sesc_Videobrasil',
+                        'Visual identity and expography for the 20th Contemporary Art Festival Sesc_Videobrasil')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/pmwhns-aoOI' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Hellen Ascoli (Guatemala)',
+                        'Hellen Ascoli (Guatemala)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Fmzw9W23j3I' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Ícaro Lira (Brasil)',
+                        'Ícaro Lira (Brazil)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/0xn2tk8QkWM' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Jiwon Choi (Coreia do Sul / Estados Unidos)',
+                        'Jiwon Choi (South Korea / USA)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/w6v-UStn18w' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Karo Akpokiere (Nigéria)',
+                        'Karo Akpokiere (Nigeria)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/8IN6n9v-EJ0' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Köken Ergun (Turquia)',
+                        'Köken Ergun (Turkey)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Q2ZQshjKDKM' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Louise Botkay (Brasil)',
+                        'Louise Botkay (Brazil)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Cjq9lfAtUAE' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Mabe Bethônico (Brasil)',
+                        'Mabe Bethônico (Brazil)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/j8PsHzis5LU' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Manuela De Laborde (México)',
+                        'Manuela De Laborde (Mexico)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/XFYCs58fcr0' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Mariana Portela Echeverri (Portugal / Reino Unido)',
+                        'Mariana Portela Echeverri (Portugal / UK)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JXhghHLhZuo' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Mariana Rodríguez (Argentina / México)',
+                        'Mariana Rodríguez (Argentina / Mexico)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JEUbtbs6D7Y' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Kavich Neang (Camboja)',
+                        'Kavich Neang (Cambodia)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/yGeuZlI94qM' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Miguel Penha (Brasil)',
+                        'Miguel Penha (Brazil)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/bTgr4Y5tT3A' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Mona Vatamanu & Florin Tudor (Romênia)',
+                        'Mona Vatamanu & Florin Tudor (Romania)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/m6RQYYAAu-I' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Pakui Hardware (Lituânia)',
+                        'Pakui Hardware (Lithuania)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/nYal2MjjEds' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Pedro Barateiro (Portugal)',
+                        'Pedro Barateiro (Portugal)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/C8iVAmU0ktA' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="textoPrincipal">
+                    {!! switchLang(
+                        'Rafael Pagatini (Brasil)',
+                        'Rafael Pagatini (Brazil)')
+                    !!}                  
+                </div>
+
+                <div class="texto interno">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/OrtXNs23f5o' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
