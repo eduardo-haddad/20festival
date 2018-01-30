@@ -320,18 +320,7 @@
                 </div>
                 <!-- -->
 
-                <!-- -->
-                <div class="textoPrincipal">
-                    {!! switchLang(
-                        'Identidade visual e expografia do 20º Festival de Arte Contemporânea Sesc_Videobrasil',
-                        'Visual identity and expography for the 20th Contemporary Art Festival Sesc_Videobrasil')
-                    !!}                  
-                </div>
-
-                <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/pmwhns-aoOI' frameborder='0' allowfullscreen></iframe></div>
-                </div>
-                <!-- -->
+               
 
                 <!-- -->
                 <div class="textoPrincipal">
