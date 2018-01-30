@@ -7,6 +7,9 @@
     'Videos - 20th Contemporary Art Festival Sesc_Videobrasil') !!}
 @stop
 
+@php
+$videoParams = '?controls=1&showinfo=0&modestbranding=1&rel=0';
+@endphp
 
 @section('body')
 
@@ -54,7 +57,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/OQKYZf_KCS8' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/OQKYZf_KCS8<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -68,7 +71,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/9S4Hmi20IFg' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/9S4Hmi20IFg<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -82,7 +85,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/RcBujcIw5PI' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/RcBujcIw5PI<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -96,7 +99,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/VSrrdXqTOlU' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/VSrrdXqTOlU<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -110,7 +113,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/a6iakWcnmkg' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/a6iakWcnmkg<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -124,7 +127,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/AmHiVRtkLKg' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/AmHiVRtkLKg<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -138,7 +141,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/9SOXIhnVr3M' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/9SOXIhnVr3M<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -152,7 +155,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Qw4RCrq9kUo' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Qw4RCrq9kUo<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -166,7 +169,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/nHrpqnk4X58' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/nHrpqnk4X58<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -180,7 +183,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/i4MRwD0hY30' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/i4MRwD0hY30<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -194,7 +197,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/8AHgyCRkpKY' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/8AHgyCRkpKY<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -208,7 +211,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/MZvE6tRYq8c' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/MZvE6tRYq8c<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -222,7 +225,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/4ZtNvauyGYQ' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/4ZtNvauyGYQ<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -236,7 +239,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/gU8ZmB8-M0E' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/gU8ZmB8-M0E<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -250,7 +253,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/IWHQvZCZLqo' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/IWHQvZCZLqo<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -264,7 +267,7 @@
 
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/bAdIehZ_YQY' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/bAdIehZ_YQY<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -277,7 +280,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/UZVZAnEw9x4' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/UZVZAnEw9x4<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -290,7 +293,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Wp72ECT8_no' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Wp72ECT8_no<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -303,7 +306,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/DXWUpuN7qhs' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/DXWUpuN7qhs<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -316,7 +319,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JDgbplM0zhE' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JDgbplM0zhE<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -331,7 +334,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Fmzw9W23j3I' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Fmzw9W23j3I<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -344,7 +347,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/0xn2tk8QkWM' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/0xn2tk8QkWM<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -357,7 +360,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/w6v-UStn18w' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/w6v-UStn18w<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -370,7 +373,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/8IN6n9v-EJ0' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/8IN6n9v-EJ0<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -383,7 +386,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Q2ZQshjKDKM' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Q2ZQshjKDKM<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -396,7 +399,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Cjq9lfAtUAE' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Cjq9lfAtUAE<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -409,7 +412,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/j8PsHzis5LU' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/j8PsHzis5LU<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -422,7 +425,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/XFYCs58fcr0' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/XFYCs58fcr0<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -435,7 +438,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JXhghHLhZuo' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JXhghHLhZuo<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -448,7 +451,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JEUbtbs6D7Y' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/JEUbtbs6D7Y<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -461,7 +464,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/yGeuZlI94qM' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/yGeuZlI94qM<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -474,7 +477,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/bTgr4Y5tT3A' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/bTgr4Y5tT3A<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -487,7 +490,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/m6RQYYAAu-I' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/m6RQYYAAu-I<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -500,7 +503,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/nYal2MjjEds' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/nYal2MjjEds<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -513,7 +516,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/C8iVAmU0ktA' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/C8iVAmU0ktA<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
@@ -526,7 +529,7 @@
                 </div>
 
                 <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/OrtXNs23f5o' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/OrtXNs23f5o<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <!-- -->
 
