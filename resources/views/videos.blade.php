@@ -406,19 +406,6 @@ $videoParams = '?controls=1&showinfo=0&modestbranding=1&rel=0';
                 <!-- -->
                 <div class="textoPrincipal">
                     {!! switchLang(
-                        'Mabe Bethônico (Brasil)',
-                        'Mabe Bethônico (Brazil)')
-                    !!}                  
-                </div>
-
-                <div class="texto interno">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/j8PsHzis5LU<?php echo $videoParams; ?>' frameborder='0' allowfullscreen></iframe></div>
-                </div>
-                <!-- -->
-
-                <!-- -->
-                <div class="textoPrincipal">
-                    {!! switchLang(
                         'Manuela De Laborde (México)',
                         'Manuela De Laborde (Mexico)')
                     !!}                  
